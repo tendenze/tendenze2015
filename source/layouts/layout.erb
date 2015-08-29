@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <%= partial 'partials/head' %>
+
+  <body>
+    <div class="container">
+    <%= partial 'partials/header' %>
+    <%= yield %>
+    <%= partial 'partials/footer' %>
+    </div>
+
+    <%= javascript_include_tag "jquery-1.11.3", "bootstrap.min" %>
+    <%= yield_content :additional_js %>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Tendenze Festival 2015">
+  <meta name="author" content="">
+  <%= favicon_tag 'favicon.ico' %>
+
+  <%# Use title if it's in the page YAML frontmatter %>
+  <title><%= current_page.data.title || "Tendenze Festival 2015" %></title>
+
+  <%= stylesheet_link_tag "bootstrap.min", "custom" %>
+  <%= yield_content :additonal_css %>
+</head>

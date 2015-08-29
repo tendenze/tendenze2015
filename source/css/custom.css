@@ -24,9 +24,11 @@ body {
 }
 /*.row { padding-bottom: 10px; }*/
 
+/* --- HEADER --- */
 #header .banner img {
   margin: 0 auto;
 }
+
 #header .title {
   font-family: big-noodle, Arial, sans-serif;
   color: #3d3d3f;
@@ -39,9 +41,11 @@ body {
   top: -1.1em;
   font-size: 40px;
 }
+
 #header .subtitle ul {
   margin-bottom: 0;
 }
+
 #header .subtitle .info {
   font-family: big-noodle, Arial, sans-serif;
   font-size: 30px;
@@ -55,4 +59,21 @@ body {
 }
 #header .subtitle .info li+li:before {
   content: "| ";
+}
+
+#header .navigation {
+  margin-left: -3000px;
+  margin-right: -3000px;
+  background-color: #f8b219;
+}
+#header .navigation ul {
+  font-family: big-noodle, Arial, sans-serif;
+  font-size: 22px;
+  text-align: center;
+  list-style-type: none;
+  padding: 0;
+}
+#header .navigation li {
+  display: inline-block;
+  padding: 3px 25px;
 }

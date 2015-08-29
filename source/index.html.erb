@@ -1,8 +1,17 @@
 <div id="home" class="row">
   <div class="news-container col-xs-12 col-sm-12 col-md-12">
+    <% path = "data/news" %>
+    <% Dir.entries(path)
+      .select{ |f| File.file?(File.join(path, f)) }
+      .map{ |f| File.basename(f, ".md") }
+      .sort_by{ |f| File.basename(f) }
+      .reverse_each do |name| %>
+    <% data = get_data("news", name) %>
     <div class="news">
-      <div class="title">News</div>
-      <div class="content"><%= lorem.sentences 5 %></div>
+      <div class="title"><%= data["title"] %></div>
+      <div class="date"><%= data["date"] %></div>
+      <div class="content"><%= data["text"] %></div>
     </div>
+    <% end %>
   </div>
 </div>

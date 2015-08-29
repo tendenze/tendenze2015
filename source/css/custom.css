@@ -77,3 +77,12 @@ body {
   display: inline-block;
   padding: 3px 25px;
 }
+
+/* NEWS */
+.news-container .news .title {
+  font-family: big-noodle, Arial, sans-serif;
+  font-size: 35px;
+}
+.news-container .news .content {
+  font-size: 15px;
+}

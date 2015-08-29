@@ -62,9 +62,9 @@ body {
 }
 
 #header .navigation {
-  margin-left: -3000px;
-  margin-right: -3000px;
   background-color: #f8b219;
+  margin-left: -10px;
+  margin-right: -10px;
 }
 #header .navigation ul {
   font-family: big-noodle, Arial, sans-serif;

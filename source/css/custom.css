@@ -55,10 +55,12 @@ body {
 }
 #header .subtitle .info li {
   display: inline-block;
-
 }
-#header .subtitle .info li+li:before {
+#header .subtitle .info li.text+li.text:before {
   content: "| ";
+}
+#header .subtitle .info li.first-icon {
+  padding-left: 5px;
 }
 
 #header .navigation {

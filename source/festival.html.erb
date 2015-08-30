@@ -46,16 +46,24 @@
       <div class="sponsors">
         <h2 class="title">Con il sostegno di</h2>
         <ul class="logos">
-          <% (1..8).each do |n| %>
-          <li><%= image_tag "logos/s-0#{n}.png", :class => "img-responsive" %></li>
+          <% data.logos.sponsors.each do |s| %>
+          <li>
+            <% link_to s.link, :target => "_blank" do %>
+              <%= image_tag s.image, :class => "img-responsive" %>
+            <%end %>
+          </li>
           <% end %>
         </ul>
       </div>
       <div class="collaborations">
         <h2 class="title">In collaborazione con</h2>
         <ul class="logos">
-          <% (1..8).each do |n| %>
-          <li><%= image_tag "logos/c-0#{n}.png", :class => "img-responsive" %></li>
+          <% data.logos.collaborators.each do |c| %>
+          <li>
+            <% link_to c.link, :target => "_blank" do %>
+              <%= image_tag c.image, :class => "img-responsive" %>
+            <%end %>
+          </li>
           <% end %>
         </ul>
       </div>

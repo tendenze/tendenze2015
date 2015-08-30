@@ -108,37 +108,37 @@ body {
 }
 
 /* --- NAVBAR --- */
-#navigation {
+#header .navigation {
   background-color: rgba(248,178,25,0.7);
   margin-left: -10px;
   margin-right: -10px;
   border: none;
   color:#FFF;
 }
-#navigation.navbar {
+#header .navigation.navbar {
   border-radius: 0px;
   min-height: 35px;
 }
-#navigation .nav a {
+#header .navigation .nav a {
   font-family: big-noodle, Arial, sans-serif;
   font-size: 20px;
   color: #3d3d3f;
   padding: 3px 25px;
   line-height: 1.42857;
 }
-#navigation .nav a:hover {
+#header .navigation .nav a:hover {
   background-color: #3d3d3f;
   color: #f0f0f0;
   border-radius: 4px;
 }
-#navigation .navbar-toggle {
+#header .navigation .navbar-toggle {
   background-color: #3d3d3f;
 }
-#navigation .navbar-toggle .icon-bar {
+#header .navigation .navbar-toggle .icon-bar {
   background-color: #f9f9f9;
 }
 @media screen and (min-width: 768px) {
-  #navigation .navbar-nav {
+  #header .navigation .navbar-nav {
     margin: 0 auto;
     display: table;
     table-layout: fixed;
@@ -146,11 +146,11 @@ body {
   }
 }
 @media screen and (max-width: 768px) {
-  #navigation.navbar {
+  #header .navigation.navbar {
     border-radius: 0px;
     min-height: 35px;
   }
-  #navigation .nav li {
+  #header .navigation .nav li {
     text-align: center;
   }
 }

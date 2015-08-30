@@ -1,5 +1,6 @@
 <div id="home" class="row">
   <div class="news-container col-xs-12 col-sm-12 col-md-12">
+    <div class="heading">News</div>
     <% path = "data/news" %>
     <% Dir.entries(path)
       .select{ |f| File.file?(File.join(path, f)) }
@@ -7,10 +8,17 @@
       .sort_by{ |f| File.basename(f) }
       .reverse_each do |name| %>
     <% data = get_data("news", name) %>
-    <div class="news">
-      <div class="title"><%= data["title"] %></div>
-      <div class="date"><%= data["date"] %></div>
-      <div class="content"><%= data["text"] %></div>
+    <div class="news row">
+      <div class="col-xs-12 col-sm-9 col-md-9">
+        <div class="title"><%= data["title"] %></div>
+        <div class="date"><%= data["date"] %></div>
+        <div class="content"><%= data["text"] %></div>
+      </div>
+      <div class="col-xs-12 col-sm-3 col-md-3">
+        <div class="image">
+          <%= image_tag "news/thumbs/#{data['image']}", :class => "img-responsive" %>
+        </div>
+      </div>
     </div>
     <% end %>
   </div>

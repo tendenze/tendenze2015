@@ -185,7 +185,7 @@ body {
   margin: 0 auto;
 }
 
-/* NEWS */
+/* --- NEWS --- */
 .news-container .heading,
 .news-container .news {
   margin-top: 15px;
@@ -214,6 +214,7 @@ body {
   }
 }
 
+/* --- FESTIVAL --- */
 .festival-container .content {
   margin-top: 15px;
   font-size: 14px;
@@ -223,10 +224,19 @@ body {
   font-family: big-noodle, Arial, sans-serif;
   font-size: 28px;
 }
+.festival-container .org {
+  margin-top: 35px;
+}
+.festival-container .org .title {
+  text-align: center;
+}
 .festival-container .org ul {
   list-style-type: none;
   padding: 0;
-  margin-top: -15px;
+  text-align: center;
+}
+.festival-container .org .logos {
+  margin-top: 15px;
 }
 .festival-container .org li {
   width: 105px;

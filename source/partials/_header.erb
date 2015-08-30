@@ -9,17 +9,6 @@
         <li class="text">XXI Edizione</li>
         <li class="text">18-19-20 Settembre</li>
         <li class="text">Spazio 4 - Via Manzoni - Piacenza</li>
-      </ul>
-    </div>
-    <div class="navigation">
-      <ul>
-        <li>Line Up</li>
-        <li>Programma</li>
-        <li>Expo</li>
-        <li>News</li>
-        <li>Extra</li>
-        <li>Foto</li>
-        <li>Il Festival</li>
         <li class="icon first">
           <% link_to "https://www.facebook.com/tendenzefestival" do %>
             <%= image_tag "fbook-icon.png" %>
@@ -31,6 +20,29 @@
           <% end %>
         </li>
       </ul>
+    </div>
+    <div id="navigation" class="navbar" role="navigation">
+      <div class="container">
+
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <%= nav_link_to 'Line Up', '/lineup.html' %>
+            <%= nav_link_to 'Programma', '/programma.html' %>
+            <%= nav_link_to 'Expo', '/expo.html' %>
+            <%= nav_link_to 'News', '/news.html' %>
+            <%= nav_link_to 'Extra', '/extra.html' %>
+            <%= nav_link_to 'Foto', '/foto.html' %>
+            <%= nav_link_to 'Il Festival', '/festival.html' %>
+          </ul>
+        </div>
+      </div>
     </div>
   </div>
 </div>

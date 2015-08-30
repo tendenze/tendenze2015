@@ -20,12 +20,20 @@
 
 /* --- GLOBAL TWEAKS --- */
 body {
-  background-color: #edd7a9;
+  background: #edd7a9 url("../img/background.jpg") repeat-x fixed center top / cover;
 }
 
 /* --- HEADER --- */
-#header .banner .home-link img {
+#header .banner .home-link {
+  display: block;
+  max-width: 620px;
   margin: 0 auto;
+}
+#header .banner .home-link .image {
+  background: url(../img/banner.png) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding-top: 62.09%;
 }
 
 #header .title {
@@ -67,6 +75,8 @@ body {
   text-align: center;
   list-style-type: none;
   padding: 0;
+  margin-bottom: 20px;
+  margin-top: -12px
 }
 #header .subtitle .info li {
   display: inline-block;

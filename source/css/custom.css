@@ -129,7 +129,7 @@ body {
 }
 #header .navigation.navbar {
   border-radius: 0px;
-  min-height: 35px;
+  min-height: 34px;
 }
 #header .navigation .nav a {
   font-family: big-noodle, Arial, sans-serif;
@@ -139,6 +139,11 @@ body {
   line-height: 1.42857;
 }
 #header .navigation .nav a:hover {
+  background-color: #84b6b0;
+  color: #f0f0f0;
+  border-radius: 4px;
+}
+#header .navigation .nav a:focus {
   background-color: #84b6b0;
   color: #f0f0f0;
   border-radius: 4px;

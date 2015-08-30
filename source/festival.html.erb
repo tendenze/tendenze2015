@@ -1,0 +1,68 @@
+<% content_for :additional_js do %>
+  <%= javascript_include_tag "lightbox.min" %>
+<% end %>
+
+<% content_for :additional_css do %>
+  <%= stylesheet_link_tag "lightbox" %>
+<% end %>
+
+<div id="festival" class="row">
+  <div class="festival-container col-xs-12 col-sm-12 col-md-12">
+    <div class="heading">Il Festival</div>
+    <div class="content">
+    <%= include_markdown "data/festival-01.md" %>
+    <div class="photos row">
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <% link_to "img/festival/festival-01_big.jpg", "data-lightbox" => "gallery" do %>
+          <%= image_tag "festival/thumbs/festival-01.jpg",
+            :class => "img-responsive",
+            "data-lightbox" => "news" %>
+        <% end %>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <% link_to "img/festival/festival-02_big.jpg", "data-lightbox" => "gallery" do %>
+          <%= image_tag "festival/thumbs/festival-02.jpg",
+            :class => "img-responsive",
+            "data-lightbox" => "news" %>
+        <% end %>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-4">
+        <% link_to "img/festival/festival-03_big.jpg", "data-lightbox" => "gallery" do %>
+          <%= image_tag "festival/thumbs/festival-03.jpg",
+            :class => "img-responsive",
+            "data-lightbox" => "news" %>
+        <% end %>
+      </div>
+    </div>
+    <%= include_markdown "data/festival-02.md" %>
+    <div class="photos row">
+      <div class="col-xs-12 col-sm-12 col-md-12">
+        <% link_to "img/festival/festival-04_big.jpg", "data-lightbox" => "gallery" do %>
+          <%= image_tag "festival/thumbs/festival-04.jpg",
+            :class => "img-responsive",
+            "data-lightbox" => "news" %>
+        <% end %>
+      </div>
+    </div>
+    <%= include_markdown "data/festival-03.md" %>
+    </div>
+    <div class="org">
+      <div class="sponsors">
+        <h2 class="title">Sponsor</h2>
+        <ul class="logos">
+          <% (1..8).each do |n| %>
+          <li><%= image_tag "logos/s-0#{n}.png", :class => "img-responsive" %></li>
+          <% end %>
+        </ul>
+      </div>
+      <div class="collaborations">
+        <h2 class="title">Collaborazioni</h2>
+        <ul class="logos">
+          <% (1..8).each do |n| %>
+          <li><%= image_tag "logos/c-0#{n}.png", :class => "img-responsive" %></li>
+          <% end %>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

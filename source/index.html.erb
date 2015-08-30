@@ -1,3 +1,11 @@
+<% content_for :additional_js do %>
+  <%= javascript_include_tag "lightbox.min" %>
+<% end %>
+
+<% content_for :additional_css do %>
+  <%= stylesheet_link_tag "lightbox" %>
+<% end %>
+
 <div id="home" class="row">
   <div class="news-container col-xs-12 col-sm-12 col-md-12">
     <div class="heading">News</div>
@@ -16,7 +24,11 @@
       </div>
       <div class="col-xs-12 col-sm-3 col-md-3">
         <div class="image">
-          <%= image_tag "news/thumbs/#{data['image']}", :class => "img-responsive" %>
+          <% link_to "img/news/#{data['image']}", "data-lightbox" => "gallery" do %>
+          <%= image_tag "news/thumbs/#{data['image']}",
+            :class => "img-responsive",
+            "data-lightbox" => "news" %>
+          <% end %>
         </div>
       </div>
     </div>

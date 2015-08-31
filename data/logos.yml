@@ -1,52 +1,52 @@
 sponsors:
   - name: groppalli
     image: logos/s-01.png
-    link:
+    link: http://www.groppalli.it/
   - name: iren
     image: logos/s-02.png
-    link:
+    link: http://www.gruppoiren.it/
   - name: bulla
     image: logos/s-03.png
-    link:
+    link: http://www.bullasport.it/index.php
   - name: alphaville
     image: logos/s-04.png
-    link:
+    link: https://alphavillepc.wordpress.com/
   - name: ferranti
     image: logos/s-05.png
-    link:
+    link: http://www.ferrantimusica.it/
   - name: gedinfo
     image: logos/s-06.png
-    link:
+    link: http://www.gedinfo.it/
   - name: coop eridana
     image: logos/s-07.png
-    link:
+    link: http://www.e-coop.it/r/home
   - name: coop consumatori nordest
     image: logos/s-08.png
-    link:
+    link: http://www.e-coop.it/r/home
 
 collaborators:
   - name: arci
     image: logos/c-01.png
-    link:
+    link: http://www.arcipc.it/
   - name: spazio 4
     image: logos/c-02.png
-    link:
+    link: https://www.facebook.com/pages/SPAZIO-4/174783259768
   - name: audiozone
     image: logos/c-03.png
-    link:
+    link: https://www.facebook.com/AUDIOZONEstudios
   - name: crowse20
     image: logos/c-04.png
-    link:
+    link: https://www.facebook.com/crowseventi
   - name: sound bonico
     image: logos/c-05.png
-    link:
+    link: https://www.facebook.com/soundbonico
   - name: desert fox records
     image: logos/c-06.png
-    link:
+    link: https://www.facebook.com/DesertFoxRecords
   - name: orzo rock
     image: logos/c-07.png
-    link:
+    link: https://www.facebook.com/orzorockmusic
   - name: naturone
     image: logos/c-08.png
-    link:
+    link: https://www.facebook.com/pages/Naturone-Piacenza/408116475986674
 

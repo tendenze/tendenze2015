@@ -397,7 +397,8 @@
     "wells.less",
     "close.less",
     "component-animations.less",
-    "dropdowns.less"
+    "dropdowns.less",
+    "modals.less"
   ],
   "js": [
     "affix.js",
@@ -405,5 +406,5 @@
     "scrollspy.js",
     "transition.js"
   ],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=7a57446ad2bd029f9857"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=c14e2efeafafa1208c44"
 }

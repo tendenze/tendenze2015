@@ -135,7 +135,7 @@ body {
   font-family: big-noodle, Arial, sans-serif;
   font-size: 20px;
   color: #3d3d3f;
-  padding: 3px 25px;
+  padding: 3px 22px;
   line-height: 1.42857;
 }
 #header .navigation .nav a:hover {
@@ -147,6 +147,13 @@ body {
   background-color: #84b6b0;
   color: #f0f0f0;
   border-radius: 4px;
+}
+#header .navbar-header .navbar-brand {
+  font-family: big-noodle, Arial, sans-serif;
+  font-size: 30px;
+  color: #3d3d3f;
+  /*padding: 3px 22px;*/
+  /*line-height: 1.42857;*/
 }
 #header .navigation .navbar-toggle {
   background-color: #3d3d3f;
@@ -179,10 +186,17 @@ body {
   margin-right: -10px;
   padding-top: 3px;
   padding-bottom: 3px;
+  text-align: center;
 
 }
 #footer img {
-  margin: 0 auto;
+  display: inline-block;
+}
+@media screen and (max-width: 600px) {
+  #footer img {
+    display: block;
+    margin: 0 auto;
+  }
 }
 
 /* --- NEWS --- */
@@ -219,6 +233,9 @@ body {
   margin-top: 15px;
   font-size: 14px;
   text-align: justify;
+}
+.festival-container .content ul {
+  text-align: left;
 }
 .festival-container h2 {
   font-family: big-noodle, Arial, sans-serif;

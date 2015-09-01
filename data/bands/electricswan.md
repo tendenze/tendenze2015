@@ -1,7 +1,7 @@
 ---
 name: Electric Swan
-thumbnail: bands/thumbs/electricswan.png
-banner: bands/banners/electricswan.png
+thumbnail: bands/thumbs/electricswan.jpg
+banner: bands/banners/electricswan.jpg
 link: https://www.facebook.com/pages/Baritoprince-one-man-band/252423271505244
 embed: https://www.youtube.com/embed/1AvS0hH6TFI
 ---

@@ -1,7 +1,7 @@
 ---
 name: Erica Opizzi
-thumbnail: bands/thumbs/ericaopizzi.png
-banner: bands/banners/baritoprincipe.png
+thumbnail: bands/thumbs/ericaopizzi.jpg
+banner: bands/banners/baritoprincipe.jpg
 link: https://www.facebook.com/pages/Baritoprince-one-man-band/252423271505244
 embed: https://www.youtube.com/embed/1AvS0hH6TFI
 ---

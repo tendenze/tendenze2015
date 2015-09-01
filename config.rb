@@ -75,14 +75,18 @@ configure :build do
   # set :http_prefix, "/Content/images/"
 end
 
-# Disable layout for band pages (they open in modals)
-page "/bands/*", :layout => false
+page "/bands/*", :layout => "fluid"
+# Disable layout for modal band pages
+page "/bandmodals/*", :layout => false
 
 ready do
-  # Generate band pages
+  # Generate full-screen band pages and modal pages
   get_md_files("data/bands").each_with_index do |name, index|
     data = get_data("bands", name)
     proxy "bands/#{name}.html", "bands.html",
+      :locals => { :name => name, :data => data, :even => index.even? },
+      :ignore => true
+    proxy "bandmodals/#{name}.html", "bands.html",
       :locals => { :name => name, :data => data, :even => index.even? },
       :ignore => true
   end

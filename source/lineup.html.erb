@@ -6,14 +6,17 @@
 <% data = get_data("bands", name) %>
   <div class="band col-xs-6 col-sm-4 col-md-3">
     <%= image_tag data["thumbnail"],
-      :class => "img-responsive",
+      :class => "img-responsive hidden-xs hidden-sm hidden-md",
       "data-toggle" => "modal",
-      "href" => "bands/#{name}.html",
+      "href" => "bandmodals/#{name}.html",
       "data-target" => "##{name}-modal" %>
+    <% link_to "bands/#{name}.html", :class => "hidden-lg" do %>
+      <%= image_tag data["thumbnail"], :class => "img-responsive" %>
+    <% end %>
   </div>
   <div class="modal fade" id='<%= "#{name}-modal" %>' tabindex="-1" role="dialog" aria-labelledby='<%= "#{name}" %>' aria-hidden="true">
     <div class="modal-dialog modal-lg">
-      <div class="modal-content">
+      <div class="band-info modal-content">
       </div>
     </div>
   </div>

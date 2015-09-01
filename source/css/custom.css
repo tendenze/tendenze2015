@@ -23,24 +23,9 @@ body {
   background: #edd7a9 url("../img/background.jpg") repeat-x fixed center top / cover;
   padding-top: 5px;
 }
-@media screen and (max-width: 768px) {
-  .modal {
-      position: fixed;
-      top: 3%;
-      right: 3%;
-      left: 3%;
-      width: auto;
-      margin: 0;
-  }
-  .modal-body {
-      max-height: 350px;
-      padding: 15px;
-      overflow-y: auto;
-      -webkit-overflow-scrolling: touch;
-   }
-  .modal-body {
-      height: 60%;
-  }
+body.fluid {
+  background: #edd7a9 url("../img/background-bands.jpg") repeat-x fixed center top / cover;
+  padding-top: 0;
 }
 
 .main-content .heading {
@@ -315,8 +300,42 @@ body {
   cursor: pointer;
 }
 
-.modal-content {
+.band-info.modal-content {
   background: #edd7a9 url("../img/background-bands.jpg") repeat-x fixed center top / cover;
+}
+.band-container .return {
+  font-family: big-noodle, Arial, sans-serif;
+  font-size: 18px;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  z-index: 9;
+}
+@media screen and (max-width: 768px) {
+  .band-container .return {
+    font-size: 14px;
+  }
+}
+.band-container .return a {
+  padding-left: 2px;
+  padding-right: 2px;
+  border-radius: 2px;
+}
+.band-container .even .return a {
+  color: #f8b219;
+}
+.band-container .even .return a:hover {
+  color: #f0f0f0;
+  background-color: #f8b219;
+  text-decoration: none;
+}
+.band-container .odd .return a {
+  color: #09dca5;
+}
+.band-container .odd .return a:hover {
+  color: #f0f0f0;
+  background-color: #09dca5;
+  text-decoration: none;
 }
 .band-container .banner {
   padding-left: 0;
@@ -359,5 +378,10 @@ body {
   max-width: 560px;
   padding: 0 20px;
   margin-top: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
+}
+.band-container .logo {
+  padding: 0 20px;
+  margin-bottom: 10px;
+  text-align: right;
 }

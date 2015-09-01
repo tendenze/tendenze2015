@@ -4,7 +4,7 @@
   </div>
 <% get_md_files("data/bands").each do |name| %>
 <% data = get_data("bands", name) %>
-  <div class="band col-xs-6 col-sm-4 col-md-3">
+  <div id='<%= name %>' class="band col-xs-6 col-sm-4 col-md-3">
     <%= image_tag data["thumbnail"],
       :class => "img-responsive hidden-xs hidden-sm hidden-md",
       "data-toggle" => "modal",

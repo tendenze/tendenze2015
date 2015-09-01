@@ -24,7 +24,7 @@ body {
   padding-top: 5px;
 }
 body.fluid {
-  background: #edd7a9 url("../img/background-bands.jpg") repeat-x fixed center top / cover;
+  background: #373536 url("../img/background-bands.jpg") repeat-x fixed center top / cover;
   padding-top: 0;
 }
 
@@ -289,7 +289,8 @@ body.fluid {
   margin-bottom: -15px;
 }
 #lineup .band {
-  margin-top: 30px;
+  margin-top: 20px;
+  padding-top: 10px;
 }
 #lineup .band img {
   margin: 0 auto;
@@ -301,7 +302,7 @@ body.fluid {
 }
 
 .band-info.modal-content {
-  background: #edd7a9 url("../img/background-bands.jpg") repeat-x fixed center top / cover;
+  background: #373536 url("../img/background-bands.jpg") repeat-x fixed center top / cover;
 }
 .band-container .return {
   font-family: big-noodle, Arial, sans-serif;

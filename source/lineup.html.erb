@@ -1,0 +1,21 @@
+<div id="lineup" class="row">
+  <div class="col-xs-12 col-sm-12 col-md-12">
+    <div class="heading">Line Up</div>
+  </div>
+<% get_md_files("data/bands").each do |name| %>
+<% data = get_data("bands", name) %>
+  <div class="band col-xs-6 col-sm-4 col-md-3">
+    <%= image_tag data["thumbnail"],
+      :class => "img-responsive",
+      "data-toggle" => "modal",
+      "href" => "bands/#{name}.html",
+      "data-target" => "##{name}-modal" %>
+  </div>
+  <div class="modal fade" id='<%= "#{name}-modal" %>' tabindex="-1" role="dialog" aria-labelledby='<%= "#{name}" %>' aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+      </div>
+    </div>
+  </div>
+<% end %>
+</div>

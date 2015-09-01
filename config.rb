@@ -75,6 +75,19 @@ configure :build do
   # set :http_prefix, "/Content/images/"
 end
 
+# Disable layout for band pages (they open in modals)
+page "/bands/*", :layout => false
+
+ready do
+  # Generate band pages
+  get_md_files("data/bands").each_with_index do |name, index|
+    data = get_data("bands", name)
+    proxy "bands/#{name}.html", "bands.html",
+      :locals => { :name => name, :data => data, :even => index.even? },
+      :ignore => true
+  end
+end
+
 require 'yaml'
 
 helpers do
@@ -104,5 +117,12 @@ helpers do
     metadata = YAML.load(contents)
     metadata["text"] = Redcarpet::Markdown.new(Redcarpet::Render::HTML).render(contents.gsub(/---(.|\n)*---/, ""))
     return metadata
+  end
+
+  def get_md_files(path)
+    return Dir.entries(path)
+      .select{ |f| File.file?(File.join(path, f)) }
+      .map{ |f| File.basename(f, ".md") }
+      .sort_by{ |f| File.basename(f) }
   end
 end

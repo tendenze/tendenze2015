@@ -279,3 +279,63 @@ body {
     margin-bottom: 0px;
   }
 }
+
+/* --- BANDS --- */
+#lineup .heading {
+  margin-bottom: -15px;
+}
+#lineup .band {
+  margin-top: 30px;
+}
+#lineup .band img {
+  margin: 0 auto;
+  border: 1px solid #3D3D3F;
+  box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background: #edd7a9 url("../img/background-bands.jpg") repeat-x fixed center top / cover;
+}
+.band-container .banner {
+  padding-left: 0;
+  padding-right: 0;
+}
+.band-container .banner img {
+  margin: 0 auto;
+}
+.band-container .title {
+  font-family: big-noodle, Arial, sans-serif;
+  padding: 0 20px;
+  margin-top: 10px;
+}
+.band-container .even .title,
+.band-container .even .link a {
+  color: #f8b219;
+}
+.band-container .odd .title,
+.band-container .odd .link a {
+  color: #09dca5;
+}
+.band-container .name {
+  font-size: 35px;
+  padding: 0 20px;
+}
+.band-container .description {
+  color: #f0f0f0;
+  font-weight: bold;
+  padding: 0 20px;
+}
+.band-container .music {
+  font-size: 28px;
+  padding: 0 20px;
+}
+.band-container .link {
+  padding: 0 20px;
+  font-weight: bold;
+}
+.band-container .embed {
+  max-width: 560px;
+  padding: 0 20px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}

@@ -9,12 +9,7 @@
 <div id="home" class="row">
   <div class="news-container col-xs-12 col-sm-12 col-md-12">
     <div class="heading">News</div>
-    <% path = "data/news" %>
-    <% Dir.entries(path)
-      .select{ |f| File.file?(File.join(path, f)) }
-      .map{ |f| File.basename(f, ".md") }
-      .sort_by{ |f| File.basename(f) }
-      .reverse_each do |name| %>
+    <% get_md_files("data/news").reverse_each do |name| %>
     <% data = get_data("news", name) %>
     <div class="news row">
       <div class="col-xs-12 col-sm-9 col-md-9">

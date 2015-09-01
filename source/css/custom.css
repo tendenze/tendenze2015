@@ -311,6 +311,9 @@ body {
   border: 1px solid #3D3D3F;
   box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.4);
 }
+#lineup .band img:hover {
+  cursor: pointer;
+}
 
 .modal-content {
   background: #edd7a9 url("../img/background-bands.jpg") repeat-x fixed center top / cover;

@@ -1,6 +1,6 @@
 ---
 name: Wood Design
-thumbnail: expo/wooddesign.jpg
+thumbnail: expo/01-wooddesign.jpg
 ---
 
-Candidature chiuse, ovvero: quando il gioco si fa duro. Nella mail abbiamo archiviato le proposte di oltre sessanta band da fuori (dall'estremo Nord al Centro-Sud!), cinquanta band da Piacenza, decine tra dj, espositori e altre proposte. Un grazie grande così per la partecipazione e il grandissimo calore dimostrato. Stiamo vagliando ogni proposta con attenzione. Sarà durissima scegliere per riempire gli oltre 40 slot disponibili nel programma, che adesso ci sembrano così pochi. Non possiamo fare 10 palchi né un festival lungo una settimana. Chi sarà "escluso" si dovrà comunque sentire parte della famiglia. Tali, noi vi consideriamo. Tendenze è anche vostro. Anche di chi non sarà sul palco. E anche di chi sarà sotto. Di tutti.
+Il nostro percorso inizia con più di vent'anni di esperienza di lavoro in fabbrica (tornitura dell'acciaio), e nel restauro conservativo delle opere d'arte e nell'ambito del legno. Tre anni fa, ci siamo trasferiti in montagna, in un piccolo borgo abbandonato della Val Nure. Con le nostre forze, abbiamo restaurato un vecchio fienile, abbracciato l'agricoltura in una logica di sussistenza, e abbiamo attrezzato un piccolo laboratorio di Torneria del legno alimentato dall'energia del sole. Come materia “prima”, utilizziamo solo legname di recupero, proveniente da potature di alberi, travi antiche, vecchie assi... Con questo materiale, realizziamo nuovi oggetti utili per la vita quotidiana,totalmente lavorati a mano. Tutto a Km zero.

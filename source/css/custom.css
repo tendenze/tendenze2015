@@ -413,6 +413,41 @@ body.fluid {
   max-width: 202px;
 }
 
-.expo-container .expo .content {
+.expo-container {
   text-align: justify;
+}
+.expo-container .intro {
+  margin-top: 15px;
+}
+.expo-container .exhibitor {
+  margin-top: 35px;
+}
+.expo-container .exhibitor .name {
+  font-family: big-noodle, Arial, sans-serif;
+  font-size: 28px;
+  line-height: 1;
+}
+.expo-container .exhibitor .image {
+  padding-top: 4px;
+}
+.expo-container .exhibitor .image img {
+  border: 2px solid #3d3d3f;
+  max-width: 164px;
+}
+.expo-container .text {
+    margin-top: 5px;
+  }
+@media screen and (max-width: 768px) {
+  .expo-container .name {
+    text-align: center;
+  }
+  .expo-container .image {
+    margin-top: 5px;
+  }
+  .expo-container .image img {
+    margin: 0 auto;
+  }
+  .expo-container .text {
+    margin-top: 15px;
+  }
 }

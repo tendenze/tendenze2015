@@ -106,6 +106,9 @@ body.fluid {
 #header .subtitle .info li.icon.first {
   padding-left: 6px;
 }
+#header .subtitle .icon img {
+  max-width: 25px;
+}
 @media screen and (max-width: 735px) {
   #header .subtitle .info li {
     display: block;

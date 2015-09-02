@@ -239,6 +239,7 @@ body.fluid {
   margin: 0 auto;
   margin-top: 51px;
   border: 2px solid #3d3d3f;
+  max-width: 164px;
 }
 @media screen and (max-width: 768px){
  .news-container .news .image img {

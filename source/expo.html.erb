@@ -10,8 +10,10 @@
     <% data = get_data("expo", name) %>
     <div class="exhibitor row">
       <div class="name col-xs-12 visible-xs"><%= data["name"] %></div>
-      <div class="image col-xs-12 col-sm-3 col-md-3">
-        <%= image_tag data['thumbnail'], :class => "img-responsive" %>
+      <div class="col-xs-12 col-sm-3 col-md-3">
+        <div class="image">
+          <%= image_tag data['thumbnail'], :class => "img-responsive" %>
+        </div>
       </div>
       <div class="content col-xs-12 col-sm-9 col-md-9">
         <div class="name hidden-xs"><%= data["name"] %></div>

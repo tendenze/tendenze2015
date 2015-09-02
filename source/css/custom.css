@@ -289,6 +289,7 @@ body.fluid {
   margin-bottom: -15px;
 }
 #lineup .band {
+  max-width: 230px;
   margin-top: 20px;
   padding-top: 10px;
 }

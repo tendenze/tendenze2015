@@ -22,6 +22,7 @@
 body {
   background: #edd7a9 url("../img/background.jpg") repeat-x fixed center top / cover;
   padding-top: 5px;
+  font-size: 14px;
 }
 body.fluid {
   background: #373536 url("../img/background-bands.jpg") repeat-x fixed center top / cover;
@@ -32,6 +33,7 @@ body.fluid {
   font-family: big-noodle, Arial, sans-serif;
   line-height: 1;
   font-size: 35px;
+  margin-top: 15px;
 }
 
 /* --- HEADER --- */
@@ -215,7 +217,6 @@ body.fluid {
 }
 
 /* --- NEWS --- */
-.news-container .heading,
 .news-container .news {
   margin-top: 15px;
 }
@@ -230,7 +231,6 @@ body.fluid {
 }
 .news-container .news .content {
   text-align: justify;
-  font-size: 14px;
 }
 .news-container .news .image img {
   margin: 0 auto;
@@ -246,7 +246,6 @@ body.fluid {
 /* --- FESTIVAL --- */
 .festival-container .content {
   margin-top: 15px;
-  font-size: 14px;
   text-align: justify;
 }
 .festival-container .content ul {
@@ -405,4 +404,8 @@ body.fluid {
   padding: 0 20px;
   margin-bottom: 10px;
   text-align: right;
+}
+
+.expo-container .expo .content {
+  text-align: justify;
 }

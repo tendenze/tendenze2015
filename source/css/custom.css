@@ -194,8 +194,18 @@ body.fluid {
   text-align: center;
 
 }
-#footer img {
+#footer img,
+#footer a {
   display: inline-block;
+}
+#footer .comunepc {
+  width: 180px;
+}
+#footer .leto {
+  width: 128px;
+}
+#footer .fondazione {
+  width: 139px;
 }
 @media screen and (max-width: 600px) {
   #footer img {

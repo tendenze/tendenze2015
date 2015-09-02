@@ -408,6 +408,9 @@ body.fluid {
   margin-bottom: 10px;
   text-align: right;
 }
+.band-container .logo img {
+  max-width: 202px;
+}
 
 .expo-container .expo .content {
   text-align: justify;

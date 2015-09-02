@@ -1,7 +1,7 @@
 ---
-name: Baritoprincipe
-thumbnail: bands/thumbs/baritoprincipe.jpg
-banner: bands/banners/baritoprincipe.jpg
+name: Baritoprince
+thumbnail: bands/thumbs/baritoprince.jpg
+banner: bands/banners/baritoprince.jpg
 link: https://www.facebook.com/pages/Baritoprince-one-man-band/252423271505244
 embed: https://www.youtube.com/embed/1AvS0hH6TFI
 ---

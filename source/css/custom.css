@@ -210,6 +210,10 @@ body.fluid {
   display: inline-block;
   max-width: 128px;
 }
+#footer .crows {
+  display: inline-block;
+  max-width: 89px;
+}
 #footer .fondazione {
   max-width: 139px;
 }

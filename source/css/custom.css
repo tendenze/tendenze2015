@@ -504,3 +504,18 @@ body.fluid {
     margin-top: 15px;
   }
 }
+
+.press-container .heading {
+  text-align: center;
+}
+.press-container .article {
+  margin-top: 35px;
+}
+.press-container .article .image {
+  max-width: 500px;
+  max-height: 300px;
+  overflow: hidden;
+  margin: 0 auto;
+  border: 1px solid #3d3d3f;
+  box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.4);
+}

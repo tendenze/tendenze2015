@@ -5,26 +5,16 @@ title: Rassegna Stampa
 <div id="press" class="row">
   <div class="press-container col-xs-12 col-sm-12 col-md-12">
     <div class="heading"><%= current_page.data.title %></div>
-
-    <div class="photos row">
-      <div class="col-xs-12 col-sm-6 col-md-4">
-        <% link_to "img/press/press-01.pdf", :target => "_blank" do %>
-          <%= image_tag "press/press-01.jpg",
-            :class => "img-responsive" %>
-        <% end %>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-4">
-        <% link_to "img/press/press-02.pdf", :target => "_blank" do %>
-          <%= image_tag "press/press-02.jpg",
-            :class => "img-responsive" %>
-        <% end %>
-      </div>
-      <div class="last col-xs-12 col-sm-12 col-md-4">
-        <% link_to "img/press/press-03.pdf", :target => "_blank" do %>
-          <%= image_tag "press/press-03.jpg",
-            :class => "img-responsive" %>
-        <% end %>
-      </div>
+    <div class="articles row">
+      <% data.rassegna.each do |r| %>
+        <div class="article col-xs-12 col-sm-12 col-md-12">
+          <div class="image">
+            <% link_to "img/#{r.pdf}", :target => "_blank" do %>
+              <%= image_tag r.image, :class => "img-responsive" %>
+            <% end %>
+          </div>
+        </div>
+      <% end %>
     </div>
   </div>
 </div>

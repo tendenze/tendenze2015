@@ -1,5 +1,6 @@
 <head>
   <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Tendenze Festival 2015">
@@ -8,7 +9,10 @@
   <%= favicon_tag 'favicon.ico' %>
 
   <%# Use title if it's in the page YAML frontmatter %>
-  <title><%= current_page.data.title || "Tendenze Festival 2015" %></title>
+  <% base_title = "Tendenze Festival 2015" %>
+  <title>
+    <%= current_page.data.title ? (base_title + " - " + current_page.data.title).strip() : base_title %>
+  </title>
 
   <%= stylesheet_link_tag "bootstrap.min", "custom" %>
   <%= yield_content :additional_css %>

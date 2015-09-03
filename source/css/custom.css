@@ -305,7 +305,7 @@ body.fluid {
 #lineup .heading {
   margin-bottom: -15px;
 }
-@media screen and (min-width: 504px) and (max-width: 992px) {
+@media screen and (min-width: 447px) and (max-width: 992px) {
   #lineup .heading {
     text-align: center;
   }
@@ -321,12 +321,14 @@ body.fluid {
 #lineup .band img {
   border: 1px solid #3D3D3F;
   box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.4);
+}
+#lineup .band img.active {
   -webkit-transition: all 0.25s ease 0s;
      -moz-transition: all 0.25s ease 0s;
        -o-transition: all 0.25s ease 0s;
           transition: all 0.25s ease 0s;
 }
-#lineup .band img:hover {
+#lineup .band img.active:hover {
   cursor: pointer;
   opacity: 0.7;
   -webkit-transition: all 0.25s ease 0s;

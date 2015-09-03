@@ -1,19 +1,28 @@
+---
+title: Line Up
+active: false
+---
+
 <div id="lineup" class="row">
   <div class="col-xs-12 col-sm-12 col-md-12">
-    <div class="heading">Line Up</div>
+    <div class="heading"><%= current_page.data.title %></div>
   </div>
 <% get_md_files("data/bands").each do |name| %>
 <% data = get_data("bands", name) %>
   <div id='<%= name %>' class="band col-xs-6 col-sm-4 col-md-3">
     <div class="image">
+    <% if current_page.data.active %>
       <%= image_tag data["thumbnail"],
-        :class => "img-responsive hidden-xs hidden-sm hidden-md",
+        :class => "active img-responsive hidden-xs hidden-sm hidden-md",
         "data-toggle" => "modal",
         "href" => "bandmodals/#{name}.html",
         "data-target" => "##{name}-modal" %>
       <% link_to "bands/#{name}.html", :class => "hidden-lg" do %>
-        <%= image_tag data["thumbnail"], :class => "img-responsive" %>
+        <%= image_tag data["thumbnail"], :class => "active img-responsive" %>
       <% end %>
+    <% else %>
+      <%= image_tag data["thumbnail"], :class => "img-responsive" %>
+    <% end %>
     </div>
   </div>
   <div class="modal fade" id='<%= "#{name}-modal" %>' tabindex="-1" role="dialog" aria-labelledby='<%= "#{name}" %>' aria-hidden="true">

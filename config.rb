@@ -130,3 +130,7 @@ helpers do
       .sort_by{ |f| File.basename(f) }
   end
 end
+
+# configure :build do
+#   set :http_prefix, '/root/preview'
+# end

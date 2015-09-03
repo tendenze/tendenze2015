@@ -1,3 +1,7 @@
+---
+title: Il Festival
+---
+
 <% content_for :additional_js do %>
   <%= javascript_include_tag "lightbox.min" %>
 <% end %>
@@ -8,7 +12,7 @@
 
 <div id="festival" class="row">
   <div class="festival-container col-xs-12 col-sm-12 col-md-12">
-    <div class="heading">Il Festival</div>
+    <div class="heading"><%= current_page.data.title %></div>
     <div class="content">
     <%= include_markdown "data/festival-01.md" %>
     <div class="photos row">

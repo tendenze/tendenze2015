@@ -209,10 +209,11 @@ body.fluid {
 #footer .leto {
   display: inline-block;
   max-width: 128px;
+  margin-left: 10px;
 }
 #footer .crows {
   display: inline-block;
-  max-width: 89px;
+  max-width: 75px;
 }
 #footer .fondazione {
   max-width: 139px;
@@ -226,7 +227,7 @@ body.fluid {
 
 /* --- NEWS --- */
 .news-container .news {
-  margin-top: 15px;
+  margin-top: 25px;
 }
 .news-container .news .title {
   font-family: big-noodle, Arial, sans-serif;

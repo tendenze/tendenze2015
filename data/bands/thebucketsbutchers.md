@@ -1,6 +1,6 @@
 ---
-name: THE BUCKETS BUTCHERS
-thumbnail: bands/thumbs/thebuckets.jpg
+name: THE BUCKET BUTCHERS
+thumbnail: bands/thumbs/bucketbutchers.jpg
 color:
 banner:
 link:

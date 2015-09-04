@@ -13,12 +13,12 @@ active: false
     <div class="image">
     <% if current_page.data.active %>
       <%= image_tag data["thumbnail"],
-        :class => "active img-responsive hidden-xs hidden-sm hidden-md",
+        :class => "img-responsive hidden-xs hidden-sm hidden-md",
         "data-toggle" => "modal",
         "href" => "bandmodals/#{name}.html",
         "data-target" => "##{name}-modal" %>
       <% link_to "bands/#{name}.html", :class => "hidden-lg" do %>
-        <%= image_tag data["thumbnail"], :class => "active img-responsive" %>
+        <%= image_tag data["thumbnail"], :class => "img-responsive" %>
       <% end %>
     <% else %>
       <% link_to data["link"] do %>
@@ -27,11 +27,25 @@ active: false
     <% end %>
     </div>
   </div>
+  <% if current_page.data.active %>
   <div class="modal fade" id='<%= "#{name}-modal" %>' tabindex="-1" role="dialog" aria-labelledby='<%= "#{name}" %>' aria-hidden="true">
     <div class="modal-dialog modal-lg">
       <div class="band-info modal-content">
       </div>
     </div>
   </div>
+  <% end %>
 <% end %>
+  <div class="more col-xs-12 col-sm-12 col-md-12">
+    <div class="heading">Il venerdì sera</div>
+    <% ven = get_data("bands/more", "afterparty") %>
+    <div class="image">
+      <%= image_tag ven["thumbnail"], :class => "img-responsive" %>
+    </div>
+    <div class="heading">La domenica pomeriggio</div>
+    <% dom = get_data("bands/more", "hiphop") %>
+    <div class="image">
+      <%= image_tag dom["thumbnail"], :class => "img-responsive" %>
+    </div>
+  </div>
 </div>

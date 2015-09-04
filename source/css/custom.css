@@ -384,20 +384,20 @@ body.fluid {
   background-color: #f8b219;
   text-decoration: none;
 }
-.band-container .blue .return a {
-  color: #09dca5;
+.band-container .green .return a {
+  color: #83b6b1;
 }
-.band-container .blue .return a:hover {
+.band-container .green .return a:hover {
   color: #f0f0f0;
-  background-color: #09dca5;
+  background-color: #83b6b1;
   text-decoration: none;
 }
 .band-container .white .return a {
-  color: #f0f0f0;
+  color: #e8e8e8;
 }
 .band-container .white .return a:hover {
   color: #3d3d3f;
-  background-color: #f0f0f0;
+  background-color: #e8e8e8;
   text-decoration: none;
 }
 .band-container .banner {
@@ -416,20 +416,20 @@ body.fluid {
 .band-container .orange .link a {
   color: #f8b219;
 }
-.band-container .blue .title,
-.band-container .blue .link a {
-  color: #09dca5;
+.band-container .green .title,
+.band-container .green .link a {
+  color: #83b6b1;
 }
 .band-container .white .title,
 .band-container .white .link a {
-  color: #f0f0f0;
+  color: #e8e8e8;
 }
 .band-container .name {
   font-size: 35px;
   padding: 0 20px;
 }
 .band-container .description {
-  color: #f0f0f0;
+  color: #e8e8e8;
   font-weight: bold;
   padding: 0 20px;
 }

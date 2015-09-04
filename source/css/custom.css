@@ -363,20 +363,28 @@ body.fluid {
   padding-right: 2px;
   border-radius: 2px;
 }
-.band-container .even .return a {
+.band-container .orange .return a {
   color: #f8b219;
 }
-.band-container .even .return a:hover {
+.band-container .orange .return a:hover {
   color: #f0f0f0;
   background-color: #f8b219;
   text-decoration: none;
 }
-.band-container .odd .return a {
+.band-container .blue .return a {
   color: #09dca5;
 }
-.band-container .odd .return a:hover {
+.band-container .blue .return a:hover {
   color: #f0f0f0;
   background-color: #09dca5;
+  text-decoration: none;
+}
+.band-container .white .return a {
+  color: #f0f0f0;
+}
+.band-container .white .return a:hover {
+  color: #3d3d3f;
+  background-color: #f0f0f0;
   text-decoration: none;
 }
 .band-container .banner {
@@ -391,13 +399,17 @@ body.fluid {
   padding: 0 20px;
   margin-top: 10px;
 }
-.band-container .even .title,
-.band-container .even .link a {
+.band-container .orange .title,
+.band-container .orange .link a {
   color: #f8b219;
 }
-.band-container .odd .title,
-.band-container .odd .link a {
+.band-container .blue .title,
+.band-container .blue .link a {
   color: #09dca5;
+}
+.band-container .white .title,
+.band-container .white .link a {
+  color: #f0f0f0;
 }
 .band-container .name {
   font-size: 35px;

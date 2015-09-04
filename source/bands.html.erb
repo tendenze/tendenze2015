@@ -3,11 +3,8 @@ title: Bands
 ---
 
 <div class="band-container container-fluid">
-  <% if even %>
-  <div class="row even">
-  <% else %>
-  <div class="row odd">
-  <% end %>
+  <% color = data['color']? data['color'] : "orange" %>
+  <div class="row <%= color %>">
     <div class="return hidden-lg"><%= link_to "< Torna alla Line Up", "/lineup.html##{name}" %></div>
     <div class="banner col-xs-12 col-sm-12 col-md-12">
       <%= image_tag data["banner"], :class => "img-responsive" %>

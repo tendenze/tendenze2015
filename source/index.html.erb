@@ -11,12 +11,20 @@
       </div>
       <div class="col-xs-12 col-sm-3 col-md-3">
         <div class="image">
-          <%= image_tag "news/thumbs/#{data['image']}", :class => "img-responsive" %>
+          <% if data["link"] %>
+            <% link_to data["link"], :target => "_blank" do %>
+              <%= image_tag "news/thumbs/#{data['image']}", :class => "img-responsive" %>
+            <% end %>
+          <% else %>
+            <%= image_tag "news/thumbs/#{data['image']}", :class => "img-responsive" %>
+          <% end %>
         </div>
         <% if data["additional_images"] %>
           <% data["additional_images"].each do |i| %>
         <div class="image visible-lg visible-md visible-sm">
-          <%= image_tag "news/thumbs/#{i}", :class => "img-responsive" %>
+          <% link_to i["link"], :target => "_blank" do %>
+            <%= image_tag "news/thumbs/#{i['img']}", :class => "img-responsive" %>
+          <% end %>
         </div>
           <% end %>
         <% end %>

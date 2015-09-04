@@ -21,7 +21,9 @@ active: false
         <%= image_tag data["thumbnail"], :class => "active img-responsive" %>
       <% end %>
     <% else %>
-      <%= image_tag data["thumbnail"], :class => "img-responsive" %>
+      <% link_to data["link"] do %>
+        <%= image_tag data["thumbnail"], :class => "img-responsive" %>
+      <% end %>
     <% end %>
     </div>
   </div>

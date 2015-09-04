@@ -26,7 +26,7 @@ active: false
       <% end %>
     <% else %>
       <% if data["link"] %>
-        <% link_to data["link"] do %>
+        <% link_to data["link"], :target => "_blank" do %>
           <%= image_tag "bands/thumbs/empty.jpg", :class => "img-responsive", "data-src" => "img/#{data['thumbnail']}" %>
         <% end %>
       <% else %>

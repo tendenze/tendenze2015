@@ -3,6 +3,6 @@ name: SLUT MACHINE
 thumbnail: bands/thumbs/slutmachine.jpg
 color: green
 banner:
-link: www.slutmachine.it
+link: http://www.slutmachine.it
 embed:
 ---

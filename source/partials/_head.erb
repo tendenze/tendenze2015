@@ -11,9 +11,9 @@
   <%= favicon_tag 'favicon.ico' %>
 
   <%# Use title if it's in the page YAML frontmatter %>
-  <% base_title = "Tendenze Festival 2015" %>
+  <% base_title = "Tendenze Festival 2015 - 18-19-20 Settembre - Piacenza" %>
   <title>
-    <%= current_page.data.title ? (base_title + " - " + current_page.data.title).strip() : base_title %>
+    <%= current_page.data.title ? (base_title + " | " + current_page.data.title).strip() : base_title %>
   </title>
 
   <%= stylesheet_link_tag "bootstrap.min", "custom" %>

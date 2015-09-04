@@ -79,17 +79,19 @@ page "/bands/*", :layout => "fluid"
 # Disable layout for modal band pages
 page "/bandmodals/*", :layout => false
 
+ignore "bands.html.erb"
+
 ready do
   # Generate full-screen band pages and modal pages
-  get_md_files("data/bands").each_with_index do |name, index|
-    data = get_data("bands", name)
-    proxy "bands/#{name}.html", "bands.html",
-      :locals => { :name => name, :data => data, :even => index.even? },
-      :ignore => true
-    proxy "bandmodals/#{name}.html", "bands.html",
-      :locals => { :name => name, :data => data, :even => index.even? },
-      :ignore => true
-  end
+  # get_md_files("data/bands").each_with_index do |name, index|
+  #   data = get_data("bands", name)
+  #   proxy "bands/#{name}.html", "bands.html",
+  #     :locals => { :name => name, :data => data, :even => index.even? },
+  #     :ignore => true
+  #   proxy "bandmodals/#{name}.html", "bands.html",
+  #     :locals => { :name => name, :data => data, :even => index.even? },
+  #     :ignore => true
+  # end
 end
 
 require 'yaml'

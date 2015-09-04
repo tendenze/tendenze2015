@@ -1,6 +1,6 @@
 ---
-name: TRIPPI
-thumbnail: bands/thumbs/trippi.jpg
+name: MATTEO TRIPPI
+thumbnail: bands/thumbs/matteotrippi.jpg
 color:
 banner:
 link:

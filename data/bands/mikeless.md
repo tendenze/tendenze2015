@@ -1,5 +1,5 @@
 ---
-name: MIKELESS full band
+name: MIKELESS
 thumbnail: bands/thumbs/mikeless.jpg
 color:
 banner:

@@ -520,6 +520,9 @@ body.fluid {
 .press-container .heading {
   text-align: center;
 }
+.press-container .heading.past {
+  margin-top: 50px;
+}
 .press-container .article {
   margin-top: 35px;
 }

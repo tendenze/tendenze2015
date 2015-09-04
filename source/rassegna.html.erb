@@ -5,8 +5,20 @@ title: Rassegna Stampa
 <div id="press" class="row">
   <div class="press-container col-xs-12 col-sm-12 col-md-12">
     <div class="heading"><%= current_page.data.title %></div>
-    <div class="articles row">
-      <% data.rassegna.each do |r| %>
+    <div class="articles current row">
+      <% data.rassegna.attuale.reverse_each do |r| %>
+        <div class="article col-xs-12 col-sm-12 col-md-12">
+          <div class="image">
+            <% link_to "img/#{r.pdf}", :target => "_blank" do %>
+              <%= image_tag r.image, :class => "img-responsive" %>
+            <% end %>
+          </div>
+        </div>
+      <% end %>
+    </div>
+    <div class="articles past row">
+      <div class="heading past">Storico</div>
+      <% data.rassegna.storico.each do |r| %>
         <div class="article col-xs-12 col-sm-12 col-md-12">
           <div class="image">
             <% link_to "img/#{r.pdf}", :target => "_blank" do %>

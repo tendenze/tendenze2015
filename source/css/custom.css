@@ -163,14 +163,18 @@ body.fluid {
   font-family: big-noodle, Arial, sans-serif;
   font-size: 30px;
   color: #3d3d3f;
-  /*padding: 3px 22px;*/
-  /*line-height: 1.42857;*/
 }
 #header .navigation .navbar-toggle {
   background-color: #3d3d3f;
 }
 #header .navigation .navbar-toggle .icon-bar {
   background-color: #f9f9f9;
+}
+@media screen and (max-width: 992px) {
+  #header .navigation .nav a {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
 }
 @media screen and (min-width: 768px) {
   #header .navigation .navbar-nav {

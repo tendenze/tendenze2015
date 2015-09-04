@@ -9,7 +9,7 @@ title: Rassegna Stampa
       <% data.rassegna.attuale.reverse_each do |r| %>
         <div class="article col-xs-12 col-sm-12 col-md-12">
           <div class="image">
-            <% link_to "img/#{r.pdf}", :target => "_blank" do %>
+            <% link_to r.pdf, :target => "_blank" do %>
               <%= image_tag r.image, :class => "img-responsive" %>
             <% end %>
           </div>
@@ -21,7 +21,7 @@ title: Rassegna Stampa
       <% data.rassegna.storico.each do |r| %>
         <div class="article col-xs-12 col-sm-12 col-md-12">
           <div class="image">
-            <% link_to "img/#{r.pdf}", :target => "_blank" do %>
+            <% link_to r.pdf, :target => "_blank" do %>
               <%= image_tag r.image, :class => "img-responsive" %>
             <% end %>
           </div>

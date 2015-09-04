@@ -1,13 +1,13 @@
 attuale:
   - image: rassegna/01.jpg
-    pdf: rassegna/pdf/01.pdf
+    pdf: pdf/rassegna/01.pdf
   - image: rassegna/02.jpg
-    pdf: rassegna/pdf/02.pdf
+    pdf: pdf/rassegna/02.pdf
   - image: rassegna/03.jpg
-    pdf: rassegna/pdf/03.pdf
+    pdf: pdf/rassegna/03.pdf
 
 storico:
   - image: rassegna/04-storico.jpg
-    pdf: rassegna/pdf/04-storico.pdf
+    pdf: pdf/rassegna/04-storico.pdf
   - image: rassegna/05-storico.jpg
-    pdf: rassegna/pdf/05-storico.pdf
+    pdf: pdf/rassegna/05-storico.pdf

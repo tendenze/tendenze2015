@@ -23,6 +23,7 @@ body {
   background: #edd7a9 url("../img/background.jpg") repeat-x fixed center top / cover;
   padding-top: 5px;
   font-size: 14px;
+  color: #3d3d3f;
 }
 body.fluid {
   background: #373536 url("../img/background-bands.jpg") repeat-x fixed center top / cover;
@@ -240,15 +241,19 @@ body.fluid {
 }
 .news-container .news .content {
   text-align: justify;
+  margin-top: 5px;
+}
+.news-container .news .content a {
+  color: #3d3d3f;
+  text-decoration: underline;
 }
 .news-container .news .image {
   max-width: 164px;
   margin: 0 auto;
 }
 .news-container .news .image img {
-  margin-top: 52px;
+  margin-top: 57px;
   border: 2px solid #3d3d3f;
-
 }
 @media screen and (max-width: 768px){
  .news-container .news .image img {

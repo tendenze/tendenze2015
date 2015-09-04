@@ -1,8 +1,8 @@
 ---
 name: BLACKAT CREW
 thumbnail: bands/thumbs/blackat.jpg
-color:
+color: green
 banner:
-link:
+link: https://www.facebook.com/blackatcrew
 embed:
 ---

@@ -1,7 +1,7 @@
 ---
 name: KRISS HYPNOWAVE
 thumbnail: bands/thumbs/kriss.jpg
-color:
+color: orange
 banner:
 link:
 embed:

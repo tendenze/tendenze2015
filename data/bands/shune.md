@@ -1,8 +1,8 @@
 ---
 name: SHUNE
 thumbnail: bands/thumbs/shune.jpg
-color:
+color: orange
 banner:
-link:
+link: https://www.facebook.com/shunemusic
 embed:
 ---

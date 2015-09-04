@@ -1,8 +1,8 @@
 ---
 name: A THEORY OF JUSTICE
 thumbnail: bands/thumbs/atoj.jpg
-color:
+color: orange
 banner:
-link:
+link: http://atoj.bandcamp.com/releases
 embed:
 ---

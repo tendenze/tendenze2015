@@ -1,8 +1,8 @@
 ---
 name: QUIET SONIC
 thumbnail: bands/thumbs/quiet.jpg
-color:
+color: green
 banner:
-link:
+link: https://www.facebook.com/QuietSonic
 embed:
 ---

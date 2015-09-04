@@ -1,8 +1,8 @@
 ---
 name: ZOLLE
 thumbnail: bands/thumbs/zolle.jpg
-color:
+color: white
 banner:
-link:
+link: http://www.zolle.org/
 embed:
 ---

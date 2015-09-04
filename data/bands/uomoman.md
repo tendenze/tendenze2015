@@ -1,8 +1,8 @@
 ---
 name: UOMOMAN
 thumbnail: bands/thumbs/uomoman.jpg
-color:
+color: orange
 banner:
-link:
+link: https://www.facebook.com/pages/Uomoman/1443851592560158
 embed:
 ---

@@ -1,8 +1,8 @@
 ---
 name: JO JO IN THE STARS
 thumbnail: bands/thumbs/jojo.jpg
-color:
+color: green
 banner:
-link:
+link: https://jojointhestars.wordpress.com/
 embed:
 ---

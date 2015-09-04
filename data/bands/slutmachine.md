@@ -1,8 +1,8 @@
 ---
 name: SLUT MACHINE
 thumbnail: bands/thumbs/slutmachine.jpg
-color:
+color: green
 banner:
-link:
+link: www.slutmachine.it
 embed:
 ---

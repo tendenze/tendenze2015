@@ -1,7 +1,7 @@
 ---
 name: FRANCESCO ZUCCHI
 thumbnail: bands/thumbs/francesco.jpg
-color:
+color: green
 banner:
 link:
 embed:

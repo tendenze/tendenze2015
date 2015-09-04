@@ -1,8 +1,8 @@
 ---
 name: SNEKULA
 thumbnail: bands/thumbs/snekula.jpg
-color:
+color: orange
 banner:
-link:
+link: https://www.facebook.com/snekulamusic
 embed:
 ---

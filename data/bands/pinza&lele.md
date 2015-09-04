@@ -1,8 +1,8 @@
 ---
 name: PINZA & LELE
 thumbnail: bands/thumbs/pinza.jpg
-color:
+color: orange
 banner:
-link:
+link: https://www.facebook.com/pages/Pinza-Lele/193812094138986
 embed:
 ---

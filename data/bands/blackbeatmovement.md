@@ -1,8 +1,8 @@
 ---
 name: BLACK BEAT MOVEMENT
 thumbnail: bands/thumbs/blackbeat.jpg
-color:
+color: green
 banner:
-link:
+link: http://www.blackbeatmovement.com/main/
 embed:
 ---

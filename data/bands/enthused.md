@@ -1,8 +1,8 @@
 ---
 name: ENTHUSED
 thumbnail: bands/thumbs/enthused.jpg
-color:
+color: white
 banner:
-link:
+link: https://www.facebook.com/enthused.ita
 embed:
 ---

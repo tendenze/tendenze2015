@@ -1,8 +1,8 @@
 ---
 name: MADDALENA CONNI
 thumbnail: bands/thumbs/maddalena.jpg
-color:
+color: orange
 banner:
-link:
+link: https://www.facebook.com/maddalena.conni
 embed:
 ---

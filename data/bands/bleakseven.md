@@ -1,8 +1,8 @@
 ---
 name: BLEAK SEVEN
 thumbnail: bands/thumbs/bleak.jpg
-color:
+color: orange
 banner:
-link:
+link: https://www.facebook.com/bleakseven
 embed:
 ---

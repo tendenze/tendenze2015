@@ -1,8 +1,8 @@
 ---
 name: SAYNO
 thumbnail: bands/thumbs/sayno.jpg
-color:
+color: orange
 banner:
-link:
+link: https://www.facebook.com/saynoIT
 embed:
 ---

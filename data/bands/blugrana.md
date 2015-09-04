@@ -1,8 +1,8 @@
 ---
 name: BLUGRANA
 thumbnail: bands/thumbs/blugrana.jpg
-color:
+color: orange
 banner:
-link:
+link: http://www.blugrana.com/
 embed:
 ---

@@ -1,8 +1,8 @@
 ---
 name: BRAVI TUTTI
 thumbnail: bands/thumbs/bravitutti.jpg
-color:
+color: white
 banner:
-link:
+link: http://bravitutti.bandcamp.com/
 embed:
 ---

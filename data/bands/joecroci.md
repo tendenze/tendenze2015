@@ -1,8 +1,8 @@
 ---
 name: JOE CROCI
 thumbnail: bands/thumbs/joe.jpg
-color:
+color: orange
 banner:
-link:
+link: https://www.facebook.com/JoeCrociOfficial
 embed:
 ---

@@ -1,8 +1,8 @@
 ---
 name: BAD FROG
 thumbnail: bands/thumbs/badfrog.jpg
-color:
+color: orange
 banner:
-link:
+link: https://www.facebook.com/pages/BAD-FROG/166109260758
 embed:
 ---

@@ -1,8 +1,8 @@
 ---
 name: LINK QUARTET
 thumbnail: bands/thumbs/link.jpg
-color:
+color: orange
 banner:
-link:
+link: http://www.linkquartet.com/
 embed:
 ---

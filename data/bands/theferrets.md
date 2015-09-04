@@ -1,8 +1,8 @@
 ---
 name: THE FERRETS
 thumbnail: bands/thumbs/ferrets.jpg
-color:
+color: white
 banner:
-link:
+link: https://www.facebook.com/T.Ferrets
 embed:
 ---

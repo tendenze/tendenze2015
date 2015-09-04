@@ -1,8 +1,8 @@
 ---
 name: RED SUN
 thumbnail: bands/thumbs/redsun.jpg
-color:
+color: orange
 banner:
-link:
+link: https://www.facebook.com/pages/RED-SUN/1391117311175341
 embed:
 ---

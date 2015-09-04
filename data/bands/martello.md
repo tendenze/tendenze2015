@@ -1,8 +1,8 @@
 ---
 name: MARTELLO
 thumbnail: bands/thumbs/martello.jpg
-color:
+color: orange
 banner:
-link:
+link: http://martellomusica.it/
 embed:
 ---

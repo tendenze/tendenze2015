@@ -1,8 +1,8 @@
 ---
 name: BLUE FREEDOM
 thumbnail: bands/thumbs/blue.jpg
-color:
+color: white
 banner:
-link:
+link: https://www.facebook.com/pages/Blue-Freedom/646222288803316
 embed:
 ---

@@ -1,8 +1,8 @@
 ---
 name: OH LAZARUS
 thumbnail: bands/thumbs/ohlazarus.jpg
-color:
+color: white
 banner:
-link:
+link: https://www.facebook.com/OhLazarus
 embed:
 ---

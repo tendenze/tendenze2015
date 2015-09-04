@@ -1,8 +1,8 @@
 ---
 name: ELLI DE MON
 thumbnail: bands/thumbs/elli.jpg
-color:
+color: orange
 banner:
-link:
+link: https://www.facebook.com/ellidemon.onegirlband
 embed:
 ---

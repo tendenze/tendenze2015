@@ -1,8 +1,8 @@
 ---
 name: ELECTRIC SWAN
 thumbnail: bands/thumbs/electric.jpg
-color:
+color: orange
 banner:
-link:
+link: http://www.electricswan.it/
 embed:
 ---

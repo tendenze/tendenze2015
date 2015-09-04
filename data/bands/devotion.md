@@ -1,8 +1,8 @@
 ---
 name: DEVOTION
 thumbnail: bands/thumbs/devotion.jpg
-color:
+color: white
 banner:
-link:
+link: http://www.devotionsound.it/
 embed:
 ---

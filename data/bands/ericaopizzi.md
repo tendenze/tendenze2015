@@ -1,8 +1,8 @@
 ---
 name: ERICA OPIZZI
 thumbnail: bands/thumbs/erica.jpg
-color:
+color: green
 banner:
-link:
+link: http://ericaopizzi.jimdo.com/
 embed:
 ---

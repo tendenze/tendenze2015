@@ -1,8 +1,8 @@
 ---
 name: DOCTOR CYCLOPS
 thumbnail: bands/thumbs/doctor.jpg
-color:
+color: green
 banner:
-link:
+link: http://www.doctorcyclops.com/
 embed:
 ---

@@ -1,8 +1,8 @@
 ---
 name: GREAT SCOTT!
 thumbnail: bands/thumbs/great.jpg
-color:
+color: white
 banner:
-link:
+link: https://www.facebook.com/greatscottrock
 embed:
 ---

@@ -1,8 +1,8 @@
 ---
 name: BLACK GREMLIN
 thumbnail: bands/thumbs/blackgremlin.jpg
-color:
+color: white
 banner:
-link:
+link: https://www.facebook.com/blackgremlinofficialpage
 embed:
 ---

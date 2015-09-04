@@ -1,8 +1,8 @@
 ---
 name: MISFATTO
 thumbnail: bands/thumbs/misfatto.jpg
-color:
+color: white
 banner:
-link:
+link: http://www.misfatto.it/
 embed:
 ---

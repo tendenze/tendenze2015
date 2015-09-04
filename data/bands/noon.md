@@ -1,8 +1,8 @@
 ---
 name: NOON
 thumbnail: bands/thumbs/noon.jpg
-color:
+color: green
 banner:
-link:
+link: https://www.facebook.com/wearenoon
 embed:
 ---

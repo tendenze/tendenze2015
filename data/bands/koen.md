@@ -1,8 +1,8 @@
 ---
 name: KOEN
 thumbnail: bands/thumbs/koen.jpg
-color:
+color: green
 banner:
-link:
+link: http://www.koenofficial.com/
 embed:
 ---

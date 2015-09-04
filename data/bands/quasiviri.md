@@ -1,8 +1,8 @@
 ---
 name: QUASIVIRI
 thumbnail: bands/thumbs/quasiviri.jpg
-color:
+color: orange
 banner:
-link:
+link: https://www.facebook.com/pages/Protection-Zero/144508602251301
 embed:
 ---

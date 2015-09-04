@@ -1,8 +1,8 @@
 ---
 name: UOCHI TOKI
 thumbnail: bands/thumbs/uochitoki.jpg
-color:
+color: green
 banner:
-link:
+link: http://www.fiscerprais.com/uochi/
 embed:
 ---

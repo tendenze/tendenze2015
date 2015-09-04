@@ -1,8 +1,8 @@
 ---
 name: CHOW
 thumbnail: bands/thumbs/chow.jpg
-color:
+color: orange
 banner:
-link:
+link: https://www.facebook.com/chowregaz
 embed:
 ---

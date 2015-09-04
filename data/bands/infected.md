@@ -1,8 +1,8 @@
 ---
 name: INFECTED
 thumbnail: bands/thumbs/infected.jpg
-color:
+color: orange
 banner:
-link:
+link: https://www.facebook.com/Infected.Officialpage
 embed:
 ---

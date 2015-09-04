@@ -1,8 +1,8 @@
 ---
 name: AMPERHEAD
 thumbnail: bands/thumbs/amperhead.jpg
-color:
+color: green
 banner:
-link:
+link: http://www.amperehead.com/
 embed:
 ---

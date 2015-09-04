@@ -6,24 +6,9 @@ title: Extra
   <div class="extra-container col-xs-12 col-sm-12 col-md-12">
     <div class="heading"><%= current_page.data.title %></div>
     <div class="intro">
-      Come ogni anno Tendenze Festival vi propone un percorso attraverso il meglio dell'extra alternativo ed innovativo, tra artigianato, vintage, musica, creatività e associazionismo in tutte le sue forme.
+      A fianco delle più tradizionali "bancarelle" che affolleranno la parte "expo", anche quest'anno Tendenze offrirà un ulteriore percorso tra installazioni interattive, spazi performativi e progetti creativi a sfondo sociale, il tutto affiancato da spicchi di danza, teatro, arti circensi e, naturalmente, stand gastronomici per onnivori, carnivori e vegani.
       <br/>
       <strong>La lista e le schede sono in continuo aggiornamento!</strong>
     </div>
-    <% get_md_files("data/extra").each do |name| %>
-    <% data = get_data("extra", name) %>
-    <div class="exhibitor row">
-      <div class="name col-xs-12 visible-xs"><%= data["name"] %></div>
-      <div class="col-xs-12 col-sm-3 col-md-3">
-        <div class="image">
-          <%= image_tag data['thumbnail'], :class => "img-responsive" %>
-        </div>
-      </div>
-      <div class="content col-xs-12 col-sm-9 col-md-9">
-        <div class="name hidden-xs"><%= data["name"] %></div>
-        <div class="text"><%= data["text"] %></div>
-      </div>
-    </div>
-    <% end %>
   </div>
 </div>

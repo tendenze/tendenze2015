@@ -129,6 +129,13 @@ helpers do
       .map{ |f| File.basename(f, ".md") }
       .sort_by{ |f| File.basename(f) }
   end
+
+  def get_data_array(path)
+    complete_path = "data/#{path}"
+    return Dir.entries(complete_path)
+      .select{ |f| File.file?(File.join(complete_path, f)) }
+      .map{ |f| get_data(path, File.basename(f, ".md")) }
+  end
 end
 
 # configure :build do

@@ -547,3 +547,16 @@ body.fluid {
   border: 1px solid #3d3d3f;
   box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.4);
 }
+
+.program-container {
+  min-height: 500px;
+}
+.program-container .intro {
+  margin-top: 15px;
+}
+.photos-container {
+  min-height: 500px;
+}
+.photos-container .intro {
+  margin-top: 15px;
+}

@@ -5,13 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Tendenze Festival 2015">
   <meta name="author" content="">
+  <meta property="og:title" content="Tendenze Festival 2015" />
   <meta property="og:description" content="18-19-20 Settembre - Piacenza" />
   <meta property="og:image" content="/img/banner.png" />
 
   <%= favicon_tag 'favicon.ico' %>
 
   <%# Use title if it's in the page YAML frontmatter %>
-  <% base_title = "Tendenze Festival 2015 - 18-19-20 Settembre - Piacenza" %>
+  <% base_title = "Tendenze Festival 2015" %>
   <title>
     <%= current_page.data.title ? (base_title + " | " + current_page.data.title).strip() : base_title %>
   </title>

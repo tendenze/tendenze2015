@@ -25,7 +25,11 @@ active: false
         <%= image_tag data["thumbnail"], :class => "img-responsive" %>
       <% end %>
     <% else %>
-      <% link_to data["link"] do %>
+      <% if data["link"] %>
+        <% link_to data["link"] do %>
+          <%= image_tag "bands/thumbs/empty.jpg", :class => "img-responsive", "data-src" => "img/#{data['thumbnail']}" %>
+        <% end %>
+      <% else %>
         <%= image_tag "bands/thumbs/empty.jpg", :class => "img-responsive", "data-src" => "img/#{data['thumbnail']}" %>
       <% end %>
     <% end %>

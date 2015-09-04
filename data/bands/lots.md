@@ -1,8 +1,8 @@
 ---
 name: LOTS
 thumbnail: bands/thumbs/lots.jpg
-color:
+color: white
 banner:
-link:
+link: https://www.facebook.com/pages/LOTS-Lovers-Of-The-Streetlights/498703563596476
 embed:
 ---

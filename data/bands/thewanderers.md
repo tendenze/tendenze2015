@@ -1,8 +1,8 @@
 ---
 name: THE WANDERERS
 thumbnail: bands/thumbs/wanderers.jpg
-color:
+color: green
 banner:
-link:
+link: https://www.facebook.com/wanderers.folk
 embed:
 ---

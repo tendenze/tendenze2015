@@ -1,8 +1,8 @@
 ---
 name: MARCIDO MARCIDORJS E FAMOSA MIMOSA
 thumbnail: bands/thumbs/marcido.jpg
-color:
+color: orange
 banner:
-link:
+link: http://www.marcido.it/
 embed:
 ---

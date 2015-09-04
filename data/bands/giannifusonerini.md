@@ -1,8 +1,8 @@
 ---
 name: GIANNI FUSO NERINI
 thumbnail: bands/thumbs/gianni.jpg
-color:
+color: orange
 banner:
-link:
+link: https://www.facebook.com/gianni.nerini
 embed:
 ---

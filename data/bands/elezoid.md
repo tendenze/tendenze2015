@@ -1,8 +1,8 @@
 ---
 name: ELEZOID
 thumbnail: bands/thumbs/elezoid.jpg
-color:
+color: green
 banner:
-link:
+link: https://www.facebook.com/Elezoidproductions
 embed:
 ---

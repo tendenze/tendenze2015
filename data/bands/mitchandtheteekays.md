@@ -1,8 +1,8 @@
 ---
 name: MITCH AND THE TEEKAYS
 thumbnail: bands/thumbs/mitch.jpg
-color:
+color: orange
 banner:
-link:
+link: https://soundcloud.com/mitch-the-teekays
 embed:
 ---

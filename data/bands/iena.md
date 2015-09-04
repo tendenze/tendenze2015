@@ -1,8 +1,8 @@
 ---
 name: IENA
 thumbnail: bands/thumbs/iena.jpg
-color:
+color: green
 banner:
-link:
+link: https://www.facebook.com/pages/Iena/194228690600424
 embed:
 ---

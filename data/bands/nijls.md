@@ -1,8 +1,8 @@
 ---
 name: NIJLS
 thumbnail: bands/thumbs/nijls.jpg
-color:
+color: white
 banner:
-link:
+link: https://youtu.be/_YbkTVxPhkE
 embed:
 ---

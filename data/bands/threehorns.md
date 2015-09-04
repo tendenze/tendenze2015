@@ -1,7 +1,7 @@
 ---
 name: THREE HORNS
 thumbnail: bands/thumbs/threehorns.jpg
-color:
+color: white
 banner:
 link:
 embed:

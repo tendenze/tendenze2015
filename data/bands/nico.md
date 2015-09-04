@@ -1,8 +1,8 @@
 ---
 name: NICO
 thumbnail: bands/thumbs/nico.jpg
-color:
+color: green
 banner:
-link:
+link: https://www.facebook.com/Nicoitalyofficial?fref=ts
 embed:
 ---

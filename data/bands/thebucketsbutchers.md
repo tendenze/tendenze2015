@@ -1,8 +1,8 @@
 ---
 name: THE BUCKET BUTCHERS
 thumbnail: bands/thumbs/bucketbutchers.jpg
-color:
+color: orange
 banner:
-link:
+link: https://www.youtube.com/embed/PHeqbUqRIM4
 embed:
 ---

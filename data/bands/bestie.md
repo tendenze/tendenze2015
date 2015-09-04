@@ -1,8 +1,8 @@
 ---
 name: BESTIE
 thumbnail: bands/thumbs/bestie.jpg
-color:
+color: white
 banner:
-link:
+link: https://youtu.be/OJEWAHik8tw
 embed:
 ---

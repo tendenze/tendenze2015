@@ -1,8 +1,8 @@
 ---
 name: TEARS
 thumbnail: bands/thumbs/tears.jpg
-color:
+color: green
 banner:
-link:
+link: https://www.facebook.com/tearsmusicband
 embed:
 ---

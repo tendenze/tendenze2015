@@ -1,8 +1,8 @@
 ---
 name: ETEREA POST BONG BAND
 thumbnail: bands/thumbs/eterea.jpg
-color:
+color: white
 banner:
-link:
+link: http://www.postbong.com/
 embed:
 ---

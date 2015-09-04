@@ -1,8 +1,8 @@
 ---
 name: LES FUFIES & THE RUBBISH
 thumbnail: bands/thumbs/lesfufies.jpg
-color:
+color: green
 banner:
-link:
+link: https://www.facebook.com/lesfufies
 embed:
 ---

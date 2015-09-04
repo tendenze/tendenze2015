@@ -1,8 +1,8 @@
 ---
 name: ROBERTO DASSONI & DANILO FILIOS
 thumbnail: bands/thumbs/roberto.jpg
-color:
+color: green
 banner:
-link:
+link: https://www.facebook.com/roberto.dassoni
 embed:
 ---

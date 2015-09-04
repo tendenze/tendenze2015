@@ -1,8 +1,8 @@
 ---
 name: SOUND CHEMISTRY
 thumbnail: bands/thumbs/sound.jpg
-color:
+color: white
 banner:
-link:
+link: https://soundcloud.com/sound-chemistry/
 embed:
 ---

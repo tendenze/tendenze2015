@@ -1,8 +1,8 @@
 ---
 name: ANGOLI ACUSTICI
 thumbnail: bands/thumbs/angoliacustici.jpg
-color:
+color: white
 banner:
-link:
+link: https://vimeo.com/128736262#t=13m40s
 embed:
 ---

@@ -502,6 +502,7 @@ body.fluid {
 
 .extra-container {
   text-align: justify;
+  min-height: 500px;
 }
 .extra-container .intro {
   margin-top: 15px;

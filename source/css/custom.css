@@ -342,13 +342,15 @@ body.fluid {
   border: 1px solid #3D3D3F;
   box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.4);
 }
-#lineup .band .image a img {
+#lineup .band .image a img,
+#lineup .band .image img.img-link {
   -webkit-transition: all 0.25s ease 0s;
      -moz-transition: all 0.25s ease 0s;
        -o-transition: all 0.25s ease 0s;
           transition: all 0.25s ease 0s;
 }
-#lineup .band .image a img:hover {
+#lineup .band .image a img:hover,
+#lineup .band .image img.img-link:hover {
   cursor: pointer;
   opacity: 0.7;
   -webkit-transition: all 0.25s ease 0s;

@@ -139,7 +139,3 @@ helpers do
       .map{ |f| get_data(path, File.basename(f, ".md")) }
   end
 end
-
-# configure :build do
-#   set :http_prefix, '/root/preview'
-# end

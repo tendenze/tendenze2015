@@ -22,7 +22,8 @@ if path.exists(thumbs_path):
 	print "Error: Thumbnails directory already exists."
 	sys.exit()
 
-thumb_size = 408, 340
+thumb_resized = 308, 308
+thumb_cropped = (0, 0, 308, 257)
 files = glob.glob(path.join(args.directory, "*"))
 os.mkdir(thumbs_path)
 for infile in files:
@@ -31,7 +32,8 @@ for infile in files:
 	outfile = path.join(thumbs_path, basename)
 	try:
 		im = Image.open(infile)
-		thumb = im.crop((0, 0, 408, 340))
+		thumb = im.resize(thumb_resized, Image.ANTIALIAS)
+		thumb = thumb.crop(thumb_cropped)
 		thumb.save(outfile, format="JPEG", quality=90, optimize=True)
 	except IOError:
 		print "Error creating: " + outfile

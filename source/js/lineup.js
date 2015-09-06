@@ -11,7 +11,7 @@ function trigger_image_loading(placeholder) {
 function check_placeholders(placeholders) {
   var idx = -1;
   for (var i = 0; i < placeholders.length; i++) {
-    if($(placeholders[i]).offset().top - ($(window).scrollTop() + $(window).height()) < 400) {
+    if($(placeholders[i]).offset().top - ($(window).scrollTop() + $(window).height()) < 300) {
       trigger_image_loading(placeholders[i]);
       idx = i;
     }
@@ -22,7 +22,7 @@ function check_placeholders(placeholders) {
 }
 
 var scroll_timeout = null;
-var placeholders = $(".band .image .placeholder");
+var placeholders = $(".band .image.placeholder");
 window.onload = function() {
   trigger_image_loading(placeholders.splice(0, 1)[0]);
   check_placeholders(placeholders);

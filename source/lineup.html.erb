@@ -12,42 +12,40 @@ active: false
     <div class="heading"><%= current_page.data.title %></div>
   </div>
 <% get_data_array("bands").sort_by{ |d| d["name"].downcase }.each_with_index do |data, index| %>
-<% img_group_count = 12 # download images in clusters of 12 %>
+<% img_group_count = 15 # download images in clusters of <img_group_count> %>
 <% name = data["name"].gsub(/[^a-zA-Z1-9]/,"").downcase %>
+<% color = "color-" + (index % 3).to_s %>
+<% band_image_tag = image_tag(
+    "bands/thumbs/empty.jpg",
+    :class => "img-responsive",
+    "data-src" => "img/#{data['thumbnail']}",
+    "data-trigger" => (index / img_group_count)
+   )
+%>
   <div id='<%= name %>' class="band col-xs-6 col-sm-4 col-md-3">
-    <div class="image<%= data['link']? ' link' : '' %>">
+    <div class="image<%= data['link']? ' link' : '' %><%= index % img_group_count == 0? ' placeholder' : '' %>"
+      data-trigger="<%= (index / img_group_count) %>">
     <% if current_page.data.active %>
-      <%= image_tag "bands/thumbs/empty.jpg",
-        :class => "img-link img-responsive hidden-xs hidden-sm hidden-md#{index % img_group_count == 0? ' placeholder':''}",
-        "data-src" => "img/#{data['thumbnail']}",
-        "data-trigger" => (index / img_group_count),
-        "data-toggle" => "modal",
-        "href" => "bandmodals/#{name}.html",
-        "data-target" => "##{name}-modal" %>
+      <% content_tag(:div, :class => "modal-trigger hidden-xs hidden-sm hidden-md",
+          :href => "bandmodals/#{name}.html",
+          "data-toggle" => "modal",
+          "data-target" => "##{name}-modal") do %>
+        <%= content_tag(:div, :class => "thumb") { band_image_tag } %>
+        <%= content_tag(:div, :class => "name #{color}") { data["name"] } %>
+      <% end %>
       <% link_to "bands/#{name}.html", :class => "hidden-lg" do %>
-        <%= image_tag "bands/thumbs/empty.jpg",
-          :class => "img-responsive#{index % img_group_count == 0? ' placeholder':''}",
-          "data-src" => "img/#{data['thumbnail']}",
-          "data-trigger" => (index / img_group_count)
-        %>
+        <%= content_tag(:div, :class => "thumb") { band_image_tag } %>
+        <%= content_tag(:div, :class => "name #{color}") { data["name"] } %>
       <% end %>
     <% else %>
-      <% band_image_tag = image_tag(
-          "bands/thumbs/empty.jpg",
-          :class => "img-responsive#{index % img_group_count == 0? ' placeholder':''}",
-          "data-src" => "img/#{data['thumbnail']}",
-          "data-trigger" => (index / img_group_count)
-         )
-      color = "color-" + (index % 3).to_s
-      %>
       <% if data["link"] %>
         <% link_to data["link"], :target => "_blank" do %>
           <%= content_tag(:div, :class => "thumb") { band_image_tag } %>
           <%= content_tag(:div, :class => "name #{color}") { data["name"] } %>
         <% end %>
       <% else %>
-          <%= content_tag(:div, :class => "thumb") { band_image_tag } %>
-          <%= content_tag(:div, :class => "name #{color}") { data["name"] } %>
+        <%= content_tag(:div, :class => "thumb") { band_image_tag } %>
+        <%= content_tag(:div, :class => "name #{color}") { data["name"] } %>
       <% end %>
     <% end %>
     </div>
@@ -62,15 +60,15 @@ active: false
   <% end %>
 <% end %>
   <div class="more col-xs-12 col-sm-12 col-md-12">
-    <div class="heading">Il venerdì sera</div>
-    <% ven = get_data("bands/more", "afterparty") %>
+    <% get_data_array("bands/more").sort_by{ |d| d["name"].downcase }.each_with_index do |data, index| %>
+    <% color = "color-" + (index % 3).to_s %>
+    <div class="heading"><%= data["heading"] %></div>
     <div class="image">
-      <%= image_tag ven["thumbnail"], :class => "img-responsive" %>
+      <% content_tag(:div, :class => "thumb") do %>
+        <%= image_tag data["thumbnail"], :class => "img-responsive" %>
+      <% end %>
+      <%= content_tag(:div, :class => "name #{color}") { data["name"] } %>
     </div>
-    <div class="heading">La domenica pomeriggio</div>
-    <% dom = get_data("bands/more", "hiphop") %>
-    <div class="image">
-      <%= image_tag dom["thumbnail"], :class => "img-responsive" %>
-    </div>
+    <% end %>
   </div>
 </div>

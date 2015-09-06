@@ -364,8 +364,7 @@ body.fluid {
   margin-top: 20px;
   padding-top: 10px;
 }
-#lineup .band .image,
-#lineup .more .image {
+#lineup .image {
   background: #3d3d3f url("../img/bands/thumbs/empty.jpg") center top / cover;
   max-width: 204px;
   margin: 0 auto;
@@ -373,14 +372,14 @@ body.fluid {
   box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.4);
   position: relative;
 }
-#lineup .band .image .thumb {
+#lineup .image .thumb {
   padding-top: 100%;
 }
-#lineup .band .image .thumb img {
+#lineup .image .thumb img {
   position: absolute;
   top: 0;
 }
-#lineup .band .image .name {
+#lineup .image .name {
   background: #3d3d3f url("../img/bands/thumbs/empty.jpg") center bottom / cover;
   font-family: big-noodle, Arial, sans-serif;
   font-size: 25px;
@@ -417,6 +416,7 @@ body.fluid {
 }
 @media screen and (max-width: 340px) {
   #lineup .band .image .name {
+    padding-top: 2px;
     padding-bottom: 3px;
   }
 }
@@ -425,24 +425,22 @@ body.fluid {
     font-size: 15px;
   }
 }
-#lineup .band .image .name.color-0 {
+#lineup .image .name.color-0 {
   color: #f8b219;
 }
-#lineup .band .image .name.color-1 {
+#lineup .image .name.color-1 {
   color: #f0f0f0;
 }
-#lineup .band .image .name.color-2 {
+#lineup .image .name.color-2 {
   color: #83b6b1;
 }
-#lineup .band .image.link,
-#lineup .band .image img.img-link {
+#lineup .image.link {
   -webkit-transition: all 0.25s ease 0s;
      -moz-transition: all 0.25s ease 0s;
        -o-transition: all 0.25s ease 0s;
           transition: all 0.25s ease 0s;
 }
-#lineup .band .image.link:hover,
-#lineup .band .image img.img-link:hover {
+#lineup .image.link:hover {
   cursor: pointer;
   opacity: 0.7;
   -webkit-transition: all 0.25s ease 0s;

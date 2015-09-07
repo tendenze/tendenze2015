@@ -13,7 +13,14 @@ title: Extra
       <div class="title"><%= data["title"] %></div>
       <div class="description"><%= data["text"] %>
        <div class="banner">
-          <%= image_tag data["banner"], :class => "img-responsive" %>
+          <% banner = image_tag data["banner"], :class => "img-responsive" %>
+          <% if data["link"] %>
+            <% link_to data["link"], :target => "_blank" do %>
+              <%= banner %>
+            <% end %>
+          <% else %>
+            <%= banner %>
+          <% end %>
         </div>
       </div>
     </div>

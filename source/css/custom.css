@@ -295,6 +295,10 @@ body.fluid {
   margin-top: 57px;
   border: 2px solid #3d3d3f;
 }
+.news-container .news .content .entry {
+  font-family: big-noodle, Arial, sans-serif;
+  font-size: 16px;
+}
 @media screen and (max-width: 768px){
  .news-container .news .image img {
     margin-top: 0px;

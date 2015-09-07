@@ -1,5 +1,5 @@
 ---
-name: Paolo Prado
+name: Pablo Prado
 title: GIOIELLI E MANUFATTI
 thumbnail: expo/gioielli.jpg
 link:

@@ -2,7 +2,7 @@
 name: Officine Baco
 title: STAMPA 3D / TAGLIO LASER
 thumbnail: expo/stampa.jpg
-link:
+link: https://www.facebook.com/3dprintruvle
 mail:
 ---
 

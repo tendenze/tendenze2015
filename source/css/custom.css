@@ -565,6 +565,36 @@ body.fluid {
 .expo-container .intro {
   margin-top: 15px;
 }
+.expo-container .exhibitor {
+  margin-top: 35px;
+}
+.expo-container .exhibitor .name {
+  font-family: big-noodle, Arial, sans-serif;
+  font-size: 28px;
+  line-height: 1;
+}
+.expo-container .exhibitor .image {
+  padding-top: 4px;
+  max-width: 164px;
+}
+.expo-container .exhibitor .image img {
+  border: 2px solid #3d3d3f;
+}
+.expo-container .exhibitor .text {
+  margin-top: 5px;
+}
+@media screen and (max-width: 768px) {
+  .expo-container .exhibitor .name {
+    text-align: center;
+  }
+  .expo-container .exhibitor .image {
+    margin-top: 5px;
+    margin: 0 auto;
+  }
+  .expo-container .exhibitor .text {
+    margin-top: 15px;
+  }
+}
 
 .extra-container {
   text-align: justify;
@@ -573,36 +603,38 @@ body.fluid {
 .extra-container .intro {
   margin-top: 15px;
 }
-
-/* Shared rules for extra and expo */
-.exhibitor {
-  margin-top: 35px;
+.extra-container .exhibitor {
+  margin-top: 32px;
+  color: #3d3d3f;
 }
-.exhibitor .name {
+.extra-container .exhibitor .title {
   font-family: big-noodle, Arial, sans-serif;
   font-size: 28px;
   line-height: 1;
+  text-align: center;
+  background-color: rgba(131, 182, 177, 0.8);
+  border-radius: 4px;
+  padding: 3px 20px;
+  margin-bottom: 13px;
 }
-.exhibitor .image {
-  padding-top: 4px;
-  max-width: 164px;
+.extra-container .exhibitor .description ol,
+.extra-container .exhibitor .description ul {
+  margin-top: -5px;
 }
-.exhibitor .image img {
+.extra-container .exhibitor .description h2 {
+  font-family: big-noodle, Arial, sans-serif;
+  font-size: 28px;
+  line-height: 1;
+  margin-top: 12px;
+  margin-bottom: 3px;
+}
+.extra-container .exhibitor .description .banner {
   border: 2px solid #3d3d3f;
 }
-.exhibitor .text {
-  margin-top: 5px;
-}
 @media screen and (max-width: 768px) {
-  .exhibitor .name {
-    text-align: center;
-  }
-  .exhibitor .image {
-    margin-top: 5px;
-    margin: 0 auto;
-  }
-  .exhibitor .text {
-    margin-top: 15px;
+  .extra-container .exhibitor .title {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 

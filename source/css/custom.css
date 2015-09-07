@@ -254,10 +254,14 @@ body.fluid {
 }
 #footer .fondazione {
   max-width: 139px;
+  margin-left: 16px;
 }
 @media screen and (max-width: 600px) {
   #footer a {
     display: block;
+    margin: 0 auto;
+  }
+  #footer .fondazione {
     margin: 0 auto;
   }
 }

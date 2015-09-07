@@ -2,9 +2,15 @@ sponsors:
   - name: groppalli
     image: logos/s-01.png
     link: http://www.groppalli.it/
-  - name: iren
+  - name: tb
     image: logos/s-02.png
     link: http://www.tecnoborgo.com/
+  - name: alphaville
+    image: logos/s-04.png
+    link: https://alphavillepc.wordpress.com/
+  - name: ferranti
+    image: logos/s-05.png
+    link: http://www.ferrantimusica.it/
 
 collaborators:
   - name: arci

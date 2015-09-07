@@ -1,8 +1,8 @@
 ---
 name: Paolo Prado
-title: Gioielli e Manufatti
+title: GIOIELLI E MANUFATTI
 thumbnail: expo/gioielli.jpg
-links:
+link:
 mail:
 ---
 

@@ -2,8 +2,7 @@
 name: FOIC
 title: VOLONTARIATO
 thumbnail: expo/foic.jpg
-links:
- - http://www.foic.it/en/
+link: http://www.foic.it/en/
 mail:
 ---
 

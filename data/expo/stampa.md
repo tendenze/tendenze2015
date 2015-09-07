@@ -1,8 +1,8 @@
 ---
 name: Officine Baco
-title: Stampa 3D / Taglio Laser
+title: STAMPA 3D / TAGLIO LASER
 thumbnail: expo/stampa.jpg
-links:
+link:
 mail:
 ---
 

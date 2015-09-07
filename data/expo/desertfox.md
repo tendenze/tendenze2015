@@ -2,8 +2,7 @@
 name: Desert Fox Records
 title: RECORD LABEL
 thumbnail: expo/desertfox.jpg
-links:
- - https://www.facebook.com/DesertFoxRecords
+link: https://www.facebook.com/DesertFoxRecords
 mail:
 ---
 

@@ -1,9 +1,8 @@
 ---
 name: STANZA DI DANZA
-title: LA STANZA DI DANZA
+title: SCUOLA DI DANZA
 thumbnail: expo/danza.jpg
-links:
- - http://www.lastanzadidanza.com/
+link: http://www.lastanzadidanza.com/
 mail:
 ---
 

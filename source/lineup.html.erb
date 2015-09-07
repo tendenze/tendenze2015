@@ -12,7 +12,7 @@ active: false
     <div class="heading"><%= current_page.data.title %></div>
   </div>
 <% get_data_array("bands").sort_by{ |d| d["name"].downcase }.each_with_index do |data, index| %>
-<% img_group_count = 15 # download images in clusters of <img_group_count> %>
+<% img_group_count = 18 # download images in clusters of <img_group_count> %>
 <% name = data["name"].gsub(/[^a-zA-Z1-9]/,"").downcase %>
 <% color = "color-" + (index % 3).to_s %>
 <% band_image_tag = image_tag(

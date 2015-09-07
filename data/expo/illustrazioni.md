@@ -1,8 +1,8 @@
 ---
 name: Emanuela Cafferini
-title: Illustrazioni
+title: ILLUSTRAZIONI
 thumbnail: expo/illustrazioni.jpg
-links:
+link:
 mail:
 ---
 

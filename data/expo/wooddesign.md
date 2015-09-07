@@ -1,8 +1,8 @@
 ---
 name: Wood Design
-title: Wood Design
+title: WOOD DESIGN
 thumbnail: expo/wooddesign.jpg
-links:
+link:
 mail:
 ---
 

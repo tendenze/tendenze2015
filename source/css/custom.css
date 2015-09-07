@@ -589,12 +589,6 @@ body.fluid {
 .exhibitor .text {
   margin-top: 5px;
 }
-.exhibitor .link a {
-  color: #3d3d3f;
-}
-.exhibitor .mail a {
-  color: #3d3d3f;
-}
 @media screen and (max-width: 768px) {
   .exhibitor .name {
     text-align: center;

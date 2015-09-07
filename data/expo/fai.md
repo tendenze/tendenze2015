@@ -2,7 +2,7 @@
 name: FAI
 title: CULTURA E AMBIENTE
 thumbnail: expo/fai.jpg
-links:
+link:
 mail: faigiovani.piacenza@fondoambiente.it
 ---
 

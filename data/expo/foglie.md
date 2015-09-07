@@ -1,9 +1,8 @@
 ---
 name: foglie al vento
-title: ILLUSTRAZIONE
+title: ILLUSTRAZIONI
 thumbnail: expo/fogliealvento.jpg
-links:
- - https://www.facebook.com/fogliealventoo
+link: https://www.facebook.com/fogliealventoo
 mail:
 ---
 

@@ -15,20 +15,23 @@ title: Expo
       <div class="name col-xs-12 visible-xs"><%= data["title"] %></div>
       <div class="col-xs-12 col-sm-3 col-md-3">
         <div class="image">
-          <%= image_tag data['thumbnail'], :class => "img-responsive" %>
+          <% img = image_tag data['thumbnail'], :class => "img-responsive" %>
+          <% if data["link"] %>
+            <% link_to data["link"], :target => "_blank" do %>
+              <%= img %>
+            <% end %>
+          <% elsif data["mail"]%>
+            <% link_to "mailto:" + data["mail"] do  %>
+              <%= img %>
+            <% end %>
+          <% else %>
+            <%= img %>
+          <% end %>
         </div>
       </div>
       <div class="content col-xs-12 col-sm-9 col-md-9">
         <div class="name hidden-xs"><%= data["title"] %></div>
         <div class="text"><%= data["text"] %></div>
-        <% if data["links"] %>
-          <% data["links"].each do |link| %>
-          <div class="link"><%= link_to link, link, :target => "_blank" %></div>
-          <% end %>
-        <% end %>
-        <% if data["mail"] %>
-        <div class="mail"><%= link_to data["mail"], "mailto:" + data["mail"] %></div>
-        <% end %>
       </div>
     </div>
     <% end %>

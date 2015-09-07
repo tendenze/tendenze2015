@@ -2,9 +2,7 @@
 name: bandoneon
 title: FASHION VINTAGE
 thumbnail: expo/bandoneon.jpg
-links:
-  - https://www.facebook.com/bandoneonbag
-  - https://www.facebook.com/fracollage
+link: https://www.facebook.com/bandoneonbag
 mail:
 ---
 

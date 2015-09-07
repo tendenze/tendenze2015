@@ -35,6 +35,7 @@ body.fluid {
   line-height: 1;
   font-size: 35px;
   margin-top: 15px;
+  text-align: center;
 }
 
 /* --- HEADER --- */
@@ -362,14 +363,6 @@ body.fluid {
 }
 
 /* --- BANDS --- */
-#lineup .heading {
-  margin-bottom: -15px;
-}
-@media screen and (min-width: 447px) and (max-width: 992px) {
-  #lineup .heading {
-    text-align: center;
-  }
-}
 #lineup .band {
   margin-top: 20px;
   padding-top: 10px;
@@ -459,7 +452,6 @@ body.fluid {
           transition: all 0.25s ease 0s;
 }
 #lineup .more .heading {
-  text-align: center;
   margin-top: 35px;
   margin-bottom: 15px;
 }
@@ -644,9 +636,6 @@ body.fluid {
   }
 }
 
-.press-container .heading {
-  text-align: center;
-}
 .press-container .heading.past {
   margin-top: 50px;
 }

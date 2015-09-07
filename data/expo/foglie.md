@@ -1,5 +1,5 @@
 ---
-name: foglie al vento
+name: en-foglie al vento
 title: ILLUSTRAZIONI
 thumbnail: expo/fogliealvento.jpg
 link: https://www.facebook.com/fogliealventoo

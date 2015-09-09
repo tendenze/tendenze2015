@@ -505,11 +505,13 @@ body.fluid {
 .band-container .banner {
   padding-left: 0;
   padding-right: 0;
+}
+.band-container .banner img {
   border-top-right-radius: 6px;
   border-top-left-radius: 6px;
 }
 @media screen and (max-width: 992px) {
-  .band-container .banner {
+  .band-container .banner img {
     border-radius: 0px;
   }
 }

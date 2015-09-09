@@ -1,4 +1,16 @@
 main:
+  - name: "A THEORY OF JUSTICE"
+    genre: Post-Hardcore
+    from: Lodi
+    date: Sabato 19
+    time: "23.30"
+    stage: Portichetto
+    thumbnail: bands/thumbs/atoj.jpg
+    color: orange
+    banner: bands/banners/01.jpg
+    link: "https://www.facebook.com/atojband"
+    embed: "https://bandcamp.com/EmbeddedPlayer/album=3549116850/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/|http://atoj.bandcamp.com/album/atoj-2|atoj by a  t  o  j"
+
   - name: "ADEH"
     genre: "Drum'n'bass/Dubstep"
     from: Piacenza
@@ -7,7 +19,7 @@ main:
     stage: Boschetto
     thumbnail: bands/thumbs/adeh.jpg
     color: green
-    banner:
+    banner: bands/banners/02.jpg
     link: "https://www.facebook.com/pages/ADEH/431420650254656"
     embed: "https://soundcloud.com/tracks/117793464"
 
@@ -19,7 +31,7 @@ main:
     stage: Boschetto
     thumbnail: bands/thumbs/alevaghi.jpg
     color: white
-    banner:
+    banner: bands/banners/03.jpg
     link: "https://www.facebook.com/alessandro.vaghi.10"
     embed: "https://www.mixcloud.com/alessandrovaghi10/"
 
@@ -31,7 +43,7 @@ main:
     stage: Portichetto
     thumbnail: bands/thumbs/amperehead.jpg
     color: green
-    banner:
+    banner: bands/banners/04.jpg
     link: "http://www.amperehead.com/"
     embed: "https://youtu.be/tZtYPAqu_x0"
 
@@ -43,21 +55,9 @@ main:
     stage: Parlor
     thumbnail: bands/thumbs/angoliacustici.jpg
     color: white
-    banner:
+    banner: bands/banners/05.jpg
     link: "https://www.facebook.com/angoliacustici"
     embed: "https://vimeo.com/128736262#t=13m40s"
-
-  - name: "A THEORY OF JUSTICE"
-    genre: Post-Hardcore
-    from: Lodi
-    date: Sabato 19
-    time: "23.30"
-    stage: Portichetto
-    thumbnail: bands/thumbs/atoj.jpg
-    color: orange
-    banner:
-    link: "https://www.facebook.com/atojband"
-    embed: "https://bandcamp.com/EmbeddedPlayer/album=3549116850/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/|http://atoj.bandcamp.com/album/atoj-2|atoj by a  t  o  j"
 
   - name: "BAD FROG"
     genre: Punk-Rock a mulinello
@@ -67,7 +67,7 @@ main:
     stage: Portichetto
     thumbnail: bands/thumbs/badfrog.jpg
     color: orange
-    banner:
+    banner: bands/banners/06.jpg
     link: "https://www.facebook.com/pages/BAD-FROG/166109260758"
     embed: "https://youtu.be/MWYnAxzYQcs"
 
@@ -79,7 +79,7 @@ main:
     stage: Parlor
     thumbnail: bands/thumbs/baritoprince.jpg
     color: green
-    banner:
+    banner: bands/banners/07.jpg
     link: "https://www.facebook.com/pages/Baritoprince-one-man-band/252423271505244"
     embed: "https://youtu.be/gPcU0hFJMGs"
 
@@ -91,7 +91,7 @@ main:
     stage: Parlor
     thumbnail: bands/thumbs/bestie.jpg
     color: white
-    banner:
+    banner: bands/banners/08.jpg
     link: "https://youtu.be/OJEWAHik8tw"
     embed: "https://youtu.be/OJEWAHik8tw"
 
@@ -103,7 +103,7 @@ main:
     stage: Parlor
     thumbnail: bands/thumbs/bezirk.jpg
     color: orange
-    banner:
+    banner:  bands/banners/09.jpg
     link: "https://www.facebook.com/pages/Bezirk-Sothiac/711582828927293"
     embed: "https://youtu.be/LEdVJQ7YUkg"
 
@@ -115,7 +115,7 @@ main:
     stage: Boschetto
     thumbnail: bands/thumbs/blackat.jpg
     color: green
-    banner:
+    banner: bands/banners/12.jpg
     link: "https://www.facebook.com/blackatcrew"
     embed:
 
@@ -127,7 +127,7 @@ main:
     stage: Main
     thumbnail: bands/thumbs/blackbeat.jpg
     color: green
-    banner:
+    banner: bands/banners/10.jpg
     link: "http://www.blackbeatmovement.com/main/"
     embed: "https://youtu.be/ZfqXHqfTmCo"
 
@@ -139,7 +139,7 @@ main:
     stage: Main
     thumbnail: bands/thumbs/blackgremlin.jpg
     color: white
-    banner:
+    banner: bands/banners/11.jpg
     link: "https://www.facebook.com/blackgremlinofficialpage"
     embed: "https://youtu.be/sbu0FA22nHE"
 
@@ -151,7 +151,7 @@ main:
     stage: Parlor
     thumbnail: bands/thumbs/bleak.jpg
     color: orange
-    banner:
+    banner: bands/banners/13.jpg
     link: "https://www.facebook.com/bleakseven"
     embed: "https://youtu.be/C7Qu8SRt3Jo"
 
@@ -163,7 +163,7 @@ main:
     stage: Portichetto
     thumbnail: bands/thumbs/blue.jpg
     color: white
-    banner:
+    banner:  bands/banners/14.jpg
     link: "https://www.facebook.com/pages/Blue-Freedom/646222288803316"
     embed: "http://youtu.be/rDhoCIU4B3M"
 
@@ -175,7 +175,7 @@ main:
     stage: Portichetto
     thumbnail: bands/thumbs/blugrana.jpg
     color: orange
-    banner:
+    banner: bands/banners/15.jpg
     link: "http://www.blugrana.com/"
     embed: "https://youtu.be/XsC3cJmZQM8"
 
@@ -187,7 +187,7 @@ main:
     stage: Portichetto
     thumbnail: bands/thumbs/bravitutti.jpg
     color: white
-    banner:
+    banner: bands/banners/16.jpg
     link: "https://www.facebook.com/bravitutti?fref=ts"
     embed: "https://youtu.be/fRfDs0JHp0g"
 
@@ -199,7 +199,7 @@ main:
     stage: Portichetto
     thumbnail: bands/thumbs/chow.jpg
     color: orange
-    banner:
+    banner: bands/banners/17.jpg
     link: "https://www.facebook.com/chowregaz"
     embed: "https://bandcamp.com/EmbeddedPlayer/album=1220129828/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/|http://chowregaz.bandcamp.com/album/behind-the-fog|BEHIND THE FOG by CHOW"
 
@@ -211,7 +211,7 @@ main:
     stage: Portichetto
     thumbnail: bands/thumbs/devotion.jpg
     color: white
-    banner:
+    banner: bands/banners/18.jpg
     link: "http://www.devotionsound.it/"
     embed: "https://youtu.be/y9RR7FNdXIQ"
 
@@ -223,7 +223,7 @@ main:
     stage: Main
     thumbnail: bands/thumbs/doctor.jpg
     color: green
-    banner:
+    banner: bands/banners/19.jpg
     link: "http://www.doctorcyclops.com/"
     embed: "https://youtu.be/5_EZL0KoNvc"
 
@@ -235,7 +235,7 @@ main:
     stage: Main
     thumbnail: bands/thumbs/electric.jpg
     color: orange
-    banner:
+    banner: bands/banners/20.jpg
     link: "http://www.electricswan.it/"
     embed: "https://youtu.be/U8B43aUR1gk"
 

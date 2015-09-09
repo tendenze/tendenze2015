@@ -79,19 +79,20 @@ page "/bands/*", :layout => "fluid"
 # Disable layout for modal band pages
 page "/bandmodals/*", :layout => false
 
-ignore "bands.html.erb"
+# ignore "bands.html.erb"
 
 ready do
   # Generate full-screen band pages and modal pages
-  # get_md_files("data/bands").each_with_index do |name, index|
-  #   data = get_data("bands", name)
-  #   proxy "bands/#{name}.html", "bands.html",
-  #     :locals => { :name => name, :data => data, :even => index.even? },
-  #     :ignore => true
-  #   proxy "bandmodals/#{name}.html", "bands.html",
-  #     :locals => { :name => name, :data => data, :even => index.even? },
-  #     :ignore => true
-  # end
+  data.bands.main.sort_by{ |d| d["name"].downcase }.each_with_index do |data, index|
+    name_id = data["name"].gsub(/[^a-zA-Z1-9]/,"").downcase
+    color_index = index % 3
+    proxy "bands/#{name_id}.html", "bands.html",
+      :locals => { :name_id => name_id, :data => data, :color_index => color_index },
+      :ignore => true
+    proxy "bandmodals/#{name_id}.html", "bands.html",
+      :locals => { :name_id => name_id, :data => data, :color_index => color_index },
+      :ignore => true
+  end
 end
 
 require 'yaml'
@@ -137,5 +138,26 @@ helpers do
     return Dir.entries(complete_path)
       .select{ |f| File.file?(File.join(complete_path, f)) }
       .map{ |f| get_data(path, File.basename(f, ".md")) }
+  end
+
+  def partial_embed(embed_code)
+    if embed_code
+      case embed_code
+      when /^*.youtu.*be\/(.*)$/
+        return partial "partials/youtube_embed", :locals => { :source => $1 }
+      when /^.*bandcamp.com/
+        fields = embed_code.split("|")
+        return partial "partials/bandcamp_embed", :locals => {
+          :source     => fields[0],
+          :album_link => fields[1],
+          :album_name => fields[2]
+        }
+      when /^.*soundcloud.com\/(tracks\/.*)$/
+        return partial "partials/soundcloud_embed", :locals => { :track_code => $1 }
+      when /^https:\/\/vimeo.com\/(.*)$/
+        return partial "partials/vimeo_embed", :locals => { :video_code => $1 }
+      end
+    end
+    return nil
   end
 end

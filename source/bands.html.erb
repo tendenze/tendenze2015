@@ -3,18 +3,24 @@ title: Bands
 ---
 
 <div class="band-container container-fluid">
-  <% color = data['color']? data['color'] : "orange" %>
-  <div class="row <%= color %>">
-    <div class="return hidden-lg"><%= link_to "< Torna alla Line Up", "/lineup.html##{name}" %></div>
+  <div class="row color-<%= color_index %>">
+    <div class="return hidden-lg"><%= link_to "< Torna alla Line Up", "/lineup.html##{name_id}" %></div>
     <div class="banner col-xs-12 col-sm-12 col-md-12">
-      <%= image_tag data["banner"], :class => "img-responsive" %>
+      <% banner_path = data["banner"]? data["banner"] : "bands/banners/base.jpg" %>
+      <%= image_tag banner_path, :class => "img-responsive" %>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-12">
       <div class="name title"><%= data["name"] %></div>
-      <div class="description"><%= data["text"] %></div>
-      <div class="music title">Music</div>
       <div class="link"><%= link_to data["link"], data["link"], :target => "blank" %></div>
-      <div class="embed"><%= partial "partials/youtube_embed", :locals => { :source => data["embed"] } %></div>
+      <% if data["embed"] %>
+      <div class="music title">Music</div>
+      <% embed_html = partial_embed data["embed"] %>
+        <% if embed_html %>
+        <div class="embed"><%= embed_html %></div>
+        <% else %>
+        <div class="link"><%= link_to data["embed"], data["embed"], :target => "blank" %></div>
+        <% end %>
+      <% end %>
       <div class="logo"><%= image_tag "bands/logo.png" %></div>
     </div>
   </div>

@@ -478,33 +478,40 @@ body.fluid {
   padding-right: 2px;
   border-radius: 2px;
 }
-.band-container .orange .return a {
+.band-container .color-0 .return a {
   color: #f8b219;
 }
-.band-container .orange .return a:hover {
+.band-container .color-0 .return a:hover {
   color: #f0f0f0;
   background-color: #f8b219;
   text-decoration: none;
 }
-.band-container .green .return a {
-  color: #83b6b1;
-}
-.band-container .green .return a:hover {
+.band-container .color-1 .return a {
   color: #f0f0f0;
-  background-color: #83b6b1;
+}
+.band-container .color-1 .return a:hover {
+  color: #3d3d3f;
+  background-color: #f0f0f0;
   text-decoration: none;
 }
-.band-container .white .return a {
-  color: #e8e8e8;
+.band-container .color-2 .return a {
+  color: #83b6b1;
 }
-.band-container .white .return a:hover {
-  color: #3d3d3f;
-  background-color: #e8e8e8;
+.band-container .color-2 .return a:hover {
+  color: #f0f0f0;
+  background-color: #83b6b1;
   text-decoration: none;
 }
 .band-container .banner {
   padding-left: 0;
   padding-right: 0;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+}
+@media screen and (max-width: 992px) {
+  .band-container .banner {
+    border-radius: 0px;
+  }
 }
 .band-container .banner img {
   margin: 0 auto;
@@ -514,17 +521,17 @@ body.fluid {
   padding: 0 20px;
   margin-top: 10px;
 }
-.band-container .orange .title,
-.band-container .orange .link a {
+.band-container .color-0 .title,
+.band-container .color-0 .link a {
   color: #f8b219;
 }
-.band-container .green .title,
-.band-container .green .link a {
-  color: #83b6b1;
+.band-container .color-1 .title,
+.band-container .color-1 .link a {
+  color: #f0f0f0;
 }
-.band-container .white .title,
-.band-container .white .link a {
-  color: #e8e8e8;
+.band-container .color-2 .title,
+.band-container .color-2 .link a {
+  color: #83b6b1;
 }
 .band-container .name {
   font-size: 35px;

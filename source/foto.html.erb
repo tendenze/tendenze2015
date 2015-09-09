@@ -8,15 +8,32 @@ title: Foto
     <div class="entry">
       <div class="title">Gallery 1</div>
       <div class="galleries row">
-        <div class="col-xs-12 col-sm-4 col-md-4">
-          <div class="image rot-m5"><%= image_tag "photo/1.jpg", :class => "img-responsive" %></div>
+        <% link_to "https://www.facebook.com/media/set/?set=a.803198766397903.1073741835.210885035629282&type=3", :target => "_blank" do %>
+        <div class="gallery col-xs-12 col-sm-4 col-md-4">
+          <div class="image rot-m5">
+            <div class="thumb"><%= image_tag "galleries/test-1.jpg", :class => "img-responsive" %></div>
+            <div class="date">12.09.2014</div>
+          </div>
         </div>
-        <div class="col-xs-12 col-sm-4 col-md-4">
-          <div class="image rot-3"><%= image_tag "photo/1.jpg", :class => "img-responsive" %></div>
+        <% end %>
+
+        <% link_to "https://www.facebook.com/media/set/?set=a.803849179666195.1073741836.210885035629282&type=3", :target => "_blank" do %>
+        <div class="gallery col-xs-12 col-sm-4 col-md-4">
+          <div class="image rot-3">
+            <div class="thumb"><%= image_tag "galleries/test-2.jpg", :class => "img-responsive" %></div>
+            <div class="date">13.09.2014</div>
+          </div>
         </div>
-        <div class="col-xs-12 col-sm-4 col-md-4">
-          <div class="image rot-m5"><%= image_tag "photo/1.jpg", :class => "img-responsive" %></div>
+        <% end %>
+
+        <% link_to "https://www.facebook.com/media/set/?set=a.804643652920081.1073741837.210885035629282&type=3", :target => "_blank" do %>
+        <div class="gallery col-xs-12 col-sm-4 col-md-4">
+          <div class="image rot-m5">
+            <div class="thumb"><%= image_tag "galleries/test-3.jpg", :class => "img-responsive" %></div>
+            <div class="date">14.09.2014</div>
+          </div>
         </div>
+        <% end %>
       </div>
     </div>
   </div>

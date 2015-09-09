@@ -11,7 +11,7 @@ function trigger_image_loading(placeholder) {
 function check_placeholders(placeholders) {
   var idx = -1;
   for (var i = 0; i < placeholders.length; i++) {
-    if($(placeholders[i]).offset().top - ($(window).scrollTop() + $(window).height()) < 300) {
+    if($(placeholders[i]).offset().top - ($(window).scrollTop() + $(window).height()) < 400) {
       trigger_image_loading(placeholders[i]);
       idx = i;
     }

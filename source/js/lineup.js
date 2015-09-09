@@ -40,3 +40,10 @@ $(window).scroll(function() {
   }
   scroll_timeout = window.setTimeout(scroll_handler, 300);
 });
+
+$(document).ready(function () {
+  $(".modal").on('hidden.bs.modal', function() {
+    $(this).find(".band-container").remove();
+    $(this).data('bs.modal', null);
+  });
+});

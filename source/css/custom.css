@@ -669,10 +669,70 @@ body.fluid {
   text-align: center;
   margin-top: 15px;
 }
+
 .photos-container {
   min-height: 500px;
 }
 .photos-container .intro {
   text-align: center;
   margin-top: 15px;
+}
+.photos-container .entry {
+  margin-top: 30px;
+}
+.photos-container .entry .title {
+  font-family: big-noodle, Arial, sans-serif;
+  font-size: 28px;
+  line-height: 1;
+  text-align: center;
+  background-color: rgba(131, 131, 131, 0.8);
+  border-radius: 4px;
+  padding: 3px 20px;
+  margin-bottom: 13px;
+}
+.photos-container .entry .image {
+  max-width: 250px;
+  margin: 0 auto;
+  box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.4);
+}
+.photos-container .entry .galleries {
+  margin-top: 30px;
+}
+.photos-container .entry .image {
+  -webkit-transition: all 0.25s ease 0s;
+     -moz-transition: all 0.25s ease 0s;
+       -o-transition: all 0.25s ease 0s;
+          transition: all 0.25s ease 0s;
+}
+.photos-container .entry .image:hover {
+  cursor: pointer;
+  opacity: 0.7;
+  -webkit-transition: all 0.25s ease 0s;
+   -moz-transition: all 0.25s ease 0s;
+     -o-transition: all 0.25s ease 0s;
+        transition: all 0.25s ease 0s;
+}
+.photos-container .entry .image.rot-m5 {
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: rotate(-5deg);
+     -moz-transform: rotate(-5deg);
+      -ms-transform: rotate(-5deg);
+       -o-transform: rotate(-5deg);
+          transform: rotate(-5deg);
+}
+.photos-container .entry .image.rot-3 {
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: rotate(3deg);
+     -moz-transform: rotate(3deg);
+      -ms-transform: rotate(3deg);
+       -o-transform: rotate(3deg);
+          transform: rotate(3deg);
+}
+.photos-container .entry .image.rot-m5:hover,
+.photos-container .entry .image.rot-3:hover {
+  -webkit-transform: rotate(0deg);
+     -moz-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+       -o-transform: rotate(0deg);
+          transform: rotate(0deg);
 }

@@ -2,6 +2,7 @@
 name: 01-offi-cine
 title: 'CONCORSO DI MICRO VIDEO MAKING IMPROVVISATO BY "OFFI-CINE"'
 banner: extra/video.jpg
+link: https://www.facebook.com/events/120802158273250/
 ---
 
 Come funziona?

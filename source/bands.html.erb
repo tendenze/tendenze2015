@@ -9,8 +9,12 @@ title: Bands
       <% banner_path = data["banner"]? data["banner"] : "bands/banners/base.jpg" %>
       <%= image_tag banner_path, :class => "img-responsive" %>
     </div>
-    <div class="col-xs-12 col-sm-12 col-md-12">
+    <div class="content col-xs-12 col-sm-12 col-md-12">
       <div class="name title"><%= data["name"] %></div>
+      <div class="genre"><%= data["genre"] %></div>
+      <div class="from">Da: <%= data["from"] %></div>
+      <div class="datetime">Data/Ora: <%= data["date"] %> alle <%= data["time"] %></div>
+      <div class="stage">Palco: <%= data["stage"] %></div>
       <div class="link"><%= link_to data["link"], data["link"], :target => "_blank" %></div>
       <% if data["embed"] %>
       <div class="music title">Music</div>

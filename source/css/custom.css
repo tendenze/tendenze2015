@@ -681,14 +681,13 @@ body.fluid {
   margin-bottom: 13px;
 }
 .photos-container .entry .galleries {
-  margin-top: 30px;
+  margin-top: 25px;
 }
 .photos-container .entry .galleries a {
   color: #3d3d3f;
 }
 .photos-container .entry .gallery {
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 10px 30px;
 }
 .photos-container .entry .image {
   max-width: 250px;

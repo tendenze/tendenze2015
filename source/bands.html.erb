@@ -15,7 +15,9 @@ title: Bands
       <div class="info from"><span>DA -</span> <%= data["from"] %></div>
       <div class="info datetime"><span>DATA/ORA -</span> <%= data["date"] %> alle <%= data["time"] %></div>
       <div class="info stage"><span>PALCO -</span> <%= data["stage"] %></div>
+      <% if data["link"] %>
       <div class="info link"><%= link_to data["link"], data["link"], :target => "_blank" %></div>
+      <% end %>
       <% if data["embed"] %>
       <div class="music title">Music</div>
       <% embed_html = partial_embed data["embed"] %>

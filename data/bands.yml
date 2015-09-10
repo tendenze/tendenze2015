@@ -247,7 +247,7 @@ main:
     stage: Boschetto
     thumbnail: bands/thumbs/elezoid.jpg
     color: green
-    banner:
+    banner: bands/banners/21.jpg
     link: "https://www.facebook.com/Elezoidproductions"
     embed: "https://soundcloud.com/tracks/221052073"
 
@@ -259,7 +259,7 @@ main:
     stage: Parlor
     thumbnail: bands/thumbs/elli.jpg
     color: orange
-    banner:
+    banner: bands/banners/22.jpg
     link: "https://www.facebook.com/ellidemon.onegirlband"
     embed: "https://youtu.be/gUZXa0n3Lqs"
 
@@ -271,7 +271,7 @@ main:
     stage: Main
     thumbnail: bands/thumbs/enthused.jpg
     color: white
-    banner:
+    banner: bands/banners/23.jpg
     link: "https://www.facebook.com/enthused.ita"
     embed: "https://youtu.be/YUtn0fTsPOc"
 
@@ -283,7 +283,7 @@ main:
     stage: Parlor
     thumbnail: bands/thumbs/erica.jpg
     color: green
-    banner:
+    banner: bands/banners/24.jpg
     link: "http://ericaopizzi.jimdo.com/"
     embed: "https://youtu.be/tueUeLNTrGo"
 
@@ -295,7 +295,7 @@ main:
     stage: Portichetto
     thumbnail: bands/thumbs/eterea.jpg
     color: white
-    banner:
+    banner: bands/banners/25.jpg
     link: "http://www.postbong.com/"
     embed: "https://youtu.be/PD5nO2vmH_o"
 
@@ -307,7 +307,7 @@ main:
     stage: Parlor
     thumbnail: bands/thumbs/francesco.jpg
     color: green
-    banner:
+    banner: bands/banners/26.jpg
     link: "https://www.facebook.com/zucchifrancesco"
     embed: "https://youtu.be/fEmuk4As6SE"
 
@@ -319,7 +319,7 @@ main:
     stage: Portichetto
     thumbnail: bands/thumbs/gianni.jpg
     color: orange
-    banner:
+    banner: bands/banners/27.jpg
     link: "https://www.facebook.com/gianni.nerini"
     embed: "https://youtu.be/z48-E8Ya8io"
 
@@ -331,7 +331,7 @@ main:
     stage: Portichetto
     thumbnail: bands/thumbs/great.jpg
     color: white
-    banner:
+    banner: bands/banners/28.jpg
     link: "https://www.facebook.com/greatscottrock"
     embed:
 
@@ -343,7 +343,7 @@ main:
     stage: Main
     thumbnail: bands/thumbs/iena.jpg
     color: green
-    banner:
+    banner: bands/banners/29.jpg
     link: "https://www.facebook.com/pages/Iena/194228690600424"
     embed: "https://youtu.be/VsZXJmLH7QI"
 
@@ -355,7 +355,7 @@ main:
     stage: Main
     thumbnail: bands/thumbs/infected.jpg
     color: orange
-    banner:
+    banner: bands/banners/30.jpg
     link: "https://www.facebook.com/Infected.Officialpage"
     embed: "https://youtu.be/4KygVcWw1t8"
 
@@ -367,7 +367,7 @@ main:
     stage: Parlor
     thumbnail: bands/thumbs/joe.jpg
     color: orange
-    banner:
+    banner: bands/banners/32.jpg
     link: "https://www.facebook.com/JoeCrociOfficial"
     embed: "https://youtu.be/LZi2CT39GPU"
 
@@ -379,7 +379,7 @@ main:
     stage: Portichetto
     thumbnail: bands/thumbs/jojo.jpg
     color: green
-    banner:
+    banner: bands/banners/31.jpg
     link: "https://jojointhestars.wordpress.com/"
     embed: "https://youtu.be/7mHXcfwW8dM"
 
@@ -392,7 +392,7 @@ main:
     stage: Parlor
     thumbnail: bands/thumbs/kaiser.jpg
     color: white
-    banner:
+    banner: bands/banners/33.jpg
     link: "https://www.facebook.com/pages/kaiserschnittambosslaszlo/294792427202343"
     embed: "https://soundcloud.com/tracks/171009730"
 
@@ -404,7 +404,7 @@ main:
     stage: Main
     thumbnail: bands/thumbs/koen.jpg
     color: green
-    banner:
+    banner: bands/banners/34.jpg
     link: "http://www.koenofficial.com/"
     embed: "https://youtu.be/e-4YS1Tu7cE"
 
@@ -416,7 +416,7 @@ main:
     stage: Boschetto
     thumbnail: bands/thumbs/kriss.jpg
     color: orange
-    banner:
+    banner: bands/banners/35.jpg
     link: "https://www.facebook.com/pages/Kryss-Hypnowave/167508203308886"
     embed: "https://soundcloud.com/tracks/220955818"
 
@@ -428,7 +428,7 @@ main:
     stage: Portichetto
     thumbnail: bands/thumbs/sacerdotesse.jpg
     color: white
-    banner:
+    banner: bands/banners/36.jpg
     link: "https://www.facebook.com/pages/Le-Sacerdotesse-dellIsola-del-Piacere/198425110252684"
     embed: "https://youtu.be/XJK-FDJpcoM"
 
@@ -440,7 +440,7 @@ main:
     stage: Portichetto
     thumbnail: bands/thumbs/lesfufies.jpg
     color: green
-    banner:
+    banner: bands/banners/37.jpg
     link: "https://www.facebook.com/lesfufies"
     embed:
 
@@ -452,7 +452,7 @@ main:
     stage: Main
     thumbnail: bands/thumbs/link.jpg
     color: orange
-    banner:
+    banner: bands/banners/38.jpg
     link: "http://www.linkquartet.com/"
     embed: "https://youtu.be/6hnpRmO5P2Y"
 
@@ -464,7 +464,7 @@ main:
     stage: Portichetto
     thumbnail: bands/thumbs/lots.jpg
     color: white
-    banner:
+    banner: bands/banners/39.jpg
     link: "https://www.facebook.com/pages/LOTS-Lovers-Of-The-Streetlights/498703563596476"
     embed: "https://soundcloud.com/tracks/215878124"
 
@@ -476,7 +476,7 @@ main:
     stage: Parlor
     thumbnail: bands/thumbs/maddalena.jpg
     color: orange
-    banner:
+    banner: bands/banners/40.jpg
     link: "https://www.facebook.com/maddalena.conni"
     embed: "https://youtu.be/PZhntcu6Zd0"
 
@@ -488,7 +488,7 @@ main:
     stage: Portichetto
     thumbnail: bands/thumbs/maladissa.jpg
     color: green
-    banner:
+    banner: bands/banners/41.jpg
     link: "https://www.facebook.com/pages/Maladissa/276002435921681"
     embed: "https://youtu.be/ClZMgVQ5rkY"
 
@@ -500,7 +500,7 @@ main:
     stage: Parlor
     thumbnail: bands/thumbs/marcido.jpg
     color: orange
-    banner:
+    banner: bands/banners/42.jpg
     link: "http://www.marcido.it/"
     embed: "https://youtu.be/g63OxU3_MQM"
 
@@ -512,9 +512,21 @@ main:
     stage: Parlor
     thumbnail: bands/thumbs/martello.jpg
     color: orange
-    banner:
+    banner: bands/banners/43.jpg
     link: "http://martellomusica.it/"
     embed: "https://youtu.be/OjxWz2bCAQQ"
+
+  - name: "MATTEO TRIPPI"
+    genre: Techno
+    from: Piacenza
+    date: Venerdì 18
+    time: "00.30"
+    stage: Boschetto
+    thumbnail: bands/thumbs/matteotrippi.jpg
+    color: white
+    banner: bands/banners/44.jpg
+    link: "https://www.facebook.com/pages/Matteo-trippi/136466043212856"
+    embed: "https://soundcloud.com/tracks/211984433"
 
   - name: "MIKELESS"
     genre: One-Man-Band
@@ -524,7 +536,7 @@ main:
     stage: Portichetto
     thumbnail: bands/thumbs/mikeless.jpg
     color: green
-    banner:
+    banner: bands/banners/45.jpg
     link: "https://www.facebook.com/pages/Mikeless/124210100955462"
     embed: "https://youtu.be/SfeOZNPYwSg"
 
@@ -536,7 +548,7 @@ main:
     stage: Main
     thumbnail: bands/thumbs/misfatto.jpg
     color: white
-    banner:
+    banner: bands/banners/46.jpg
     link: "http://www.misfatto.it/"
     embed: "https://youtu.be/_EvZLUXA3Rc"
 
@@ -548,7 +560,7 @@ main:
     stage: Portichetto
     thumbnail: bands/thumbs/mitch.jpg
     color: orange
-    banner:
+    banner: bands/banners/47.jpg
     link: "https://soundcloud.com/mitch-the-teekays"
     embed: "https://soundcloud.com/tracks/199620079"
 
@@ -560,7 +572,7 @@ main:
     stage: Portichetto
     thumbnail: bands/thumbs/morrywood.jpg
     color: white
-    banner:
+    banner: bands/banners/48.jpg
     link: "https://www.facebook.com/pages/MorryWood/144157668989829"
     embed: "https://youtu.be/NPz4cnQG8ws"
 
@@ -572,7 +584,7 @@ main:
     stage: Main
     thumbnail: bands/thumbs/nico.jpg
     color: green
-    banner:
+    banner: bands/banners/49.jpg
     link: "https://www.facebook.com/Nicoitalyofficial"
     embed: "https://youtu.be/-0_URkjlmkA"
 
@@ -584,7 +596,7 @@ main:
     stage: Main
     thumbnail: bands/thumbs/nijls.jpg
     color: white
-    banner:
+    banner: bands/banners/50.jpg
     link: "https://youtu.be/_YbkTVxPhkE"
     embed: "https://youtu.be/_YbkTVxPhkE"
 
@@ -596,7 +608,7 @@ main:
     stage: Main
     thumbnail: bands/thumbs/noon.jpg
     color: green
-    banner:
+    banner: bands/banners/51.jpg
     link: "https://www.facebook.com/wearenoon"
     embed: "https://bandcamp.com/EmbeddedPlayer/album=3017189389/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/|http://noonofficial.bandcamp.com/album/775-lumi-re|775 Lumière by NOON"
 
@@ -608,7 +620,7 @@ main:
     stage: Parlor
     thumbnail: bands/thumbs/ohlazarus.jpg
     color: white
-    banner:
+    banner: bands/banners/52.jpg
     link: "https://www.facebook.com/OhLazarus"
     embed: "https://youtu.be/rnybmxOkWKg"
 
@@ -620,19 +632,19 @@ main:
     stage: Main
     thumbnail: bands/thumbs/protection.jpg
     color: green
-    banner:
+    banner: bands/banners/53.jpg
     link: "https://www.facebook.com/pages/Protection-Zero/144508602251301"
     embed: "https://youtu.be/4cr4jE1TFYQ"
 
   - name: "QUASIVIRI"
-    genre: Math-Metal / Calypso-Kraut
+    genre: Math-Metal/Calypso-Kraut
     from: Milano
     date: Domenica 20
     time: "23.00"
     stage: Main
     thumbnail: bands/thumbs/quasiviri.jpg
     color: orange
-    banner:
+    banner: bands/banners/54.jpg
     link: "https://www.facebook.com/quasiviri/timeline"
     embed: "https://youtu.be/9xjPVUhNvnQ"
 
@@ -644,7 +656,7 @@ main:
     stage: Main
     thumbnail: bands/thumbs/quiet.jpg
     color: green
-    banner:
+    banner: bands/banners/55.jpg
     link: "https://www.facebook.com/QuietSonic"
     embed: "https://soundcloud.com/tracks/217306440"
 
@@ -656,7 +668,7 @@ main:
     stage: Portichetto
     thumbnail: bands/thumbs/redcar.jpg
     color: white
-    banner:
+    banner: bands/banners/56.jpg
     link: "https://www.facebook.com/redcarburns"
     embed: "https://soundcloud.com/tracks/200424635"
 
@@ -668,7 +680,7 @@ main:
     stage: Portichetto
     thumbnail: bands/thumbs/redsun.jpg
     color: orange
-    banner:
+    banner: bands/banners/57.jpg
     link: "https://www.facebook.com/pages/RED-SUN/1391117311175341"
     embed:
 
@@ -680,7 +692,7 @@ main:
     stage: Portichetto
     thumbnail: bands/thumbs/roberto.jpg
     color: green
-    banner:
+    banner: bands/banners/58.jpg
     link: "https://www.facebook.com/roberto.dassoni"
     embed:
 
@@ -692,7 +704,7 @@ main:
     stage: Portichetto
     thumbnail: bands/thumbs/sayno.jpg
     color: orange
-    banner:
+    banner: bands/banners/59.jpg
     link: "https://www.facebook.com/saynoIT"
     embed: "https://youtu.be/8mqIFdyxwp8"
 
@@ -704,7 +716,7 @@ main:
     stage: Boschetto
     thumbnail: bands/thumbs/scardo.jpg
     color: green
-    banner:
+    banner: bands/banners/60.jpg
     link: "https://www.facebook.com/pages/Scardo/154930898014113"
     embed:
 
@@ -716,7 +728,7 @@ main:
     stage: Boschetto
     thumbnail: bands/thumbs/second.jpg
     color: white
-    banner:
+    banner: bands/banners/61.jpg
     link: "http://soundcloud.com/2ndimpact"
     embed: "http://soundcloud.com/tracks/218468324"
 
@@ -728,7 +740,7 @@ main:
     stage: Boschetto
     thumbnail: bands/thumbs/shune.jpg
     color: orange
-    banner:
+    banner: bands/banners/62.jpg
     link: "https://www.facebook.com/shunemusic"
     embed: "https://soundcloud.com/tracks/215998054"
 
@@ -740,7 +752,7 @@ main:
     stage: Main
     thumbnail: bands/thumbs/slutmachine.jpg
     color: green
-    banner:
+    banner: bands/banners/65.jpg
     link: "http://www.slutmachine.it"
     embed: "https://youtu.be/VILfFo_tYZk"
 
@@ -752,7 +764,7 @@ main:
     stage: Parlor
     thumbnail: bands/thumbs/snekula.jpg
     color: orange
-    banner:
+    banner: bands/banners/64.jpg
     link: "https://www.facebook.com/snekulamusic"
     embed: "https://youtu.be/hC8aVZePBWk"
 
@@ -764,7 +776,7 @@ main:
     stage: Portichetto
     thumbnail: bands/thumbs/sound.jpg
     color: white
-    banner:
+    banner: bands/banners/66.jpg
     link: "https://soundcloud.com/sound-chemistry/"
     embed: "https://soundcloud.com/tracks/201759228"
 
@@ -776,7 +788,7 @@ main:
     stage: Main
     thumbnail: bands/thumbs/stereogazette.jpg
     color: white
-    banner:
+    banner: bands/banners/67.jpg
     link: "https://www.facebook.com/stereogazette"
     embed: "https://youtu.be/7_h-aJUqz88"
 
@@ -788,7 +800,7 @@ main:
     stage: Boschetto
     thumbnail: bands/thumbs/sunday.jpg
     color: orange
-    banner:
+    banner: bands/banners/68.jpg
     link: "https://www.facebook.com/SundayinSoarza"
     embed: "https://youtu.be/fFUNpahskXo"
 
@@ -800,7 +812,7 @@ main:
     stage: Parlor
     thumbnail: bands/thumbs/tears.jpg
     color: green
-    banner:
+    banner: bands/banners/63.jpg
     link: "https://www.facebook.com/tearsmusicband"
     embed: "https://soundcloud.com/tracks/222760746"
 
@@ -812,7 +824,7 @@ main:
     stage: Ovunque
     thumbnail: bands/thumbs/bucketbutchers.jpg
     color: orange
-    banner:
+    banner: bands/banners/69.jpg
     link: "https://www.facebook.com/bucketbutchers"
     embed: "https://youtu.be/PHeqbUqRIM4"
 
@@ -824,7 +836,7 @@ main:
     stage: Portichetto
     thumbnail: bands/thumbs/ferrets.jpg
     color: white
-    banner:
+    banner: bands/banners/70.jpg
     link: "https://www.facebook.com/T.Ferrets"
     embed: "https://soundcloud.com/tracks/212527126"
 
@@ -836,7 +848,7 @@ main:
     stage: Portichetto
     thumbnail: bands/thumbs/wanderers.jpg
     color: green
-    banner:
+    banner: bands/banners/71.jpg
     link: "https://www.facebook.com/wanderers.folk"
     embed: "https://youtu.be/ulU9Ns7NUC8"
 
@@ -848,21 +860,9 @@ main:
     stage: Portichetto
     thumbnail: bands/thumbs/threehorns.jpg
     color: white
-    banner:
+    banner: bands/banners/72.jpg
     link:
     embed:
-
-  - name: "MATTEO TRIPPI"
-    genre: Techno
-    from: Piacenza
-    date: Venerdì 18
-    time: "00.30"
-    stage: Boschetto
-    thumbnail: bands/thumbs/matteotrippi.jpg
-    color: white
-    banner:
-    link: "https://www.facebook.com/pages/Matteo-trippi/136466043212856"
-    embed: "https://soundcloud.com/tracks/211984433"
 
   - name: "UOCHI TOKI"
     genre: Alternative Rap
@@ -872,7 +872,7 @@ main:
     stage: Main
     thumbnail: bands/thumbs/uochitoki.jpg
     color: green
-    banner:
+    banner: bands/banners/73.jpg
     link: "http://www.fiscerprais.com/uochi/"
     embed: "https://youtu.be/GF_FBypVbTE"
 
@@ -884,7 +884,7 @@ main:
     stage: Main
     thumbnail: bands/thumbs/uomoman.jpg
     color: orange
-    banner:
+    banner: bands/banners/74.jpg
     link: "https://www.facebook.com/pages/Uomoman/1443851592560158"
     embed: "https://soundcloud.com/tracks/180699187"
 
@@ -896,7 +896,7 @@ main:
     stage: Parlor
     thumbnail: bands/thumbs/zolle.jpg
     color: white
-    banner:
+    banner: bands/banners/75.jpg
     link: "http://www.zolle.org/"
     embed: "https://youtu.be/5Lli9rA_1O0"
 

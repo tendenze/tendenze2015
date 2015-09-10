@@ -1,5 +1,5 @@
 ---
-name: 02-danza
+name: 05-danza
 title: 'LE PERFORMANCE DE "LA STANZA DI DANZA"'
 banner: extra/danza.jpg
 link: http://www.lastanzadidanza.com/

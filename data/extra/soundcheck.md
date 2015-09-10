@@ -1,5 +1,5 @@
 ---
-name: 03-soundcheck
+name: 02-soundcheck
 title: 'MOSTRA FOTOGRAFICA E INTERVISTE WEB-RADIO BY "SOUNDCHECK"'
 banner: extra/sound.jpg
 link: https://www.facebook.com/soundcheck.tendenze2015

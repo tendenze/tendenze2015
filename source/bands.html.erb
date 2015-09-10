@@ -25,7 +25,15 @@ title: Bands
         <div class="link"><%= link_to data["embed"], data["embed"], :target => "_blank" %></div>
         <% end %>
       <% end %>
-      <div class="logo"><%= image_tag "bands/logo.png" %></div>
+      <div class="logo">
+        <% if color_index == 0 %>
+        <%= image_tag "bands/logo_orange.png" %>
+        <% elsif color_index == 1 %>
+        <%= image_tag "bands/logo_white.png" %>
+        <% else %>
+        <%= image_tag "bands/logo_green.png" %>
+        <% end %>
+      </div>
     </div>
   </div>
 </div>

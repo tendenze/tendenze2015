@@ -383,7 +383,8 @@ main:
     link: "https://jojointhestars.wordpress.com/"
     embed: "https://youtu.be/7mHXcfwW8dM"
 
-  - name: "Kaiser"
+  - name: "K(s)A/L"
+    fullname: "[Kaiser(schnitt)Amboss/Laszlo]"
     genre: Hard-Blues One-Woman-Band
     from: Parma
     date: Domenica 20
@@ -681,7 +682,7 @@ main:
     color: green
     banner:
     link: "https://www.facebook.com/roberto.dassoni"
-    embed: "https://youtu.be/PIb6AZdTr-A"
+    embed:
 
   - name: "SAYNO"
     genre: Alt-Rock/Grunge
@@ -865,7 +866,7 @@ main:
 
   - name: "UOCHI TOKI"
     genre: Alternative Rap
-    from: Special Guest
+    from: Alessandia
     date: Domenica 20
     time: "00.00"
     stage: Main

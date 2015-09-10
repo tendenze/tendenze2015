@@ -10,7 +10,7 @@ title: Bands
       <%= image_tag banner_path, :class => "img-responsive" %>
     </div>
     <div class="content col-xs-12 col-sm-12 col-md-12">
-      <div class="name title"><%= data["name"] %></div>
+      <div class="name title"><%= if data["fullname"] then data["fullname"] else data["name"] end %></div>
       <div class="genre">GENERE - <%= data["genre"] %></div>
       <div class="from">DA - <%= data["from"] %></div>
       <div class="datetime">DATA/ORA - <%= data["date"] %> alle <%= data["time"] %></div>

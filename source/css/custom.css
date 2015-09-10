@@ -764,6 +764,29 @@ body.fluid {
     padding: 0 10px;
   }
 }
+@media screen and (min-width: 677px) {
+  .hidden-gt-676px {
+    display: none;
+  }
+}
+@media screen and (max-width: 676px) {
+  .hidden-lt-676px {
+    display: none;
+  }
+  .agenda-container .schedule th.time {
+    width: 100px;
+  }
+  .agenda-container .schedule tbody th,
+  .agenda-container .schedule td {
+    height: 30px;
+  }
+  .agenda-container .schedule th.stage.odd {
+    background-color: #f8b219;
+  }
+  .agenda-container .schedule th.stage.even {
+    background-color: #83b6b1;
+  }
+}
 
 .photos-container {
   min-height: 500px;

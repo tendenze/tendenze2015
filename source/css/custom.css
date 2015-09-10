@@ -728,17 +728,28 @@ body.fluid {
 .agenda-container .schedule th.stage:nth-child(even) {
   background-color: #83b6b1;
 }
-.agenda-container .schedule td {
-  color: #3d3d3f;
-  padding: 0 14px;
-}
 .agenda-container .schedule tr:nth-child(odd) {
   background-color: rgba(193, 193, 192, 0.5);
 }
 .agenda-container .schedule tr:nth-child(even) {
   background-color: rgba(158, 158, 157, 0.5);
 }
-
+.agenda-container .schedule td {
+  color: #3d3d3f;
+  padding: 0 14px;
+  -webkit-transition: all 0.15s ease 0s;
+     -moz-transition: all 0.15s ease 0s;
+       -o-transition: all 0.15s ease 0s;
+          transition: all 0.15s ease 0s;
+}
+.agenda-container .schedule td.band.link:hover {
+  cursor: pointer;
+  background-color: rgba(193, 193, 192, 0.7);
+  -webkit-transition: all 0.15s ease 0s;
+     -moz-transition: all 0.15s ease 0s;
+       -o-transition: all 0.15s ease 0s;
+          transition: all 0.15s ease 0s;
+}
 .agenda-container .schedule tfoot .after {
   background-color: #3d3d3f;
   text-transform: none;

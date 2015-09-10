@@ -173,4 +173,10 @@ helpers do
     end
     return complete_schedule
   end
+
+  def td_band_tag(band)
+    html = "<td class='band#{ if band then ' link' else '' end }'>"
+    html += band.to_s
+    html += '</th>'
+  end
 end

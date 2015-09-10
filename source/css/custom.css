@@ -464,7 +464,7 @@ body.fluid {
   background: #373536 url("../img/background-bands.jpg") repeat-x fixed center top / cover;
 }
 .band-container {
-  color: #f0f0f0;
+  color: #c1c0c0;
   font-weight: bold;
 }
 .band-container .return {
@@ -531,13 +531,14 @@ body.fluid {
   padding: 0 30px;
 }
 .band-container .content .info {
-  font-size: 16px;
+  font-size: 14px;
 }
 .band-container .content .info span {
   font-family: big-noodle, Arial, sans-serif;
   font-weight: normal;
   line-height: 1;
   font-size: 16px;
+  color: #f0f0f0;
 }
 .band-container .title {
   font-family: big-noodle, Arial, sans-serif;
@@ -548,7 +549,7 @@ body.fluid {
   font-size: 35px;
 }
 .band-container .link a {
-  color: #f0f0f0;
+  color: #c1c0c0;
 }
 .band-container .music {
   font-size: 28px;

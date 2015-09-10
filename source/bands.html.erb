@@ -11,11 +11,11 @@ title: Bands
     </div>
     <div class="content col-xs-12 col-sm-12 col-md-12">
       <div class="name title"><%= if data["fullname"] then data["fullname"] else data["name"] end %></div>
-      <div class="genre">GENERE - <%= data["genre"] %></div>
-      <div class="from">DA - <%= data["from"] %></div>
-      <div class="datetime">DATA/ORA - <%= data["date"] %> alle <%= data["time"] %></div>
-      <div class="stage">PALCO - <%= data["stage"] %></div>
-      <div class="link"><%= link_to data["link"], data["link"], :target => "_blank" %></div>
+      <div class="info genre"><span>GENERE -</span> <%= data["genre"] %></div>
+      <div class="info from"><span>DA</span> - <%= data["from"] %></div>
+      <div class="info datetime"><span>DATA/ORA</span> - <%= data["date"] %> alle <%= data["time"] %></div>
+      <div class="info stage"><span>PALCO</span> - <%= data["stage"] %></div>
+      <div class="info link"><%= link_to data["link"], data["link"], :target => "_blank" %></div>
       <% if data["embed"] %>
       <div class="music title">Music</div>
       <% embed_html = partial_embed data["embed"] %>

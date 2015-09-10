@@ -530,6 +530,15 @@ body.fluid {
 .band-container .content {
   padding: 0 30px;
 }
+.band-container .content .info {
+  font-size: 16px;
+}
+.band-container .content .info span {
+  font-family: big-noodle, Arial, sans-serif;
+  font-weight: normal;
+  line-height: 1;
+  font-size: 16px;
+}
 .band-container .title {
   font-family: big-noodle, Arial, sans-serif;
   font-weight: normal;

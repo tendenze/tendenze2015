@@ -26,14 +26,14 @@ active: true
     <div class="image link<%= index % img_group_count == 0? ' placeholder' : '' %>"
       data-trigger="<%= (index / img_group_count) %>">
     <% if current_page.data.active %>
-      <% content_tag(:div, :class => "modal-trigger hidden-xs hidden-sm hidden-md",
+      <% content_tag(:div, :class => "modal-trigger hidden-xs hidden-sm",
           :href => "bandmodals/#{name}.html",
           "data-toggle" => "modal",
           "data-target" => "##{name}-modal") do %>
         <%= content_tag(:div, :class => "thumb") { band_image_tag } %>
         <%= content_tag(:div, :class => "name #{color}") { data["name"] } %>
       <% end %>
-      <% link_to "bands/#{name}.html", :class => "hidden-lg" do %>
+      <% link_to "bands/#{name}.html", :class => "hidden-lg hidden-md" do %>
         <%= content_tag(:div, :class => "thumb") { band_image_tag } %>
         <%= content_tag(:div, :class => "name #{color}") { data["name"] } %>
       <% end %>

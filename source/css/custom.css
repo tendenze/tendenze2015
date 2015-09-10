@@ -288,6 +288,9 @@ body.fluid {
   color: #3d3d3f;
   text-decoration: underline;
 }
+.news-container .news .content ul {
+  padding-left: 15px;
+}
 .news-container .news .image {
   max-width: 164px;
   margin: 0 auto;

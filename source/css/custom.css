@@ -660,12 +660,109 @@ body.fluid {
   box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.4);
 }
 
-.program-container {
+.agenda-container {
   min-height: 500px;
 }
-.program-container .intro {
+.agenda-container .intro {
   text-align: center;
   margin-top: 15px;
+}
+.agenda-container .day {
+  text-align: center;
+  margin-top: 50px;
+}
+.agenda-container .day span {
+  font-family: big-noodle, Arial, sans-serif;
+  font-size: 70px;
+  line-height: 1;
+  padding: 10px 25px;
+  border-radius: 4px;
+  background-color: #3d3d3f;
+  display: inline-block;
+}
+.agenda-container .day.color-0 {
+  color: #83b6b1;
+}
+.agenda-container .day.color-1 {
+  color: #f0f0f0;
+}
+.agenda-container .day.color-2 {
+  color: #f8b219;
+}
+.agenda-container .schedule {
+  table-layout: fixed;
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 13px;
+  margin-top: 30px;
+  border-spacing: 5px;
+  border-collapse: separate;
+}
+.agenda-container .schedule th,
+.agenda-container .schedule td {
+  text-align: center;
+  line-height: 1.1;
+  color: #f0f0f0;
+  height: 30px;
+}
+.agenda-container .schedule th {
+  background-color: #3d3d3f;
+  font-weight: normal;
+}
+.agenda-container .schedule thead th {
+  font-family: big-noodle, Arial, sans-serif;
+  font-size: 20px;
+}
+.agenda-container .schedule tbody th {
+  text-transform: none;
+}
+.agenda-container .schedule th.time {
+  width: 60px;
+}
+.agenda-container .schedule th.stage {
+  max-width: 205px;
+}
+.agenda-container .schedule th.stage:nth-child(odd) {
+  background-color: #f8b219;
+}
+.agenda-container .schedule th.stage:nth-child(even) {
+  background-color: #83b6b1;
+}
+.agenda-container .schedule td {
+  color: #3d3d3f;
+  padding: 0 14px;
+}
+.agenda-container .schedule tr:nth-child(odd) {
+  background-color: rgba(193, 193, 192, 0.5);
+}
+.agenda-container .schedule tr:nth-child(even) {
+  background-color: rgba(158, 158, 157, 0.5);
+}
+
+.agenda-container .schedule tfoot .after {
+  background-color: #3d3d3f;
+  text-transform: none;
+}
+.agenda-container .schedule tfoot .after.color-0 td {
+  color: #83b6b1;
+}
+.agenda-container .schedule tfoot .after.color-1 td {
+  color: #f0f0f0;
+}
+.agenda-container .schedule tfoot .after.color-2 td {
+  color: #f8b219;
+}
+@media screen and (max-width: 992px) {
+  .agenda-container .schedule th.time {
+    width: 70px;
+  }
+  .agenda-container .schedule tbody th,
+  .agenda-container .schedule td {
+    height: 43px;
+  }
+  .agenda-container .schedule td {
+    padding: 0 10px;
+  }
 }
 
 .photos-container {

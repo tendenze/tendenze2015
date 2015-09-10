@@ -2,11 +2,43 @@
 title: Programma
 ---
 
-<div id="program" class="row">
-  <div class="program-container col-xs-12 col-sm-12 col-md-12">
+<div id="agenda" class="row">
+  <div class="agenda-container col-xs-12 col-sm-12 col-md-12">
     <div class="heading"><%= current_page.data.title %></div>
     <div class="intro">
-    La programmazione, gli orari e la distribuzione delle esibizioni sui quattro palchi verranno pubblicati sabato 12 settembre.
+    <% data.agenda.each_with_index do |day, index| %>
+    <% stage_names = day["stages"].map{ |s| s["name"] } %>
+      <div class="day color-<%= index % 3 %>"><span><%= day["day"] %></span></div>
+      <table class="schedule">
+        <thead>
+          <th class="time" scope="col">Orari</th>
+          <% stage_names.each do |name| %>
+          <th class="stage" scope="col"><%= name %></th>
+          <% end %>
+        </thead>
+        <tbody>
+          <% get_schedule_by_time(day["stages"]).each do |time, bands| %>
+          <tr>
+            <th class="time" scope="row"><%= time %></th>
+            <% stage_names.each do |stage_name| %>
+            <td class="band"><%= bands[stage_name] %></th>
+            <% end %>
+          </td>
+          <% end %>
+        </tbody>
+        <% if day["after"] %>
+        <tfoot>
+          <% day["after"].each do |after| %>
+          <tr class="after color-<%= index % 3 %>">
+            <td colspan="<%= stage_names.length + 1 %>">
+            <%= after %>
+            </td>
+          </tr>
+          <% end %>
+        </tfoot>
+        <% end %>
+      </table>
+    <% end %>
     </div>
   </div>
 </div>

@@ -160,4 +160,17 @@ helpers do
     end
     return nil
   end
+
+  def get_schedule_by_time(stages)
+    complete_schedule = {}
+    stages.each do |stage|
+      stage["schedule"].each do |sched|
+        if !complete_schedule[sched["time"]]
+          complete_schedule[sched["time"]] = {}
+        end
+        complete_schedule[sched["time"]][stage["name"]] = sched["band"]
+      end
+    end
+    return complete_schedule
+  end
 end

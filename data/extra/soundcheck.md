@@ -2,6 +2,7 @@
 name: 03-soundcheck
 title: 'MOSTRA FOTOGRAFICA E INTERVISTE WEB-RADIO BY "SOUNDCHECK"'
 banner: extra/sound.jpg
+link: https://www.facebook.com/soundcheck.tendenze2015
 ---
 
 Soundcheck è un contenitore di fotografia ed interviste su web-radio alle band di Tendenze 2015.

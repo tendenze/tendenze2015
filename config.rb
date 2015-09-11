@@ -186,19 +186,47 @@ helpers do
       td_modal = content_tag(
         :td,
         :id => name_id,
-        :class => "band#{ if band then ' link' else '' end } modal-trigger hidden-xs hidden-sm",
+        :class => "band link modal-trigger hidden-xs hidden-sm",
         :href => "bandmodals/#{name_id}.html",
         :'data-toggle' => "modal",
         :'data-target' => "##{name_id}-modal") { content_tag(:span) { band } }
       td_no_modal = content_tag(
         :td,
-        :class => "band#{ if band then ' link' else '' end } hidden-lg hidden-md") {
+        :class => "band link hidden-lg hidden-md") {
           link_to("bands/#{name_id}.html", :class => "hidden-lg") { band }
       }
       return render_modal_tag ? td_modal + td_no_modal : td_no_modal
     else
-      # TODO: Compute td for "VS" cells
-      content_tag(:td, :class => "band") { band }
+      bands = band.split(" vs ")
+      band_ids = bands.map{ |b| b.gsub(/[^a-zA-Z1-9]/,"").downcase }
+      if bands.length > 1
+        spans =
+          content_tag(
+            :span,
+            :class => "band modal-trigger",
+            :href => "bandmodals/#{band_ids[0]}.html",
+            :'data-toggle' => "modal",
+            :'data-target' => "##{band_ids[0]}-modal") {bands[0]} +
+          content_tag(:span, :class => "vs") { " vs " } +
+          content_tag(
+            :span,
+            :class => "band modal-trigger",
+            :href => "bandmodals/#{band_ids[1]}.html",
+            :'data-toggle' => "modal",
+            :'data-target' => "##{band_ids[1]}-modal") {bands[1]}
+        anchors =
+          link_to("bands/#{band_ids[0]}.html", :class => "band") {bands[0]} +
+          content_tag(:span, :class => "vs") { " vs " } +
+          link_to("bands/#{band_ids[1]}.html", :class => "band") {bands[1]}
+        td_modal = content_tag(
+          :td,
+          :class => "multilink hidden-xs hidden-sm") { spans }
+        td_no_modal = content_tag(:td, :class => "multilink hidden-lg hidden-md") { anchors }
+        return render_modal_tag ? td_modal + td_no_modal : td_no_modal
+      else
+        # TODO: Books
+      end
+      return content_tag(:td, :class => "band") { band }
     end
   end
 end

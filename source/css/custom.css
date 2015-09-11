@@ -711,7 +711,6 @@ body.fluid {
   color: #f8b219;
 }
 .agenda-container .map {
-  max-width: 700px;
   margin: 0 auto;
 }
 .agenda-container .map .day {

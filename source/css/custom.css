@@ -678,7 +678,8 @@ body.fluid {
 }
 .agenda-container .day {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 30px;
+  padding-top: 20px;
 }
 .agenda-container .day span {
   font-family: big-noodle, Arial, sans-serif;
@@ -756,7 +757,7 @@ body.fluid {
 .agenda-container .schedule td.multilink span.vs {
   color: #318981;
 }
-.agenda-container .schedule td.multilink span:hover {
+.agenda-container .schedule td.multilink span.band:hover {
   cursor: pointer;
   text-decoration: underline;
 }

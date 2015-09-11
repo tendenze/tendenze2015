@@ -102,11 +102,13 @@ ready do
   gen_band_pages(data.bands.main, 0)
   gen_band_pages(data.bands.hiphop, data.bands.main.length)
 
-  proxy "book/takeabook.html", "book.html",
-    :locals => { :data => get_data("book", "takeabook"), :color_index => 0 },
+  bookdata = get_data("book", "takeabookaround")
+  book_name_id = bookdata["title"].gsub(/[^a-zA-Z1-9]/,"").downcase
+  proxy "book/#{book_name_id}.html", "book.html",
+    :locals => { :data => bookdata, :color_index => 0 },
     :ignore => true
-  proxy "bookmodal/takeabook.html", "book.html",
-    :locals => { :data => get_data("book", "takeabook"), :color_index => 0 },
+  proxy "bookmodal/#{book_name_id}.html", "book.html",
+    :locals => { :data => bookdata, :color_index => 0 },
     :ignore => true
 end
 
@@ -208,7 +210,18 @@ helpers do
       }
       return render_modal_tag ? td_modal + td_no_modal : td_no_modal
     elsif name_id.match(/^takeabook/)
-      return content_tag(:td, :class => "book") { band }
+      td_modal = content_tag(
+        :td,
+        :class => "book link modal-trigger hidden-xs hidden-sm",
+        :href => "bookmodal/#{name_id}.html",
+        :'data-toggle' => "modal",
+        :'data-target' => "##{name_id}-modal") { content_tag(:span) { band } }
+      td_no_modal = content_tag(
+        :td,
+        :class => "book link hidden-lg hidden-md") {
+          link_to("book/#{name_id}.html", :class => "hidden-lg") { band }
+      }
+      return render_modal_tag ? td_modal + td_no_modal : td_no_modal
     else
       bands = band.split(" vs ")
       band_ids = bands.map{ |b| b.gsub(/[^a-zA-Z1-9]/,"").downcase }

@@ -797,7 +797,8 @@ body.fluid {
   color: #f8b219;
 }
 @media screen and (min-width: 992px) {
-  .agenda-container .schedule td.band.link:hover {
+  .agenda-container .schedule td.band.link:hover,
+  .agenda-container .schedule td.book.link:hover {
     cursor: pointer;
     text-decoration: underline;
   }

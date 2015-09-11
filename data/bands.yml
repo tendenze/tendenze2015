@@ -924,7 +924,7 @@ hiphop:
     time: "19.20"
     stage: Boschetto
     thumbnail: bands/thumbs/hiphop/dj-soul.jpg
-    banner:
+    banner: bands/banners/hiphop/dj-soul.jpg
     link: "https://www.facebook.com/niccolovito.romano"
     embed: "https://youtu.be/TfbIkpYjBuk"
 
@@ -935,7 +935,7 @@ hiphop:
     time: "20.00"
     stage: Boschetto
     thumbnail: bands/thumbs/hiphop/uomini-colorati.jpg
-    banner:
+    banner: bands/banners/hiphop/uomini-colorati.jpg
     link: "https://www.facebook.com/uominicoloratiband"
     embed: "https://youtu.be/P3bw1i7uawY"
 
@@ -946,7 +946,7 @@ hiphop:
     time: "21.00"
     stage: Boschetto
     thumbnail: bands/thumbs/hiphop/delfo.jpg
-    banner:
+    banner: bands/banners/hiphop/delfo.jpg
     link: "https://www.facebook.com/officialdelfo"
     embed: "https://youtu.be/08rsH1JoB3U"
 
@@ -957,7 +957,7 @@ hiphop:
     time: "21.30"
     stage: Boschetto
     thumbnail: bands/thumbs/hiphop/oligoro.jpg
-    banner:
+    banner: bands/banners/hiphop/oligoro.jpg
     link: "https://www.facebook.com/insertthecoin"
     embed: "https://youtu.be/0rM2Qe9bxrc"
 
@@ -968,7 +968,7 @@ hiphop:
     time: "22.00"
     stage: Boschetto
     thumbnail: bands/thumbs/hiphop/alekos.jpg
-    banner:
+    banner: bands/banners/hiphop/alekos.jpg
     link: https://www.facebook.com/AleKosOfficial
     embed: https://youtu.be/7u1mG0D_x6w
 
@@ -979,7 +979,7 @@ hiphop:
     time: "22.30"
     stage: Boschetto
     thumbnail: bands/thumbs/hiphop/mucci.jpg
-    banner:
+    banner: bands/banners/hiphop/mucci.jpg
     link: "https://www.facebook.com/Mucci-Bravo-Nic-Lo-Schiaffo-44404279619/"
     embed: "https://youtu.be/McevWICL3xY"
 
@@ -990,6 +990,6 @@ hiphop:
     time: "23.00"
     stage: Boschetto
     thumbnail: bands/thumbs/hiphop/phnx.jpg
-    banner:
+    banner: bands/banners/hiphop/phnx.jpg
     link: "https://www.facebook.com/blackphnxrecords"
     embed: "https://youtu.be/rMnLBmLmKc0"

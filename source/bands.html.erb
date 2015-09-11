@@ -4,7 +4,10 @@ title: Bands
 
 <div class="band-container container-fluid">
   <div class="row color-<%= color_index %>">
-    <div class="return hidden-lg"><%= link_to "< Torna alla Line Up", "/lineup.html##{name_id}" %></div>
+    <div class="buttons">
+      <span class="return first hidden-lg hidden-md"><%= link_to "Vai alla Line Up", "/lineup.html##{name_id}" %></span>
+      <span class="return second hidden-lg hidden-md"><%= link_to "Vai al Programma", "/programma.html##{name_id}" %></span>
+    </div>
     <div class="banner col-xs-12 col-sm-12 col-md-12">
       <% banner_path = data["banner"]? data["banner"] : "bands/banners/base.jpg" %>
       <%= image_tag banner_path, :class => "img-responsive" %>

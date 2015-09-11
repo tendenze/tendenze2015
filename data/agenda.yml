@@ -25,7 +25,7 @@
         - time: "23.00"
           band:
         - time: "23.30"
-          band: "Le sacedotesse dell'isola del piacere"
+          band: "Le sacerdotesse dell'isola del piacere"
         - time: "00.00"
           band:
         - time: "00.30"
@@ -154,7 +154,7 @@
         - time: "00.30"
           band: Devotion
         - time: Dj-set
-          band: Roberto Dassoni & Danilo Filos
+          band: "Roberto Dassoni & Danilo Filios"
     - name: Main Stage
       schedule:
         - time: "18.00"
@@ -281,7 +281,7 @@
         - time: "00.30"
           band: Morrywood
         - time: Dj-set
-          band: Les Fufies and the Rubbish
+          band: "Les Fufies & the Rubbish"
     - name: Main Stage
       schedule:
         - time: "18.00"

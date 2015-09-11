@@ -2,6 +2,10 @@
 title: Programma
 ---
 
+<% content_for :additional_js do %>
+  <%= javascript_include_tag "agenda" %>
+<% end %>
+
 <div id="agenda" class="row">
   <div class="agenda-container col-xs-12 col-sm-12 col-md-12">
     <div class="heading"><%= current_page.data.title %></div>
@@ -66,5 +70,16 @@ title: Programma
       <% end %>
 
     <% end %>
+
+    <% data.bands.main.sort_by{ |d| d["name"].downcase }.each_with_index do |data, index| %>
+    <% name = data["name"].gsub(/[^a-zA-Z1-9]/,"").downcase %>
+    <div class="modal fade" id='<%= "#{name}-modal" %>' tabindex="-1" role="dialog" aria-labelledby='<%= "#{name}" %>' aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="band-info modal-content">
+        </div>
+      </div>
+    </div>
+    <% end %>
+
   </div>
 </div>

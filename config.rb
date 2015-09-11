@@ -175,8 +175,27 @@ helpers do
   end
 
   def td_band_tag(band)
-    html = "<td class='band#{ if band then ' link' else '' end }'>"
-    html += band.to_s
-    html += '</th>'
+    if !band
+      return "<td class='band'></td>"
+    end
+    name_id = band ? band.gsub(/[^a-zA-Z1-9]/,"").downcase : ''
+    if sitemap.find_resource_by_path "bands/#{name_id}.html"
+      td_modal = content_tag(
+        :td,
+        :id => name_id,
+        :class => "band#{ if band then ' link' else '' end } modal-trigger hidden-xs hidden-sm",
+        :href => "bandmodals/#{name_id}.html",
+        :'data-toggle' => "modal",
+        :'data-target' => "##{name_id}-modal") { content_tag(:span) { band } }
+      td_no_modal = content_tag(
+        :td,
+        :class => "band#{ if band then ' link' else '' end } hidden-lg hidden-md") {
+          link_to("bands/#{name_id}.html", :class => "hidden-lg") { band }
+      }
+      return td_modal + td_no_modal
+    else
+      # TODO: Compute td for "VS" cells
+      content_tag(:td, :class => "band") { band }
+    end
   end
 end

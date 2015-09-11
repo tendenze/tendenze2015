@@ -76,8 +76,10 @@ configure :build do
 end
 
 page "/bands/*", :layout => "fluid"
+page "/book/*", :layout => "fluid"
 # Disable layout for modal band pages
 page "/bandmodals/*", :layout => false
+page "/bookmodal/*", :layout => false
 
 # ignore "band.html.erb"
 
@@ -99,6 +101,13 @@ ready do
 
   gen_band_pages(data.bands.main, 0)
   gen_band_pages(data.bands.hiphop, data.bands.main.length)
+
+  proxy "book/takeabook.html", "book.html",
+    :locals => { :data => get_data("book", "takeabook"), :color_index => 0 },
+    :ignore => true
+  proxy "bookmodal/takeabook.html", "book.html",
+    :locals => { :data => get_data("book", "takeabook"), :color_index => 0 },
+    :ignore => true
 end
 
 require 'yaml'

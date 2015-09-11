@@ -463,119 +463,128 @@ body.fluid {
 .band-info.modal-content {
   background: #373536 url("../img/background-bands.jpg") repeat-x fixed center top / cover;
 }
-.band-container {
+
+.modal-container {
   color: #c1c0c0;
   font-weight: bold;
 }
-.band-container .buttons {
+.modal-container .buttons {
   margin-top: 4px;
 }
-.band-container .buttons span {
+.modal-container .buttons span {
   margin-top: 10px;
   display: inline-block;
 }
-.band-container .return {
+.modal-container .return {
   font-family: big-noodle, Arial, sans-serif;
   font-size: 18px;
   font-weight: normal;
   line-height: 1;
 }
-.band-container .return.first {
+.modal-container .return.first {
   margin-right: 5px;
 }
 @media screen and (max-width: 768px) {
-  .band-container .return {
+  .modal-container .return {
     font-size: 16px;
   }
 }
-.band-container .return a {
+.modal-container .return a {
   padding: 2px 4px;
   border-radius: 2px;
 }
-.band-container .color-0 .return a {
+.modal-container .color-0 .return a {
   border: 1px solid #f8b219;
 }
-.band-container .color-1 .return a {
+.modal-container .color-1 .return a {
   border: 1px solid #f0f0f0;
 }
-.band-container .color-2 .return a{
+.modal-container .color-2 .return a{
   border: 1px solid #83b6b1;
 }
-.band-container .color-0 .title,
-.band-container .color-0 .return a {
+.modal-container .color-0 .title,
+.modal-container .color-0 .return a {
   color: #f8b219;
 }
-.band-container .color-1 .title,
-.band-container .color-1 .return a {
+.modal-container .color-1 .title,
+.modal-container .color-1 .return a {
   color: #f0f0f0;
 }
-.band-container .color-2 .title,
-.band-container .color-2 .return a {
+.modal-container .color-2 .title,
+.modal-container .color-2 .return a {
   color: #83b6b1;
 }
-.band-container .color-0 .return a:hover {
+.modal-container .color-0 .return a:hover {
   color: #f0f0f0;
   background-color: #f8b219;
   text-decoration: none;
 }
-.band-container .color-1 .return a:hover {
+.modal-container .color-1 .return a:hover {
   color: #3d3d3f;
   background-color: #f0f0f0;
   text-decoration: none;
 }
-.band-container .color-2 .return a:hover {
+.modal-container .color-2 .return a:hover {
   color: #f0f0f0;
   background-color: #83b6b1;
   text-decoration: none;
 }
-.band-container .banner {
+.modal-container .banner {
   padding-left: 0;
   padding-right: 0;
   margin: 0 auto;
 }
-.band-container .banner img {
+.modal-container .banner img {
   border-top-right-radius: 6px;
   border-top-left-radius: 6px;
 }
 @media screen and (max-width: 992px) {
-  .band-container .banner img {
+  .modal-container .banner img {
     border-radius: 0px;
   }
 }
-.band-container .content {
+.modal-container .content {
   padding: 0 30px;
 }
-.band-container .content .info {
+.modal-container .content .info {
   font-size: 14px;
 }
-.band-container .content .info span {
+.modal-container .content .info span {
   color: #f0f0f0;
 }
-.band-container .title {
+.modal-container .title {
   font-family: big-noodle, Arial, sans-serif;
   font-weight: normal;
   margin-top: 10px;
 }
-.band-container .name {
+.modal-container .name {
   font-size: 35px;
 }
-.band-container .link a {
+.modal-container .link a {
   color: #c1c0c0;
 }
-.band-container .music {
+.modal-container .music {
   font-size: 28px;
 }
-.band-container .embed {
+.modal-container .embed {
   max-width: 560px;
   margin-top: 10px;
   margin-bottom: 15px;
 }
-.band-container .logo {
+.modal-container .logo {
+  margin-top: 15px;
   margin-bottom: 10px;
   text-align: right;
 }
-.band-container .logo img {
+.modal-container .logo img {
   max-width: 202px;
+}
+.modal-container .text {
+  font-weight: normal;
+}
+.modal-container .text a {
+  color: #c1c0c0;
+  text-decoration: underline;
 }
 
 .expo-container {

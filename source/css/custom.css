@@ -750,10 +750,6 @@ body.fluid {
   color: #3d3d3f;
   padding: 0 14px;
 }
-.agenda-container .schedule td.band.link span:hover {
-  cursor: pointer;
-  text-decoration: underline;
-}
 .agenda-container .schedule td.band.link a {
   color: #3d3d3f
 }
@@ -769,6 +765,12 @@ body.fluid {
 }
 .agenda-container .schedule tfoot .after.color-2 td {
   color: #f8b219;
+}
+@media screen and (min-width: 992px) {
+  .agenda-container .schedule td.band.link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
 }
 @media screen and (max-width: 992px) {
   .agenda-container .schedule th.time {

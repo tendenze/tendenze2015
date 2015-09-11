@@ -772,7 +772,8 @@ body.fluid {
 .agenda-container .schedule td.band.link a {
   color: #3d3d3f
 }
-.agenda-container .schedule td.book {
+.agenda-container .schedule td.book,
+.agenda-container .schedule td.book.link a {
   color: #318981;
 }
 .agenda-container .schedule td.multilink span.vs {

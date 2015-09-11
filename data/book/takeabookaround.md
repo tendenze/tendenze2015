@@ -1,6 +1,6 @@
 ---
 title: Take a Book Around
-banner:
+banner: book/takeabook.jpg
 ---
 
 Tra le novità di quest'anno a Tendenze c'è anche un angolo dedicato ai libri. Libri legati alla musica, ovviamente. Tre appuntamenti, uno al giorno, sempre alle ore 18 al "Parlor Stage" sotto la tenda.

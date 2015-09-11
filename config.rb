@@ -83,16 +83,22 @@ page "/bandmodals/*", :layout => false
 
 ready do
   # Generate full-screen band pages and modal pages
-  data.bands.main.sort_by{ |d| d["name"].downcase }.each_with_index do |data, index|
-    name_id = data["name"].gsub(/[^a-zA-Z1-9]/,"").downcase
-    color_index = index % 3
-    proxy "bands/#{name_id}.html", "band.html",
-      :locals => { :name_id => name_id, :data => data, :color_index => color_index },
-      :ignore => true
-    proxy "bandmodals/#{name_id}.html", "band.html",
-      :locals => { :name_id => name_id, :data => data, :color_index => color_index },
-      :ignore => true
+  def gen_band_pages(bands, base_index)
+    bands.sort_by{ |d| d["name"].downcase }.each_with_index do |data, index|
+      index += base_index
+      name_id = data["name"].gsub(/[^a-zA-Z1-9]/,"").downcase
+      color_index = index % 3
+      proxy "bands/#{name_id}.html", "band.html",
+        :locals => { :name_id => name_id, :data => data, :color_index => color_index },
+        :ignore => true
+      proxy "bandmodals/#{name_id}.html", "band.html",
+        :locals => { :name_id => name_id, :data => data, :color_index => color_index },
+        :ignore => true
+    end
   end
+
+  gen_band_pages(data.bands.main, 0)
+  gen_band_pages(data.bands.hiphop, data.bands.main.length)
 end
 
 require 'yaml'

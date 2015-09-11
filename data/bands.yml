@@ -771,7 +771,7 @@ main:
   - name: "SOUND CHEMISTRY"
     genre: Rock Alternativo
     from: Piacenza
-    date: Domenica 18
+    date: Domenica 20
     time: "18.00"
     stage: Portichetto
     thumbnail: bands/thumbs/sound.jpg
@@ -817,10 +817,11 @@ main:
     embed: "https://soundcloud.com/tracks/222760746"
 
   - name: "THE BUCKET BUTCHERS"
+    special: true
     genre: Street-Drumming
     from: Toscana
     date: Tutti i giorni
-    time: Quando meno te lo aspetti
+    time: quando meno te lo aspetti
     stage: Ovunque
     thumbnail: bands/thumbs/bucketbutchers.jpg
     color: orange

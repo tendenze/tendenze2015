@@ -26,7 +26,7 @@ title: Programma
           <tr>
             <th class="time" scope="row"><%= time %></th>
             <% stage_names.each do |stage_name| %>
-            <%= td_band_tag bands[stage_name] %>
+            <%= td_band_tag bands[stage_name], true %>
             <% end %>
           </tr>
           <% end %>
@@ -35,7 +35,7 @@ title: Programma
         <tfoot>
           <% day["after"].each do |after| %>
           <tr class="after color-<%= agenda_index % 3 %>">
-            <td colspan="<%= stage_names.length + 1 %>"><%= after %></td>
+            <%= td_after_tag after, stage_names.length + 1, true %>
           </tr>
           <% end %>
         </tfoot>
@@ -61,7 +61,7 @@ title: Programma
         <tfoot>
           <% day["after"].each do |after| %>
           <tr class="after color-<%= agenda_index % 3 %>">
-            <td colspan="2"><%= after %></td>
+            <%= td_after_tag after, 2, false %>
           </tr>
           <% end %>
         </tfoot>

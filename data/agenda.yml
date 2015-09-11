@@ -1,7 +1,9 @@
 - day: VEN 18
   after:
-   - "+ Afterparty @ Delubra Club"
-   - "+ The Bucket Butchers (street drumming itinerante)"
+   - name: "+ Afterparty @ Delubra Club"
+     link: "https://www.facebook.com/events/1486745014982420/"
+   - name: "+ The Bucket Butchers (street drumming itinerante)"
+     band: The Bucket Butchers
   stages:
     - name: Portichetto
       schedule:
@@ -126,7 +128,8 @@
 
 - day: SAB 19
   after:
-   - "+ The Bucket Butchers (street drumming itinerante)"
+   - name: "+ The Bucket Butchers (street drumming itinerante)"
+     band: The Bucket Butchers
   stages:
     - name: Portichetto
       schedule:
@@ -251,9 +254,10 @@
 
 - day: DOM 20
   after:
-   - "+ Laboratorio di giocoleria per ragazzi e bambini alle ore 16 nel prato"
-   - "+ Laboratorio di acrobatica a coppie per ragazzi e adulti alle ore 18 nel prato"
-   - "+ The Bucket Butchers (street drumming itinerante)"
+   - name: "+ Laboratorio di giocoleria per ragazzi e bambini alle ore 16 nel prato"
+   - name: "+ Laboratorio di acrobatica a coppie per ragazzi e adulti alle ore 18 nel prato"
+   - name: "+ The Bucket Butchers (street drumming itinerante)"
+     band: The Bucket Butchers
   stages:
     - name: Portichetto
       schedule:

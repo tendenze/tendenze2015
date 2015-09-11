@@ -174,10 +174,7 @@ helpers do
     return complete_schedule
   end
 
-  def td_band_tag(band, *no_modal)
-    render_modal_tag = true
-    # ugly loop to fake an optional parameter with a variadic function
-    no_modal.each { |e| render_modal_tag = e }
+  def td_band_tag(band, render_modal_tag)
     if !band
       return "<td class='band'></td>"
     end
@@ -185,7 +182,6 @@ helpers do
     if sitemap.find_resource_by_path "bands/#{name_id}.html"
       td_modal = content_tag(
         :td,
-        :id => name_id,
         :class => "band link modal-trigger hidden-xs hidden-sm",
         :href => "bandmodals/#{name_id}.html",
         :'data-toggle' => "modal",
@@ -227,6 +223,32 @@ helpers do
         return render_modal_tag ? td_modal + td_no_modal : td_no_modal
       end
       return content_tag(:td, :class => "band") { band }
+    end
+  end
+
+  def td_after_tag(after, colspan, render_modal_tag)
+    if after["link"]
+      return content_tag :td, :colspan => colspan, :class => "link" do
+          link_to(after["link"], :target => "_blank") { after["name"] }
+      end
+    elsif after["band"]
+      band_id = after["band"].gsub(/[^a-zA-Z1-9]/,"").downcase
+      td_modal = content_tag(
+        :td,
+        :colspan => colspan,
+        :class => "band modal-trigger hidden-xs hidden-sm",
+        :href => "bandmodals/#{band_id}.html",
+        :'data-toggle' => "modal",
+        :'data-target' => "##{band_id}-modal") { content_tag(:span) { after["name"] } }
+      td_no_modal = content_tag(
+        :td,
+        :colspan => colspan,
+        :class => "band link hidden-lg hidden-md") {
+          link_to("bands/#{band_id}.html", :class => "hidden-lg") { after["name"] }
+      }
+      return render_modal_tag ? td_modal + td_no_modal : td_no_modal
+    else
+      return content_tag(:td, :colspan => colspan) { after["name"] }
     end
   end
 end

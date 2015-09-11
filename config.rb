@@ -196,6 +196,8 @@ helpers do
           link_to("bands/#{name_id}.html", :class => "hidden-lg") { band }
       }
       return render_modal_tag ? td_modal + td_no_modal : td_no_modal
+    elsif name_id.match(/^takeabook/)
+      return content_tag(:td, :class => "book") { band }
     else
       bands = band.split(" vs ")
       band_ids = bands.map{ |b| b.gsub(/[^a-zA-Z1-9]/,"").downcase }
@@ -223,8 +225,6 @@ helpers do
           :class => "multilink hidden-xs hidden-sm") { spans }
         td_no_modal = content_tag(:td, :class => "multilink hidden-lg hidden-md") { anchors }
         return render_modal_tag ? td_modal + td_no_modal : td_no_modal
-      else
-        # TODO: Books
       end
       return content_tag(:td, :class => "band") { band }
     end

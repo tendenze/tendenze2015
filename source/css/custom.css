@@ -750,12 +750,18 @@ body.fluid {
 .agenda-container .schedule td.band.link a {
   color: #3d3d3f
 }
+.agenda-container .schedule td.multilink span.vs {
+  color: #af7e12;
+}
 .agenda-container .schedule td.multilink span:hover {
   cursor: pointer;
   text-decoration: underline;
 }
 .agenda-container .schedule td.multilink a {
   color: #3d3d3f;
+}
+.agenda-container .schedule td.book {
+  color: #af7e12;
 }
 .agenda-container .schedule tfoot .after {
   background-color: #3d3d3f;

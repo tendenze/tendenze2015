@@ -659,7 +659,7 @@ body.fluid {
 .extra-container .exhibitor .description a {
   color: #3d3d3f;
 }
-.extra-container .exhibitor .description .banner {
+.extra-container .exhibitor .banner {
   border: 2px solid #3d3d3f;
 }
 @media screen and (max-width: 768px) {

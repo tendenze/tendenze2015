@@ -468,13 +468,19 @@ body.fluid {
   font-weight: bold;
 }
 .band-container .buttons {
+  margin-top: 4px;
+}
+.band-container .buttons span {
   margin-top: 10px;
+  display: inline-block;
 }
 .band-container .return {
   font-family: big-noodle, Arial, sans-serif;
   font-size: 18px;
   font-weight: normal;
   line-height: 1;
+}
+.band-container .return.first {
   margin-right: 5px;
 }
 @media screen and (max-width: 768px) {
@@ -820,6 +826,11 @@ body.fluid {
   }
   .agenda-container .schedule th.stage.even {
     background-color: #83b6b1;
+  }
+}
+@media screen and (max-width: 360px) {
+  .agenda-container .schedule tfoot .after td.band  {
+    padding: 0 65px;
   }
 }
 

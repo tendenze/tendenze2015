@@ -11,9 +11,9 @@ title: Bands
     <div class="content col-xs-12 col-sm-12 col-md-12">
       <div class="buttons">
         <span class="return first hidden-lg hidden-md"><%= link_to "Vai alla Line Up", "/lineup.html##{name_id}" %></span>
-        <% day_id = !data["special"] ? data["date"].split(" ").map{|s| s[0, 3].downcase }.join : "ven18" %>
+        <% day_id = !data["special"] ? data["date"].split.map{|s| s[0, 3].downcase }.join : "ven18" %>
         <span class="return second hidden-lg hidden-md">
-          <%= link_to "Vai al Programma di #{data['date']}", "/programma.html##{day_id}" %>
+          <%= link_to "Vai al Programma#{!data['special'] ? ' di ' + data['date'].split[0] : ''}", "/programma.html##{day_id}" %>
         </span>
       </div>
       <div class="name title"><%= if data["fullname"] then data["fullname"] else data["name"] end %></div>

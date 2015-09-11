@@ -174,7 +174,10 @@ helpers do
     return complete_schedule
   end
 
-  def td_band_tag(band)
+  def td_band_tag(band, *no_modal)
+    render_modal_tag = true
+    # ugly loop to fake an optional parameter with a variadic function
+    no_modal.each { |e| render_modal_tag = e }
     if !band
       return "<td class='band'></td>"
     end
@@ -192,7 +195,7 @@ helpers do
         :class => "band#{ if band then ' link' else '' end } hidden-lg hidden-md") {
           link_to("bands/#{name_id}.html", :class => "hidden-lg") { band }
       }
-      return td_modal + td_no_modal
+      return render_modal_tag ? td_modal + td_no_modal : td_no_modal
     else
       # TODO: Compute td for "VS" cells
       content_tag(:td, :class => "band") { band }

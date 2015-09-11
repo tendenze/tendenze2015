@@ -53,7 +53,7 @@ title: Programma
           <% schedule.each do |time, bands| %>
           <tr>
             <th class="time" scope="row"><%= time %></th>
-            <%= td_band_tag bands[stage_name] %>
+            <%= td_band_tag bands[stage_name], false %>
           </tr>
           <% end %>
         </tbody>

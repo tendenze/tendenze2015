@@ -1,6 +1,7 @@
 - day: VEN 18
   after:
    - "+ Afterparty @ Delubra Club"
+   - "+ The Bucket Butchers (street drumming itinerante)"
   stages:
     - name: Portichetto
       schedule:
@@ -124,6 +125,8 @@
           band:
 
 - day: SAB 19
+  after:
+   - "+ The Bucket Butchers (street drumming itinerante)"
   stages:
     - name: Portichetto
       schedule:
@@ -248,9 +251,9 @@
 
 - day: DOM 20
   after:
-   - "+ The Bucket Butchers"
    - "+ Laboratorio di giocoleria per ragazzi e bambini alle ore 16 nel prato"
    - "+ Laboratorio di acrobatica a coppie per ragazzi e adulti alle ore 18 nel prato"
+   - "+ The Bucket Butchers (street drumming itinerante)"
   stages:
     - name: Portichetto
       schedule:
@@ -359,7 +362,7 @@
         - time: "21.30"
           band: Oligoro Crew
         - time: "22.00"
-          band:
+          band: Alekos
         - time: "22.30"
           band: "Mucci, Nic lo schiaffo & Millo T."
         - time: "23.00"

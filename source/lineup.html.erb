@@ -11,54 +11,10 @@ active: true
   <div class="col-xs-12 col-sm-12 col-md-12">
     <div class="heading"><%= current_page.data.title %></div>
   </div>
-<% data.bands.main.sort_by{ |d| d["name"].downcase }.each_with_index do |data, index| %>
-<% img_group_count = 18 # download images in clusters of <img_group_count> %>
-<% name = data["name"].gsub(/[^a-zA-Z1-9]/,"").downcase %>
-<% color = "color-" + (index % 3).to_s %>
-<% band_image_tag = image_tag(
-    "bands/thumbs/empty.jpg",
-    :class => "img-responsive",
-    "data-src" => "img/#{data['thumbnail']}",
-    "data-trigger" => (index / img_group_count)
-   )
-%>
-  <div id='<%= name %>' class="band col-xs-6 col-sm-4 col-md-3">
-    <div class="image link<%= index % img_group_count == 0? ' placeholder' : '' %>"
-      data-trigger="<%= (index / img_group_count) %>">
-    <% if current_page.data.active %>
-      <% content_tag(:div, :class => "modal-trigger hidden-xs hidden-sm",
-          :href => "bandmodals/#{name}.html",
-          "data-toggle" => "modal",
-          "data-target" => "##{name}-modal") do %>
-        <%= content_tag(:div, :class => "thumb") { band_image_tag } %>
-        <%= content_tag(:div, :class => "name #{color}") { data["name"] } %>
-      <% end %>
-      <% link_to "bands/#{name}.html", :class => "hidden-lg hidden-md" do %>
-        <%= content_tag(:div, :class => "thumb") { band_image_tag } %>
-        <%= content_tag(:div, :class => "name #{color}") { data["name"] } %>
-      <% end %>
-    <% else %>
-      <% if data["link"] %>
-        <% link_to data["link"], :target => "_blank" do %>
-          <%= content_tag(:div, :class => "thumb") { band_image_tag } %>
-          <%= content_tag(:div, :class => "name #{color}") { data["name"] } %>
-        <% end %>
-      <% else %>
-        <%= content_tag(:div, :class => "thumb") { band_image_tag } %>
-        <%= content_tag(:div, :class => "name #{color}") { data["name"] } %>
-      <% end %>
-    <% end %>
-    </div>
-  </div>
-  <% if current_page.data.active %>
-  <div class="modal fade" id='<%= "#{name}-modal" %>' tabindex="-1" role="dialog" aria-labelledby='<%= "#{name}" %>' aria-hidden="true">
-    <div class="modal-dialog modal-lg">
-      <div class="band-info modal-content">
-      </div>
-    </div>
-  </div>
-  <% end %>
-<% end %>
+  <%= partial "partials/lineup_grid", :locals => {
+        :bands => data.bands.main,
+        :base_index => 0,
+        :modals_active => current_page.data.active } %>
   <div class="more col-xs-12 col-sm-12 col-md-12">
     <% data.bands.extra.each_with_index do |data, index| %>
     <% color = "color-" + (index % 3).to_s %>
@@ -79,4 +35,8 @@ active: true
     </div>
     <% end %>
   </div>
+  <%= partial "partials/lineup_grid", :locals => {
+        :bands => data.bands.hiphop,
+        :base_index => data.bands.main.length,
+        :modals_active => current_page.data.active } %>
 </div>

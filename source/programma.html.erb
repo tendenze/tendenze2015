@@ -16,10 +16,12 @@ title: Programma
       <%# Desktop and mobile table %>
       <table class="schedule hidden-lt-676px">
         <thead>
-          <th class="time" scope="col">Orari</th>
-          <% stage_names.each do |name| %>
-          <th class="stage" scope="col"><%= name %></th>
-          <% end %>
+          <tr>
+            <th class="time" scope="col">Orari</th>
+            <% stage_names.each do |name| %>
+            <th class="stage" scope="col"><%= name %></th>
+            <% end %>
+          </tr>
         </thead>
         <tbody>
           <% schedule.each do |time, bands| %>
@@ -46,8 +48,10 @@ title: Programma
       <% stage_names.each_with_index do |stage_name, stage_index| %>
       <table class="schedule hidden-gt-676px">
         <thead>
-          <th class="time" scope="col">Orari</th>
-          <th class="stage <%= (stage_index % 2 == 0)? 'even' : 'odd' %>" scope="col"><%= stage_name %></th>
+          <tr>
+            <th class="time" scope="col">Orari</th>
+            <th class="stage <%= (stage_index % 2 == 0)? 'even' : 'odd' %>" scope="col"><%= stage_name %></th>
+          </tr>
         </thead>
         <tbody>
           <% schedule.each do |time, bands| %>

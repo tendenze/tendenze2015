@@ -803,6 +803,23 @@ body.fluid {
 .agenda-container .schedule tfoot .after.color-2 td.link a {
   color: #f8b219;
 }
+.agenda-container .return.link {
+  margin-top: 40px;
+  text-align: center;
+}
+.agenda-container .return.link a {
+  font-family: big-noodle, Arial, sans-serif;
+  font-size: 30px;
+  color: #83b6b1;
+  padding: 3px 5px;
+  border: 3px solid #83b6b1;
+  border-radius: 3px;
+}
+.agenda-container .return.link a:hover {
+  text-decoration: none;
+  background-color: #83b6b1;
+  color: #f0f0f0;
+}
 @media screen and (min-width: 992px) {
   .agenda-container .schedule td.band.link:hover,
   .agenda-container .schedule td.book.link:hover {

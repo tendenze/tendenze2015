@@ -20,7 +20,10 @@
 
 /* --- GLOBAL TWEAKS --- */
 body {
-  background: #edd7a9 url("../img/background.jpg") repeat-x fixed center top / cover;
+  background: #edd7a9 url("../img/background.jpg") ;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: cover;
   padding-top: 5px;
   font-size: 14px;
   color: #3d3d3f;
@@ -28,6 +31,14 @@ body {
 body.fluid {
   background: #373536 url("../img/background-bands.jpg") repeat-x fixed center top / cover;
   padding-top: 0;
+}
+
+@media all and (device-width: 768px) and (device-height: 1024px) {
+  body {
+    background-size: contain;
+    background-attachment: scroll;
+    background-repeat: repeat-y;
+  }
 }
 
 .main-content .heading {
@@ -906,7 +917,6 @@ body.fluid {
   max-width: 250px;
   margin: 0 auto;
   box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.4);
-  background: #3d3d3f url("../img/galleries/base.jpg") scroll center top / cover;
   position: relative;
   -webkit-transition: all 0.25s ease 0s;
      -moz-transition: all 0.25s ease 0s;

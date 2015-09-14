@@ -91,10 +91,10 @@ ready do
       name_id = data["name"].gsub(/[^a-zA-Z1-9]/,"").downcase
       color_index = index % 3
       proxy "bands/#{name_id}.html", "band.html",
-        :locals => { :name_id => name_id, :data => data, :color_index => color_index },
+        :locals => { :is_modal => false, :name_id => name_id, :data => data, :color_index => color_index },
         :ignore => true
       proxy "bandmodals/#{name_id}.html", "band.html",
-        :locals => { :name_id => name_id, :data => data, :color_index => color_index },
+        :locals => { :is_modal => true, :name_id => name_id, :data => data, :color_index => color_index },
         :ignore => true
     end
   end
@@ -105,10 +105,10 @@ ready do
   bookdata = get_data("book", "takeabookaround")
   book_name_id = bookdata["title"].gsub(/[^a-zA-Z1-9]/,"").downcase
   proxy "book/#{book_name_id}.html", "book.html",
-    :locals => { :data => bookdata, :color_index => 0 },
+    :locals => { :is_modal => false, :data => bookdata, :color_index => 0 },
     :ignore => true
   proxy "bookmodal/#{book_name_id}.html", "book.html",
-    :locals => { :data => bookdata, :color_index => 0 },
+    :locals => { :is_modal => true, :data => bookdata, :color_index => 0 },
     :ignore => true
 end
 

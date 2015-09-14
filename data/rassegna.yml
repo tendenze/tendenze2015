@@ -5,9 +5,11 @@ attuale:
     pdf: pdf/rassegna/02.pdf
   - image: rassegna/03.jpg
     pdf: pdf/rassegna/03.pdf
+  - image: rassegna/04.jpg
+    pdf: pdf/rassegna/04.pdf
 
 storico:
-  - image: rassegna/04-storico.jpg
-    pdf: pdf/rassegna/04-storico.pdf
-  - image: rassegna/05-storico.jpg
-    pdf: pdf/rassegna/05-storico.pdf
+  - image: rassegna/storico-01.jpg
+    pdf: pdf/rassegna/storico-01.pdf
+  - image: rassegna/storico-02.jpg
+    pdf: pdf/rassegna/storico-02.pdf

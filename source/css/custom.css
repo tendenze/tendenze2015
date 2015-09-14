@@ -661,6 +661,7 @@ body.fluid {
 }
 .extra-container .exhibitor .banner {
   border: 2px solid #3d3d3f;
+  margin-top: 20px;
 }
 @media screen and (max-width: 768px) {
   .extra-container .exhibitor .title {

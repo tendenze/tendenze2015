@@ -1,7 +1,7 @@
 ---
 name: 00-cibo
 title: 'MANGIARE A TENDENZE'
-banner:
+banner: extra/cibo.jpg
 ---
 
 Il festival inizia presto e finisce tardi. Quindi, non potevamo certamente lasciarvi con la pancia che langue. La cucina, targata "Vecchio Caffé" di San Giorgio, sforna i nostri tipici pisarèi piacentini, fritti golosi e le ultime grigliate dell'estate che se ne va. Il chiosco delle ragazze di "Naturone Piacenza" offre invece quattro deliziose proposte di street-food vegano e biologico. In entrambe i casi, non mancano i dolci. Ci sarà anche un carretto con i gelati di battistiana memoria. Per abbeverarvi, due punti bar con acqua, bibite, tre linee di birra e cocktail.

@@ -7,6 +7,8 @@ attuale:
     pdf: pdf/rassegna/03.pdf
   - image: rassegna/04.jpg
     pdf: pdf/rassegna/04.pdf
+  - image: rassegna/uochitoki.jpg
+    pdf: pdf/rassegna/16-settembre-uochitoki.pdf
 
 storico:
   - image: rassegna/storico-01.jpg

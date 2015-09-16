@@ -8,7 +8,8 @@ title: Expo
     <div class="intro">
       Come ogni anno Tendenze Festival vi propone un percorso attraverso il meglio dell'Expo alternativo ed innovativo, tra artigianato, vintage, musica, creatività e associazionismo in tutte le sue forme. <strong>La lista e le schede sono in continuo aggiornamento!</strong>
     </div>
-    <% get_data_array("expo").sort_by{ |d| d["name"].downcase }.each do |data| %>
+    <% data.expo.each do |name| %>
+    <% data = get_data("expo", name) %>
     <div class="exhibitor row">
       <div class="name col-xs-12 visible-xs"><%= data["title"] %></div>
       <div class="col-xs-12 col-sm-3 col-md-3">

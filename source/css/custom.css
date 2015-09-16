@@ -320,6 +320,9 @@ body.fluid {
  .news-container .news .image img {
     margin-top: 0px;
   }
+  .news-container .news .content {
+    text-align: left;
+  }
 }
 
 /* --- FESTIVAL --- */

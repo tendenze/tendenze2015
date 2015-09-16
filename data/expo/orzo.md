@@ -1,0 +1,9 @@
+---
+name: Orzorock
+title: FESTIVAL ROCK
+thumbnail: expo/orzo.jpg
+link: http://www.orzorock.it/
+mail:
+---
+
+In realtà Orzorock nasce nel 1994 con il primo nome Trebbia Live, perché la festa si svolge da sempre sul fiume Trebbia, nel comune di Gragnano Trebbiense – Piacenza. Un gruppo di ventenni assetati di musica rock, nonché amici di feste adolescenziali proprio nelle piccole cave naturali a ridosso del fiume, organizzava un concerto coi migliori gruppi di PIACENZA del periodo, nomi come HERMITS, PEDAGO PARTY, TORTURE GARDEN, CLOISTER, MISFATTO, WICKED MINDS... Così nacque lo spirito di Orzorock, da un concerto selvaggio, ma pacifico, che non arrivò alla fine del programma quella notte per motivi burocratici... Dal 1996, nel massimo della legalità, nasce l’Orzorock. Nel 2012 abbiamo festeggiato con una 2 giorni di musica intensa la 15esima edizione e l’entusiasmo che si trasmette fra le generazioni di rockers è sempre raggiante, anche se uno strano  mescolamento di generi musicali  ha  preso piede in queste 2 decadi. Il rock sta diventando più vecchio , anche se rimane sempre una musica energica e per giovani di tutte le età. Lo scopo di Orzorock è durare nel tempo per tramandare che il rock un giorno muore ed il giorno dopo risorge, per unire i gusti delle nuove e vecchie generazioni, in quello che può essere definito il sentiero verso l’originalità del compositore. Infatti il nostro festival si distingue per la scelta di band e artisti che cercano di seguire il proprio sentimento creativo e non le mode del momento, cerchiamo di resistere insomma, e nella prima decade dei 2000, che abbiamo conosciuto come l’esaltazione forzata delle cover band e l’idolatria di trasmissioni come Amici e X-Factor, direi che abbiamo retto l’urto. Inoltre Orzorock è da inizio 2012 del circuito nazionale della RETE DEI FESTIVAL.

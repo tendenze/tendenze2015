@@ -33,7 +33,7 @@ body.fluid {
   padding-top: 0;
 }
 
-@media all and (device-width: 768px) and (device-height: 1024px) {
+@media screen and (max-width: 768px) {
   body {
     background-size: contain;
     background-attachment: scroll;

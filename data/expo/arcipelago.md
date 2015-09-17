@@ -1,7 +1,7 @@
 ---
 name: Arcipelago
 title: SOCIALITÀ
-thumbnail: expo/.jpg
+thumbnail: expo/arcipelago.jpg
 link: https://www.facebook.com/circolo.arcipelago
 mail:
 ---

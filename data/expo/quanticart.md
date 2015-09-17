@@ -1,6 +1,6 @@
 ---
 name: quanticart
-title: ARTE EVENTI E SPETTACOLO
+title: ARTE, EVENTI E SPETTACOLO
 thumbnail: expo/quanticart.jpg
 link: http://www.quanticart.it/
 mail:

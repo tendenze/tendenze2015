@@ -29,5 +29,3 @@ Il festival inizia presto e finisce tardi. Quindi, non potevamo certamente lasci
 * acqua
 * birra chiara, rossa o doppio malto
 * cocktail
-
-**CHIOSCO DEI GELATI**

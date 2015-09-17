@@ -9,6 +9,8 @@ attuale:
     pdf: pdf/rassegna/04.pdf
   - image: rassegna/uochitoki.jpg
     pdf: pdf/rassegna/16-settembre-uochitoki.pdf
+  - image: rassegna/marcido.jpg
+    pdf: pdf/rassegna/marcido.pdf
 
 storico:
   - image: rassegna/storico-01.jpg

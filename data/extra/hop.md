@@ -1,6 +1,6 @@
 ---
 name: 10-hop
-title: "HOP - HUMANS OF PIACENZA"
+title: '"IMMORTALARE LE STORIE PIACENTINE", UN PROGETTO BY: HOP'
 banner: extra/hop.jpg
 link: https://www.facebook.com/hophumans
 ---

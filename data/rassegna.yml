@@ -11,6 +11,8 @@ attuale:
     pdf: pdf/rassegna/16-settembre-uochitoki.pdf
   - image: rassegna/marcido.jpg
     pdf: pdf/rassegna/marcido.pdf
+  - image: rassegna/venerdi18.jpg
+    pdf: pdf/rassegna/venerdi18.pdf
 
 storico:
   - image: rassegna/storico-01.jpg

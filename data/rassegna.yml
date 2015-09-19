@@ -13,6 +13,8 @@ attuale:
     pdf: pdf/rassegna/marcido.pdf
   - image: rassegna/venerdi18.jpg
     pdf: pdf/rassegna/venerdi18.pdf
+  - image: rassegna/150919.jpg
+    pdf: pdf/rassegna/150919piacenza_42.pdf
 
 storico:
   - image: rassegna/storico-01.jpg

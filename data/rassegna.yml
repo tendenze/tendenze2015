@@ -15,6 +15,14 @@ attuale:
     pdf: pdf/rassegna/venerdi18.pdf
   - image: rassegna/150919.jpg
     pdf: pdf/rassegna/150919piacenza_42.pdf
+  - image: rassegna/09.jpg
+    pdf: pdf/rassegna/09.pdf
+  - image: rassegna/10.jpg
+    pdf: pdf/rassegna/10.pdf
+  - image: rassegna/11.jpg
+    pdf: pdf/rassegna/11.pdf
+  - image: rassegna/12.jpg
+    pdf: pdf/rassegna/12.pdf
 
 storico:
   - image: rassegna/storico-01.jpg

@@ -1,3 +1,24 @@
+- name: XXI EDIZIONE - 2015 - Foto di Florinda Calì
+  galleries:
+    - link: "https://www.facebook.com/media/set/?set=a.1032125173505260.1073741838.210885035629282&type=3"
+      thumb: galleries/florinda-01.jpg
+      date: Gallery I
+    - link: "https://www.facebook.com/media/set/?set=a.1032126383505139.1073741839.210885035629282&type=3"
+      thumb: galleries/florinda-02.jpg
+      date: Gallery II
+
+- name: XXI EDIZIONE - 2015
+  galleries:
+    - link: "https://www.facebook.com/media/set/?set=a.1032328433484934.1073741840.210885035629282&type=3"
+      thumb: galleries/2015-09-18.jpg
+      date: VEN 18.09.2015
+    - link: "https://www.facebook.com/media/set/?set=a.1032853536765757.1073741841.210885035629282&type=3"
+      thumb: galleries/2015-09-19.jpg
+      date: SAB 19.09.2015
+    - link: "https://www.facebook.com/media/set/?set=a.1033698763347901.1073741842.210885035629282&type=3"
+      thumb: galleries/2015-09-20.jpg
+      date: DOM 20.09.2015
+
 - name: XX EDIZIONE - 2014
   galleries:
     - link: "https://www.facebook.com/media/set/?set=a.803198766397903.1073741835.210885035629282&type=3"

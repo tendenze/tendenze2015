@@ -927,6 +927,11 @@ body.fluid {
        -o-transition: all 0.25s ease 0s;
           transition: all 0.25s ease 0s;
 }
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .photos-container .entry .image {
+    max-width: 186px;
+  }
+}
 .photos-container .entry .image .thumb {
   padding-top: 121%;
 }

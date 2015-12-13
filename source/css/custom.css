@@ -316,16 +316,26 @@ body.fluid {
   line-height: 1;
   margin-bottom: 3px;
 }
+.news-container .news .link {
+  display: inline-block;
+  margin-top: 5px;
+}
 .news-container .news .bottom-link {
   display: inline-block;
-  margin-top: 7px;
+  margin-top: 5px;
 }
 @media screen and (max-width: 767px){
- .news-container .news .image img {
+  .news-container .news .image img {
     margin-top: 0px;
+  }
+  .news-container .news .image.summary img {
+    margin-top: 20px;
   }
   .news-container .news .content {
     text-align: left;
+  }
+  .news-container .news .bottom-link {
+    margin-top: 15px;
   }
 }
 

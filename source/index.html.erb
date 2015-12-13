@@ -1,35 +1,10 @@
-<div id="home" class="row">
+<div id="news" class="row">
   <div class="news-container col-xs-12 col-sm-12 col-md-12">
     <div class="heading">News</div>
     <% get_md_files("data/news").reverse_each do |name| %>
     <% data = get_data("news", name) %>
-    <div class="news row">
-      <div class="col-xs-12 col-sm-9 col-md-9">
-        <div class="title"><%= data["title"] %></div>
-        <div class="date"><%= data["date"] %></div>
-        <div class="content"><%= data["text"] %></div>
-      </div>
-      <div class="col-xs-12 col-sm-3 col-md-3">
-        <div class="image">
-          <% if data["link"] %>
-            <% link_to data["link"], :target => "_blank" do %>
-              <%= image_tag "news/thumbs/#{data['image']}", :class => "img-responsive" %>
-            <% end %>
-          <% else %>
-            <%= image_tag "news/thumbs/#{data['image']}", :class => "img-responsive" %>
-          <% end %>
-        </div>
-        <% if data["additional_images"] %>
-          <% data["additional_images"].each do |i| %>
-        <div class="image visible-lg visible-md visible-sm">
-          <% link_to i["link"], :target => "_blank" do %>
-            <%= image_tag "news/thumbs/#{i['img']}", :class => "img-responsive" %>
-          <% end %>
-        </div>
-          <% end %>
-        <% end %>
-      </div>
-    </div>
+      <% data["id"] = name %>
+      <%= partial "partials/news", :locals => { :data => data, :summary => true } %>
     <% end %>
   </div>
 </div>

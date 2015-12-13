@@ -47,6 +47,8 @@
 #   end
 # end
 
+require 'html_truncate.rb'
+
 set :css_dir, 'css'
 
 set :js_dir, 'js'
@@ -110,6 +112,15 @@ ready do
   proxy "bookmodal/#{book_name_id}.html", "book.html",
     :locals => { :is_modal => true, :data => bookdata, :color_index => 0 },
     :ignore => true
+
+  # Generate news pages
+  get_md_files("data/news").reverse_each do |name|
+    news_data = get_data("news", name)
+    news_data["id"] = name
+    proxy "news/#{name}.html", "news.html",
+      :locals => { :data => news_data },
+      :ignore => true
+  end
 end
 
 require 'yaml'

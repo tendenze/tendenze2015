@@ -295,7 +295,7 @@ body.fluid {
   text-align: justify;
   margin-top: 5px;
 }
-.news-container .news .content a {
+.news-container .news a {
   color: #3d3d3f;
   text-decoration: underline;
 }
@@ -315,6 +315,10 @@ body.fluid {
   font-size: 16px;
   line-height: 1;
   margin-bottom: 3px;
+}
+.news-container .news .bottom-link {
+  display: inline-block;
+  margin-top: 7px;
 }
 @media screen and (max-width: 767px){
  .news-container .news .image img {
